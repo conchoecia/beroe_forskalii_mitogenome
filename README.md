@@ -43,7 +43,13 @@ files can all be opened with a text editor.
 Text files in this directory contain the NCBI BioSample Accession numbers
 for all four _B. forskalii_ ctenophore individuals.
 
-### Additional file 4 -- final_annotations
+### Additional file 4 -- CREx
+
+This directory contains the file, `crex_results_summary.pdf`, which
+are the CREx mitochondrial rearrangement analysis results for the
+_M. leidyi_, _B. forskalii_, and _P. bachei_ mitochondrial genomes.
+
+### Additional file 5 -- final_annotations
 
 Text files in this directory include the final DNA sequences of the
 mitochondrial genomes of individuals Bf1311, Bf1706, and Bf1606. In
@@ -51,13 +57,13 @@ addition, we include the scripts `map_depth_extract.sh` and
 `FastqPairedEndValidator.pl` used to isolate genomic reads that map to
 the mitochondrial sequences.
 
-### Additional file 5 -- itasser_results
+### Additional file 6 -- itasser_results
 
 Text and HTML files in this directory are from the ITASSER protein
 structure prediction. Additionally there are structure files that can
 be opened with protein viewing software.
 
-### Additional file 6 - phylogeny
+### Additional file 7 - phylogeny
 
 Text files in the directory `20170905_partition_finder` contain
 results from a partition finder analysis of the mitochondrial
