@@ -1,0 +1,116 @@
+Scheme Name       : step_4
+Scheme lnL        : -161438.572876
+Scheme AICc       : 323473.865962
+Number of params  : 285
+Number of sites   : 6387
+Number of subsets : 10
+
+Subset | Best Model | # sites    | subset id                        | Partition names                                                                                     
+1      | LG+G+F     | 767        | e89651d9fa09d74b421a1f653ecc7b62 | NAD1, ATP6                                                                                          
+2      | JTT+I+G+F  | 114        | b250ff712da6e632bde0d16583eaf7f2 | ATP8                                                                                                
+3      | LG4X       | 80         | 85df74e58e46141812aed25791f7cae3 | ATP9                                                                                                
+4      | CPREV+G+F  | 660        | 8ad3c0e0056fabfd9b1a73ea25ca632f | COX1                                                                                                
+5      | MTZOA+G+F  | 333        | 7570c7b132a54c0424f224103b286e58 | COX2                                                                                                
+6      | CPREV+I+G+F | 460        | 94b539cedb675bd684ae7b443bf21dbd | ND4L, COX3                                                                                          
+7      | LG+I+G+F   | 747        | 7222ca68e3b818eb0144edc81cfa9ab3 | CYTB                                                                                                
+8      | JTT+I+G+F  | 1392       | 73820af70885e17473ec778242d53954 | NAD2, NAD6                                                                                          
+9      | MTZOA+G+F  | 976        | 084e004601ed1024a31d63b895b6a87d | NAD3, NAD4                                                                                          
+10     | JTT+I+G+F  | 858        | 499634d0ff3f966206e904eae678d20b | NAD5                                                                                                
+
+
+Scheme Description in PartitionFinder format
+Scheme_step_4 = (NAD1, ATP6) (ATP8) (ATP9) (COX1) (COX2) (ND4L, COX3) (CYTB) (NAD2, NAD6) (NAD3, NAD4) (NAD5);
+
+Nexus formatted character sets
+begin sets;
+	charset Subset1 = 14125-14527 11486-11849;
+	charset Subset2 = 11850-11963;
+	charset Subset3 = 11964-12043;
+	charset Subset4 = 12044-12703;
+	charset Subset5 = 12704-13036;
+	charset Subset6 = 16459-16577 13037-13377;
+	charset Subset7 = 13378-14124;
+	charset Subset8 = 14528-15482 17436-17872;
+	charset Subset9 = 15483-15801 15802-16458;
+	charset Subset10 = 16578-17435;
+	charpartition PartitionFinder = Group1:Subset1, Group2:Subset2, Group3:Subset3, Group4:Subset4, Group5:Subset5, Group6:Subset6, Group7:Subset7, Group8:Subset8, Group9:Subset9, Group10:Subset10;
+end;
+
+
+Nexus formatted character sets for IQtree
+Warning: the models written in the charpartition are just the best model found in this analysis. Not all models are available in IQtree, so you may need to set up specific model lists for your analysis
+
+#nexus
+begin sets;
+	charset Subset1 = 14125-14527 11486-11849;
+	charset Subset2 = 11850-11963;
+	charset Subset3 = 11964-12043;
+	charset Subset4 = 12044-12703;
+	charset Subset5 = 12704-13036;
+	charset Subset6 = 16459-16577 13037-13377;
+	charset Subset7 = 13378-14124;
+	charset Subset8 = 14528-15482 17436-17872;
+	charset Subset9 = 15483-15801 15802-16458;
+	charset Subset10 = 16578-17435;
+	charpartition PartitionFinder = LG+G+F:Subset1, JTT+I+G+F:Subset2, LG4X:Subset3, CPREV+G+F:Subset4, MTZOA+G+F:Subset5, CPREV+I+G+F:Subset6, LG+I+G+F:Subset7, JTT+I+G+F:Subset8, MTZOA+G+F:Subset9, JTT+I+G+F:Subset10;
+end;
+
+
+RaxML-style partition definitions
+Warning: RAxML allows for only a single model of rate heterogeneity in partitioned analyses. I.e. all partitions must be assigned one of three types of model: No heterogeneity (e.g. GTR); +G (e.g. GTR+G); or +I+G (e.g. GTR+I+G). If the best models for your datasetcontain different types of model for different subsets you will need to decide on the best rate heterogeneity model before you run RAxML. If you prefer to do things more rigorously, you can run separate PartitionFinder analyses for each type of rate heterogenetity Then choose the scheme with the lowest AIC/AICc/BIC score. Note that these re-runs will be quick!
+
+LGF, Subset1 = 14125-14527, 11486-11849
+JTTF, Subset2 = 11850-11963
+LG4X, Subset3 = 11964-12043
+CPREVF, Subset4 = 12044-12703
+MTZOAF, Subset5 = 12704-13036
+CPREVF, Subset6 = 16459-16577, 13037-13377
+LGF, Subset7 = 13378-14124
+JTTF, Subset8 = 14528-15482, 17436-17872
+MTZOAF, Subset9 = 15483-15801, 15802-16458
+JTTF, Subset10 = 16578-17435
+
+
+MrBayes block for partition definitions
+Warning: MrBayes only allows a relatively small collection of models. If any model in your analysis is not one that is included in MrBayes (e.g. by setting nst = 1, 2, or 6 for DNA sequences; or is not in the available list of protein models for MrBayes)then this MrBayes block will just set that model to nst = 6 for DNA, or 'wag' for Protein. Similarly, the only additional parameters that this MrBayes block will include are +I and +G. Other  parameters, such as +F and +X, are ignored. If you want to use this MrBayes block for your analysis, please make sure to check it carefully before you use it we've done our best to make it accurate, but there may be errors that remain!
+
+begin mrbayes;
+
+	charset Subset1 = 14125-14527 11486-11849;
+	charset Subset2 = 11850-11963;
+	charset Subset3 = 11964-12043;
+	charset Subset4 = 12044-12703;
+	charset Subset5 = 12704-13036;
+	charset Subset6 = 16459-16577 13037-13377;
+	charset Subset7 = 13378-14124;
+	charset Subset8 = 14528-15482 17436-17872;
+	charset Subset9 = 15483-15801 15802-16458;
+	charset Subset10 = 16578-17435;
+
+	partition PartitionFinder = 10:Subset1, Subset2, Subset3, Subset4, Subset5, Subset6, Subset7, Subset8, Subset9, Subset10;
+	set partition=PartitionFinder;
+
+	lset applyto=(1) rates=gamma;
+	prset applyto=(1) aamodelpr=fixed(wag);
+	lset applyto=(2) rates=invgamma;
+	prset applyto=(2) aamodelpr=fixed(jones);
+	prset applyto=(3) aamodelpr=fixed(wag);
+	lset applyto=(4) rates=gamma;
+	prset applyto=(4) aamodelpr=fixed(cprev);
+	lset applyto=(5) rates=gamma;
+	prset applyto=(5) aamodelpr=fixed(wag);
+	lset applyto=(6) rates=invgamma;
+	prset applyto=(6) aamodelpr=fixed(cprev);
+	lset applyto=(7) rates=invgamma;
+	prset applyto=(7) aamodelpr=fixed(wag);
+	lset applyto=(8) rates=invgamma;
+	prset applyto=(8) aamodelpr=fixed(jones);
+	lset applyto=(9) rates=gamma;
+	prset applyto=(9) aamodelpr=fixed(wag);
+	lset applyto=(10) rates=invgamma;
+	prset applyto=(10) aamodelpr=fixed(jones);
+
+	prset applyto=(all) ratepr=variable;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all) tratio=(all);
+
+end;

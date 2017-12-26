@@ -1,0 +1,100 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.2 (July 2016)
+# Copyright (C) 2016 Howard Hughes Medical Institute.
+# Freely distributed under a BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         mnemi16S.cm
+# target sequence database:              ./20170503_2013_bfors_mito.fa
+# number of worker threads:              16
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       mnemiopsis_rrnl_final  [CLEN=310]
+Hit scores:
+ rank     E-value  score  bias  sequence                                                                  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  ------------------------------------------------------------------------ ------ ------   --- ----- ----  -----------
+  (1) !   4.9e-19   94.9  67.5  20170402_berofors_shifted_assembled_COI_first_corrected_500bpCOIupstream   2813   3115 +  cm    no 0.23  -
+
+
+Hit alignments:
+>> 20170402_berofors_shifted_assembled_COI_first_corrected_500bpCOIupstream  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   4.9e-19   94.9  67.5  cm        1      310 []        2813        3115 + .. 0.91    no 0.23
+
+                                                                                   v                                 v   NC
+                                                                                ::[[-[[[-[[[-[[,,,,,((((((((((((,,,,,<<< CS
+                                                     mnemiopsis_rrnl_final    1 UUuuUuauUaGaUGaUUAGUCCCuuaaaguuuAAAAAaau 40  
+                                                                                UUU  ::U AGAUGAU AGUCCCU:AAAGUUUAAA   A:
+  20170402_berofors_shifted_assembled_COI_first_corrected_500bpCOIupstream 2813 UUUUAAUUAAGAUGAUAAGUCCCUAAAAGUUUAAAUUGAU 2852
+                                                                                **************************************** PP
+
+                                                                                            vv                   v       NC
+                                                                                <<___...>>>>><<<<<<_________>>>>>>,,,,,, CS
+                                                     mnemiopsis_rrnl_final   41 ggGGU...uuguuaaaauuUAAAUUAAAuauuuuUAUUAU 77  
+                                                                                G:GGU   :U:U  :A::U A AUU A U::U: U    U
+  20170402_berofors_shifted_assembled_COI_first_corrected_500bpCOIupstream 2853 GGGGUgagCUAUGUUAGAUAAUAUUUAUUUCUAUUUAAUU 2892
+                                                                                **997888**************************999999 PP
+
+                                                                                                               vv        NC
+                                                                                ,,,,,,,)))))--))))))),,,,,,,<<<<<<<_____ CS
+                                                     mnemiopsis_rrnl_final   78 AUUUAUUuuauuACuuaaGGGUUAAUGAaaaaauuUUAUU 117 
+                                                                                  UU  UUUAUUACUU:AGGG UAAUG :A:   U U  U
+  20170402_berofors_shifted_assembled_COI_first_corrected_500bpCOIupstream 2893 GAUUUGUUUAUUACUUUAGGGCUAAUGGGAUUAUUCUUAU 2932
+                                                                                99999****************************9999999 PP
+
+                                                                                       vv                        vv      NC
+                                                                                _____>>>>--->>>,,,,,,,,,,<<<<<<<<<<<---- CS
+                                                     mnemiopsis_rrnl_final  118 UUAAUaauuUUUuuuAUCUCGUUGUuguauaauuuuUUUU 157 
+                                                                                UUA  A   UUU:U:A CUCGUUGUUGUAUAA:  :U  U
+  20170402_berofors_shifted_assembled_COI_first_corrected_500bpCOIupstream 2933 UUAUAAGCUUUUAUUACCUCGUUGUUGUAUAAAUUAUGAU 2972
+                                                                                99999999***********************997776655 PP
+
+                                                                                                               v     v   NC
+                                                                                ---------------------------<<<<<_____>>> CS
+                                                     mnemiopsis_rrnl_final  158 UUUUUUUACAAAAAUUUUUAAUAUAUUuaauCUGUUCGau 197 
+                                                                                U   U U    A   UUU A U U UUUAA: UGUUC :U
+  20170402_berofors_shifted_assembled_COI_first_corrected_500bpCOIupstream 2973 UGAAUAU--C-AGCAUUUGAUUCUUUUUAAACUGUUCUUU 3009
+                                                                                5444333..3.3334667788999**************** PP
+
+                                                                                        vv                               NC
+                                                                                >>----->>>>>-->-->>>>->,,,,,<<<<<<<____> CS
+                                                     mnemiopsis_rrnl_final  198 uaAUAAAaaauuUAuUUauauGaGUUUAGaaCgguUUAAg 237 
+                                                                                UA UAAA:  :UU UUUAUAUGAGUUUAGAACG :  A :
+  20170402_berofors_shifted_assembled_COI_first_corrected_500bpCOIupstream 3010 UAUUAAAUUUUUUCUUUAUAUGAGUUUAGAACGUAGCAUU 3049
+                                                                                **************************************** PP
+
+                                                                                                      v         v        NC
+                                                                                >>->>>>,,,,]]--]]]]]]-]]----<<<<<---<-<_ CS
+                                                     mnemiopsis_rrnl_final  238 uuAGuuCGGUUuCUAuCuauaUaaUUAAaauuuUAGuACG 277 
+                                                                                 UAGUUCGGUUUCUAUCUA::U AUU AA:::   GUACG
+  20170402_berofors_shifted_assembled_COI_first_corrected_500bpCOIupstream 3050 GUAGUUCGGUUUCUAUCUAAUUCAUUUAAUAAU--GUACG 3087
+                                                                                **********************99999988765..9**** PP
+
+                                                                                        v                         NC
+                                                                                ___>->-->>>>>:::::::::::::::::::: CS
+                                                     mnemiopsis_rrnl_final  278 UAAGGaAAaaauuUUUUUAUUUAUGUAUAAGUA 310 
+                                                                                 AAGGAA  :::UUUUU A      U UA GU 
+  20170402_berofors_shifted_assembled_COI_first_corrected_500bpCOIupstream 3088 AAAGGAAUUUUAUUUUUAA-----UUUUAUGUU 3115
+                                                                                ******9955555555554.....556899*** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (310 consensus positions)
+Target sequences:                                                1  (26714 residues searched)
+Target sequences re-searched for truncated hits:                 1  (1548 residues re-searched)
+Windows   passing  local HMM SSV           filter:              84  (0.9941); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              84  (0.9941); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:              16  (0.2948); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               9  (0.2948); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:               2  (0.06054); expected (0.02)
+Envelopes passing glocal HMM envelope defn filter:               6  (0.06408); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               5  (0.05219); expected (0.0001)
+Total CM hits reported:                                          1  (0.01072); includes 0 truncated hit(s)
+
+# CPU time: 3.41u 0.08s 00:00:03.49 Elapsed: 00:00:03.49
+//
+[ok]

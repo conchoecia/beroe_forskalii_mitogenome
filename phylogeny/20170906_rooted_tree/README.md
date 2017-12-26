@@ -1,0 +1,2 @@
+- The command used to generate this tree was:
+  - `raxmlHPC-PTHREADS-SSE3 -m GTRGAMMA -p 12345 -x 12345 -f a -# autoMRE -o Glomus_intraradices_NC012056 -s all_aln_one_fungus.phy -q 20170905_partition.txt -n best -T 60`
