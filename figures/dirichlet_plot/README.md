@@ -1,5 +1,5 @@
 - The command used to generate these graphs was:
-  - `cuttlery dirichlet --coding_dir ../../fasta_sequences/coding_seqs/ --noncoding_dir ../../fasta_sequences/noncoding_seqs/ --test_dir ../../fasta_sequences/test_seqs/ --numsims 1000000 --results_file dirichlet_results_1M.csv -s meaninc --fileform pdf`
+  - `cuttlery dirichlet --coding_dir ../../fasta_sequences/coding_seqs/ --noncoding_dir ../../fasta_sequences/noncoding_seqs/ --test_dir ../../fasta_sequences/test_seqs/ --numsims 1000000 --results_file dirichlet_results_1M.csv -s meandec --fileform pdf`
 - The confusion matrix, false positive rate, and power for the two test genes were:
 
 ```
