@@ -1,0 +1,2 @@
+- The command that was used to generate the plot in this directory is:
+  - `cuttlery heterogeneity --tt_code 4 --fasta_dir ../../fasta_sequences/coding_seqs/ ../../fasta_sequences/test_seqs/ --fileform pdf`
