@@ -1,0 +1,2 @@
+- The command used to generate this plot was:
+  - `pauvre synplot --aln_dir ../../fasta_sequences/alignments/ --fileform pdf --gff_paths ../../gff_files/Bf201706.gff ../../gff_files/JN392469.gff ../../gff_files/NC016117.gff --center_on COX1 --gff_labels "B. forskalii" "P. bachei" "M. leidyi"`
