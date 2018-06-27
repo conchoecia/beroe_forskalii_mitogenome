@@ -3,7 +3,7 @@ rule all:
     The final files to be output at the end of this script.
     """
     input:
-        #"figures/redwood/redwood.png",
+        "figures/redwood/redwood.png",
         #"figures/codonusage/codonusage.png",
         #"figures/nucdiv/nucdiv.png",
         "figures/dirichlet_plot/dirichlet.png",
@@ -16,18 +16,21 @@ rule plot_redwood:
     mitogenome.
     """
     input:
-        pass
+        longreads = "figures/redwood/gd122_to_2013_doubled.bam",
+        RNA = "figures/redwood/R007mergeASgt140.sorted.bam",
+        gff = "figures/redwood/gff_files/Bf201706.gff",
     output:
-        pass
+        pngout = "figures/redwood/redwood.png",
     shell:
         """
-        pauvre redwood -M ./gd122_to_2013_doubled.bam \
-          --doubled main \
-          -R ./R007mergeASgt140.sorted.bam \
-          --gff ../../gff_files/Bf201706.gff \
-          --fileform pdf --sort ALNLEN \
+        pauvre redwood -M {input.longreads} \
+          --doubled main -R {input.RNA} \
+          --gff {input.gff} \
+          --fileform png --sort ALNLEN \
           --query 'ALNLEN >= 10000' 'MAPLEN < reflength' \
-          --small_start inside --ticks 0 10 100 1000
+          --dpi 600 --small_start inside \
+          --ticks 0 10 100 1000 \
+          -o yoyohaha --no_timestamp
         """
 
 #rule plot_codonusage:
