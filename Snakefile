@@ -1,10 +1,14 @@
+"""
+This Snakefile runs the scripts to recreate the plots in
+ Schultz et al 2018 (in prep).
+"""
+
 rule all:
     """
     The final files to be output at the end of this script.
     """
     input:
         "figures/redwood/redwood.png",
-        #"figures/codonusage/codonusage.png",
         "figures/dirichlet_plot/dirichlet_violins.png",
         "figures/heterogeneity_plot/hetero.pdf",
         "figures/heterogeneity_plot/hetero.csv",
@@ -100,7 +104,7 @@ rule plot_codonusage:
     shell:
         """
         cuttlery codonplot \
-          --coding_fasta_dir fasta_sequences/coding_seqs/
+          --coding_fasta_dir fasta_sequences/coding_seqs/ \
           --fileform pdf \
           --tt_code 4 \
           -o {params.basename} \
