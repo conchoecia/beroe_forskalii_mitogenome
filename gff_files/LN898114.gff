@@ -1,0 +1,17 @@
+##gff-version 3
+##source-version geneious 9.0.2
+LN898114	Geneious	region	1	11551	.	+	0	Is_circular=true
+LN898114	Geneious	source	1	11551	.	+	.	Name=source Coeloplana yulianicorum
+LN898114	Geneious	gene	1	1551	.	+	.	Name=COX1 gene
+LN898114	Geneious	gene	1561	2136	.	+	.	Name=COX2 gene
+LN898114	Geneious	gene	2137	3243	.	+	.	Name=ND4 gene
+LN898114	Geneious	gene	3243	3983	.	+	.	Name=ND2 gene
+LN898114	Geneious	rRNA	4694	5540	.	+	.	Name=16S rRNA
+LN898114	Geneious	rRNA	5541	5948	.	+	.	Name=12S rRNA
+LN898114	Geneious	gene	5949	6221	.	+	.	Name=ND4L gene
+LN898114	Geneious	gene	6235	7482	.	+	.	Name=ND1 gene
+LN898114	Geneious	gene	7488	8555	.	+	.	Name=CYTB gene
+LN898114	Geneious	gene	8556	9314	.	+	.	Name=COX3 gene
+LN898114	Geneious	gene	9314	9655	.	+	.	Name=ND3 gene
+LN898114	Geneious	gene	9785	11302	.	+	.	Name=ND5 gene
+LN898114	Geneious	gene	11304	11510	.	+	.	Name=ND6 gene

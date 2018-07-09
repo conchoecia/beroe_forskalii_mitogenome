@@ -1,16 +1,17 @@
 ##gff-version 3
 ##source-version geneious 9.0.2
-JN392469	Geneious	region	1	11016	.	+	0	Is_circular=true
-JN392469	Geneious	rRNA	3524	3940	.	+	.	Name=16S rRNA
-JN392469	Geneious	source	1	11016	.	+	.	Name=source Pleurobrachia bachei
-JN392469	Geneious	tRNA	2483	2544	.	-	.	Name=trnG tRNA
-JN392469	Geneious	tRNA	3220	3277	.	+	.	Name=trnP tRNA
-JN392469	Geneious	gene	1	1464	.	+	.	Name=COX1 gene
-JN392469	Geneious	gene	5590	6837	.	+	.	Name=ND4 gene
-JN392469	Geneious	gene	7035	8081	.	+	.	Name=CYTB gene
-JN392469	Geneious	gene	3979	4719	.	+	.	Name=COX3 gene
-JN392469	Geneious	gene	1585	2166	.	+	.	Name=COX2 gene
-JN392469	Geneious	gene	9906	10436	.	+	.	Name=ND1 gene
-JN392469	Geneious	gene	10728	10928	.	+	.	Name=ND3 gene
-JN392469	Geneious	gene	3344	3523	.	+	.	Name=ND4L gene
-JN392469	Geneious	gene	8101	9597	.	+	.	Name=ND5 gene
+JN392469	Geneious	region	1	11017	.	+	0	Is_circular=true
+JN392469	Geneious	source	1	11017	.	+	.	Name=source Pleurobrachia bachei
+JN392469	Geneious	gene	1	1539	.	+	.	Name=COX1 gene
+JN392469	Geneious	gene	1660	2241	.	+	.	Name=COX2 gene
+JN392469	Geneious	rRNA	2518	3460	.	+	.	Name=16S rRNA
+JN392469	Geneious	rRNA	3491	4053	.	+	.	Name=12S rRNA
+JN392469	Geneious	gene	4054	4794	.	+	.	Name=COX3 gene
+JN392469	Geneious	gene	4802	5470	.	+	.	Name=ND2 gene
+JN392469	Geneious	gene	5521	5841	.	+	.	Name=ND3 gene
+JN392469	Geneious	gene	5842	6912	.	+	.	Name=ND4 gene
+JN392469	Geneious	gene	7074	8156	.	+	.	Name=CYTB gene
+JN392469	Geneious	gene	8158	9672	.	+	.	Name=ND5 gene
+JN392469	Geneious	gene	9672	10511	.	+	.	Name=ND1 gene
+JN392469	Geneious	gene	10511	10708	.	+	.	Name=ND6 gene
+JN392469	Geneious	gene	10803	11003	.	+	.	Name=ND4L gene

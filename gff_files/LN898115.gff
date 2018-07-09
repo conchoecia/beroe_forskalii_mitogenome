@@ -1,0 +1,17 @@
+##gff-version 3
+##source-version geneious 9.0.2
+LN898115	Geneious	region	1	9961	.	+	0	Is_circular=true
+LN898115	Geneious	source	1	9961	.	+	.	Name=source Vallicula multiformis
+LN898115	Geneious	gene	1	1533	.	+	.	Name=COX1 gene
+LN898115	Geneious	gene	1523	2080	.	+	.	Name=COX2 gene
+LN898115	Geneious	gene	2074	3126	.	+	.	Name=ND4 gene
+LN898115	Geneious	rRNA	3127	3951	.	+	.	Name=16S rRNA
+LN898115	Geneious	rRNA	3952	4306	.	+	.	Name=12S rRNA
+LN898115	Geneious	gene	4307	5011	.	+	.	Name=ND2 gene
+LN898115	Geneious	gene	5011	6048	.	+	.	Name=CYTB gene
+LN898115	Geneious	gene	6032	6799	.	+	.	Name=COX3 gene
+LN898115	Geneious	gene	6796	7119	.	+	.	Name=ND3 gene
+LN898115	Geneious	gene	7124	8569	.	+	.	Name=ND5 gene
+LN898115	Geneious	gene	8577	8792	.	+	.	Name=ND4L gene
+LN898115	Geneious	gene	8792	9655	.	+	.	Name=ND1 gene
+LN898115	Geneious	CDS	9751	9948	.	+	.	Name=ND6 CDS
