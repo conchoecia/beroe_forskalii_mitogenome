@@ -9,7 +9,10 @@ rule all:
         "figures/dirichlet_plot/dirichlet_violins.png",
         "figures/heterogeneity_plot/hetero.pdf",
         "figures/heterogeneity_plot/hetero.csv",
-        "figures/synteny_plot/synteny_optimum.pdf"
+        "figures/synteny_plot/synteny_optimum.pdf",
+        "figures/nuc_div/nucdiv.csv",
+        "figures/nuc_div/nuc_div_boxplot.png",
+        "figures/nuc_div/nuc_div_picheck.png",
 
 rule plot_synteny:
     """Generates the synteny plot of all of the ctenophore mitochondrial genomes.
@@ -84,16 +87,40 @@ rule plot_redwood:
 #    shell:
 #        pass
 
-#rule plot_nucdiv:
-#    """
-#    Generates the nucleotide diversity plot.
-#    """
-#    input:
-#        pass
-#    output:
-#        pass
-#    shell:
-#        pass
+rule plot_nucdiv:
+    """
+    Generates the nucleotide diversity plot.
+    """
+    input:
+        COX1 = "fasta_sequences/coding_seqs/COX1.fasta",
+        COX2 = "fasta_sequences/coding_seqs/COX2.fasta",
+        COX3 = "fasta_sequences/coding_seqs/COX3.fasta",
+        CYTB = "fasta_sequences/coding_seqs/CYTB.fasta",
+        ND1 =  "fasta_sequences/coding_seqs/ND1.fasta",
+        ND2 =  "fasta_sequences/coding_seqs/ND2.fasta",
+        ND3 =  "fasta_sequences/coding_seqs/ND3.fasta",
+        ND4 =  "fasta_sequences/coding_seqs/ND4.fasta",
+        ND4L = "fasta_sequences/coding_seqs/ND4L.fasta",
+        ND5 =  "fasta_sequences/coding_seqs/ND5.fasta",
+        ND6 =  "fasta_sequences/coding_seqs/ND6.fasta"
+    output:
+        csv = "figures/nuc_div/nucdiv.csv",
+        bp = "figures/nuc_div/nuc_div_boxplot.png",
+        pc = "figures/nuc_div/nuc_div_picheck.png"
+    params:
+        basename = "figures/nuc_div/nuc_div"
+    shell:
+        """
+        cuttlery piNpiSsim \
+          --tt_code 4 \
+          --numsims 1000 \
+          --fasta_dir fasta_sequences/coding_seqs/ \
+          --results_file {output.csv} \
+          --method NG86 \
+          -@ 4
+          -o {params.basename} \
+          --no_timestamp
+        """
 
 rule plot_dirichlet:
     """
