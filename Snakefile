@@ -5,7 +5,6 @@ rule all:
     input:
         "figures/redwood/redwood.png",
         #"figures/codonusage/codonusage.png",
-        #"figures/nucdiv/nucdiv.png",
         "figures/dirichlet_plot/dirichlet_violins.png",
         "figures/heterogeneity_plot/hetero.pdf",
         "figures/heterogeneity_plot/hetero.csv",
@@ -13,6 +12,8 @@ rule all:
         "figures/nuc_div/nucdiv.csv",
         "figures/nuc_div/nuc_div_boxplot.png",
         "figures/nuc_div/nuc_div_picheck.png",
+        "figures/codonusage/codonplot.pdf"
+
 
 rule plot_synteny:
     """Generates the synteny plot of all of the ctenophore mitochondrial genomes.
@@ -76,16 +77,35 @@ rule plot_redwood:
           -o {params.basename} --no_timestamp
         """
 
-#rule plot_codonusage:
-#    """
-#    Generates the codon usage plot.
-#    """
-#    input:
-#        pass
-#    output:
-#        pass
-#    shell:
-#        pass
+rule plot_codonusage:
+    """
+    Generates the codon usage plot.
+    """
+    input:
+        COX1 = "fasta_sequences/coding_seqs/COX1.fasta",
+        COX2 = "fasta_sequences/coding_seqs/COX2.fasta",
+        COX3 = "fasta_sequences/coding_seqs/COX3.fasta",
+        CYTB = "fasta_sequences/coding_seqs/CYTB.fasta",
+        ND1 =  "fasta_sequences/coding_seqs/ND1.fasta",
+        ND2 =  "fasta_sequences/coding_seqs/ND2.fasta",
+        ND3 =  "fasta_sequences/coding_seqs/ND3.fasta",
+        ND4 =  "fasta_sequences/coding_seqs/ND4.fasta",
+        ND4L = "fasta_sequences/coding_seqs/ND4L.fasta",
+        ND5 =  "fasta_sequences/coding_seqs/ND5.fasta",
+        ND6 =  "fasta_sequences/coding_seqs/ND6.fasta"
+    output:
+        cu = "figures/codonusage/codonplot.pdf"
+    params:
+        basename = "figures/codonusage/codonplot"
+    shell:
+        """
+        cuttlery codonplot \
+          --coding_fasta_dir fasta_sequences/coding_seqs/
+          --fileform pdf \
+          --tt_code 4 \
+          -o {params.basename} \
+          --no_timestamp
+        """
 
 rule plot_nucdiv:
     """
@@ -113,11 +133,11 @@ rule plot_nucdiv:
         """
         cuttlery piNpiSsim \
           --tt_code 4 \
-          --numsims 1000 \
+          --numsims 100 \
           --fasta_dir fasta_sequences/coding_seqs/ \
           --results_file {output.csv} \
           --method NG86 \
-          -@ 4
+          -@ 4 \
           -o {params.basename} \
           --no_timestamp
         """
