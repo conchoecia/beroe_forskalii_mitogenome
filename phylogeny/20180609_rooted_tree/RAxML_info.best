@@ -1,0 +1,2866 @@
+IMPORTANT WARNING: Alignment column 250 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 11640 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 12405 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 12406 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 12410 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 12411 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 12412 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 12413 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 13075 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 13076 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 13077 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 13078 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 13079 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15578 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15579 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15580 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15589 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15590 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15591 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15592 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15593 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15594 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15595 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15596 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15597 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15598 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15599 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15600 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15601 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15602 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15603 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15607 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15608 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15609 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15610 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15611 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15612 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15613 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15614 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15615 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15616 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15617 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15618 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15619 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15620 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15621 contains only undetermined values which will be treated as missing data
+
+IMPORTANT WARNING
+Found 46 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+
+A mixed model file with model assignments for undetermined
+columns removed has already been printed to  file partition.txt.reduced
+An alignment file with undetermined columns removed has already
+been printed to file nuc_and_prot.phy.reduced
+
+Alignment has 46 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 13291 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 60.02%
+
+RAxML rapid bootstrapping and subsequent ML search
+
+Using 13 distinct models/data partitions with joint branch length optimization
+
+
+
+Executing 1000 rapid bootstrap inferences and thereafter a thorough ML search 
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 3024
+Name: RRNS
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 5087
+Name: RRNL
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 2
+Alignment Patterns: 534
+Name: COX1
+DataType: AA
+Substitution Matrix: MTZOA
+Using empirical base frequencies
+
+
+
+Partition: 3
+Alignment Patterns: 318
+Name: COX2
+DataType: AA
+Substitution Matrix: MTZOA
+Using empirical base frequencies
+
+
+
+Partition: 4
+Alignment Patterns: 333
+Name: COX3
+DataType: AA
+Substitution Matrix: MTZOA
+Using empirical base frequencies
+
+
+
+Partition: 5
+Alignment Patterns: 466
+Name: CYTB
+DataType: AA
+Substitution Matrix: MTZOA
+Using empirical base frequencies
+
+
+
+Partition: 6
+Alignment Patterns: 438
+Name: NAD1
+DataType: AA
+Substitution Matrix: MTZOA
+Using empirical base frequencies
+
+
+
+Partition: 7
+Alignment Patterns: 926
+Name: NAD2
+DataType: AA
+Substitution Matrix: MTZOA
+Using empirical base frequencies
+
+
+
+Partition: 8
+Alignment Patterns: 204
+Name: NAD3
+DataType: AA
+Substitution Matrix: MTZOA
+Using empirical base frequencies
+
+
+
+Partition: 9
+Alignment Patterns: 611
+Name: NAD4
+DataType: AA
+Substitution Matrix: MTZOA
+Using empirical base frequencies
+
+
+
+Partition: 10
+Alignment Patterns: 826
+Name: NAD5
+DataType: AA
+Substitution Matrix: MTZOA
+Using empirical base frequencies
+
+
+
+Partition: 11
+Alignment Patterns: 405
+Name: NAD6
+DataType: AA
+Substitution Matrix: MTZOA
+Using empirical base frequencies
+
+
+
+Partition: 12
+Alignment Patterns: 119
+Name: ND4L
+DataType: AA
+Substitution Matrix: MTZOA
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3 -m GTRGAMMA -p 12345 -x 12345 -f a -# autoMRE -o FUN_Imsh_alue_NC035550 -s nuc_and_prot.phy -q partition.txt -n best -T 60 
+
+
+
+Time for BS model parameter optimization 17.408101
+Bootstrap[0]: Time 64.964060 seconds, bootstrap likelihood -323968.918423, best rearrangement setting 13
+Bootstrap[1]: Time 47.054867 seconds, bootstrap likelihood -319807.373082, best rearrangement setting 13
+Bootstrap[2]: Time 43.247335 seconds, bootstrap likelihood -322365.845057, best rearrangement setting 12
+Bootstrap[3]: Time 44.681337 seconds, bootstrap likelihood -319179.127280, best rearrangement setting 15
+Bootstrap[4]: Time 44.302613 seconds, bootstrap likelihood -320612.745281, best rearrangement setting 10
+Bootstrap[5]: Time 45.178990 seconds, bootstrap likelihood -319469.684714, best rearrangement setting 10
+Bootstrap[6]: Time 38.005925 seconds, bootstrap likelihood -326236.032280, best rearrangement setting 6
+Bootstrap[7]: Time 42.382800 seconds, bootstrap likelihood -324086.675249, best rearrangement setting 14
+Bootstrap[8]: Time 34.708025 seconds, bootstrap likelihood -322150.985182, best rearrangement setting 5
+Bootstrap[9]: Time 42.017632 seconds, bootstrap likelihood -324685.194197, best rearrangement setting 7
+Bootstrap[10]: Time 40.395075 seconds, bootstrap likelihood -322583.920566, best rearrangement setting 7
+Bootstrap[11]: Time 36.505832 seconds, bootstrap likelihood -317297.894890, best rearrangement setting 5
+Bootstrap[12]: Time 41.152189 seconds, bootstrap likelihood -322726.068773, best rearrangement setting 8
+Bootstrap[13]: Time 40.758760 seconds, bootstrap likelihood -321831.699974, best rearrangement setting 7
+Bootstrap[14]: Time 42.431880 seconds, bootstrap likelihood -321358.061789, best rearrangement setting 12
+Bootstrap[15]: Time 43.435710 seconds, bootstrap likelihood -328266.880396, best rearrangement setting 15
+Bootstrap[16]: Time 45.389665 seconds, bootstrap likelihood -323768.476980, best rearrangement setting 12
+Bootstrap[17]: Time 43.358461 seconds, bootstrap likelihood -322964.138875, best rearrangement setting 12
+Bootstrap[18]: Time 35.692572 seconds, bootstrap likelihood -324488.730679, best rearrangement setting 5
+Bootstrap[19]: Time 42.405981 seconds, bootstrap likelihood -321041.544163, best rearrangement setting 8
+Bootstrap[20]: Time 44.156720 seconds, bootstrap likelihood -321599.428920, best rearrangement setting 10
+Bootstrap[21]: Time 38.188821 seconds, bootstrap likelihood -320130.598707, best rearrangement setting 6
+Bootstrap[22]: Time 36.266634 seconds, bootstrap likelihood -316198.862980, best rearrangement setting 5
+Bootstrap[23]: Time 42.602651 seconds, bootstrap likelihood -321449.057444, best rearrangement setting 7
+Bootstrap[24]: Time 42.183339 seconds, bootstrap likelihood -318838.373590, best rearrangement setting 8
+Bootstrap[25]: Time 37.921411 seconds, bootstrap likelihood -319549.647606, best rearrangement setting 6
+Bootstrap[26]: Time 43.124376 seconds, bootstrap likelihood -322386.272719, best rearrangement setting 12
+Bootstrap[27]: Time 43.544205 seconds, bootstrap likelihood -325303.467874, best rearrangement setting 10
+Bootstrap[28]: Time 43.858751 seconds, bootstrap likelihood -322349.711308, best rearrangement setting 11
+Bootstrap[29]: Time 42.670467 seconds, bootstrap likelihood -324688.051472, best rearrangement setting 12
+Bootstrap[30]: Time 46.372996 seconds, bootstrap likelihood -318503.219254, best rearrangement setting 15
+Bootstrap[31]: Time 43.537018 seconds, bootstrap likelihood -322049.051974, best rearrangement setting 15
+Bootstrap[32]: Time 38.958248 seconds, bootstrap likelihood -318352.524171, best rearrangement setting 6
+Bootstrap[33]: Time 42.462003 seconds, bootstrap likelihood -321326.417922, best rearrangement setting 15
+Bootstrap[34]: Time 42.703571 seconds, bootstrap likelihood -324474.857376, best rearrangement setting 11
+Bootstrap[35]: Time 43.683798 seconds, bootstrap likelihood -323181.235471, best rearrangement setting 8
+Bootstrap[36]: Time 42.694245 seconds, bootstrap likelihood -322584.490646, best rearrangement setting 9
+Bootstrap[37]: Time 44.494719 seconds, bootstrap likelihood -319188.554190, best rearrangement setting 11
+Bootstrap[38]: Time 43.800956 seconds, bootstrap likelihood -316776.354281, best rearrangement setting 8
+Bootstrap[39]: Time 44.389168 seconds, bootstrap likelihood -323825.666149, best rearrangement setting 13
+Bootstrap[40]: Time 46.050017 seconds, bootstrap likelihood -323627.560887, best rearrangement setting 13
+Bootstrap[41]: Time 43.895229 seconds, bootstrap likelihood -327212.302406, best rearrangement setting 10
+Bootstrap[42]: Time 36.141247 seconds, bootstrap likelihood -325530.158362, best rearrangement setting 5
+Bootstrap[43]: Time 42.307515 seconds, bootstrap likelihood -323468.360121, best rearrangement setting 14
+Bootstrap[44]: Time 42.605738 seconds, bootstrap likelihood -322092.612785, best rearrangement setting 10
+Bootstrap[45]: Time 42.077056 seconds, bootstrap likelihood -323212.908470, best rearrangement setting 15
+Bootstrap[46]: Time 17.608433 seconds, bootstrap likelihood -319108.469814, best rearrangement setting 14
+Bootstrap[47]: Time 38.724803 seconds, bootstrap likelihood -318872.319859, best rearrangement setting 8
+Bootstrap[48]: Time 38.648370 seconds, bootstrap likelihood -323317.976381, best rearrangement setting 6
+Bootstrap[49]: Time 37.237088 seconds, bootstrap likelihood -322419.326572, best rearrangement setting 7
+Bootstrap[50]: Time 44.250542 seconds, bootstrap likelihood -321469.716052, best rearrangement setting 7
+Bootstrap[51]: Time 43.239597 seconds, bootstrap likelihood -325518.420160, best rearrangement setting 11
+Bootstrap[52]: Time 43.314611 seconds, bootstrap likelihood -323465.745413, best rearrangement setting 12
+Bootstrap[53]: Time 43.350608 seconds, bootstrap likelihood -319913.947992, best rearrangement setting 8
+Bootstrap[54]: Time 41.369129 seconds, bootstrap likelihood -322986.606828, best rearrangement setting 9
+Bootstrap[55]: Time 40.693423 seconds, bootstrap likelihood -323933.440454, best rearrangement setting 11
+Bootstrap[56]: Time 38.456923 seconds, bootstrap likelihood -320999.394254, best rearrangement setting 5
+Bootstrap[57]: Time 41.569311 seconds, bootstrap likelihood -319383.045921, best rearrangement setting 7
+Bootstrap[58]: Time 43.114835 seconds, bootstrap likelihood -316107.098253, best rearrangement setting 10
+Bootstrap[59]: Time 42.174104 seconds, bootstrap likelihood -326923.988128, best rearrangement setting 9
+Bootstrap[60]: Time 39.123339 seconds, bootstrap likelihood -321231.813570, best rearrangement setting 7
+Bootstrap[61]: Time 38.420469 seconds, bootstrap likelihood -321802.357167, best rearrangement setting 5
+Bootstrap[62]: Time 43.340091 seconds, bootstrap likelihood -318941.200619, best rearrangement setting 11
+Bootstrap[63]: Time 45.328844 seconds, bootstrap likelihood -322874.684477, best rearrangement setting 12
+Bootstrap[64]: Time 40.117725 seconds, bootstrap likelihood -319302.584276, best rearrangement setting 7
+Bootstrap[65]: Time 36.170940 seconds, bootstrap likelihood -321603.420965, best rearrangement setting 5
+Bootstrap[66]: Time 36.044087 seconds, bootstrap likelihood -314823.599244, best rearrangement setting 5
+Bootstrap[67]: Time 46.217766 seconds, bootstrap likelihood -320154.819061, best rearrangement setting 15
+Bootstrap[68]: Time 45.203715 seconds, bootstrap likelihood -319757.304624, best rearrangement setting 11
+Bootstrap[69]: Time 35.604204 seconds, bootstrap likelihood -325972.788670, best rearrangement setting 5
+Bootstrap[70]: Time 40.750687 seconds, bootstrap likelihood -324364.000294, best rearrangement setting 8
+Bootstrap[71]: Time 42.921673 seconds, bootstrap likelihood -320556.873703, best rearrangement setting 10
+Bootstrap[72]: Time 44.765579 seconds, bootstrap likelihood -321595.696870, best rearrangement setting 11
+Bootstrap[73]: Time 44.059965 seconds, bootstrap likelihood -319273.125894, best rearrangement setting 9
+Bootstrap[74]: Time 36.777731 seconds, bootstrap likelihood -319048.513182, best rearrangement setting 5
+Bootstrap[75]: Time 42.396617 seconds, bootstrap likelihood -322269.475204, best rearrangement setting 8
+Bootstrap[76]: Time 43.579571 seconds, bootstrap likelihood -324420.905644, best rearrangement setting 9
+Bootstrap[77]: Time 43.370482 seconds, bootstrap likelihood -323364.508452, best rearrangement setting 11
+Bootstrap[78]: Time 44.184899 seconds, bootstrap likelihood -325518.876875, best rearrangement setting 15
+Bootstrap[79]: Time 42.872290 seconds, bootstrap likelihood -318153.388642, best rearrangement setting 9
+Bootstrap[80]: Time 42.804792 seconds, bootstrap likelihood -319186.275732, best rearrangement setting 15
+Bootstrap[81]: Time 38.761426 seconds, bootstrap likelihood -318733.402529, best rearrangement setting 7
+Bootstrap[82]: Time 38.912016 seconds, bootstrap likelihood -322055.233887, best rearrangement setting 6
+Bootstrap[83]: Time 43.820534 seconds, bootstrap likelihood -320228.563237, best rearrangement setting 10
+Bootstrap[84]: Time 42.072110 seconds, bootstrap likelihood -321327.388374, best rearrangement setting 11
+Bootstrap[85]: Time 42.769756 seconds, bootstrap likelihood -321028.448994, best rearrangement setting 8
+Bootstrap[86]: Time 41.779174 seconds, bootstrap likelihood -326846.366279, best rearrangement setting 7
+Bootstrap[87]: Time 41.199275 seconds, bootstrap likelihood -322754.573751, best rearrangement setting 7
+Bootstrap[88]: Time 42.821205 seconds, bootstrap likelihood -326980.794880, best rearrangement setting 12
+Bootstrap[89]: Time 42.856584 seconds, bootstrap likelihood -319411.781675, best rearrangement setting 10
+Bootstrap[90]: Time 42.496118 seconds, bootstrap likelihood -318193.306789, best rearrangement setting 8
+Bootstrap[91]: Time 45.163631 seconds, bootstrap likelihood -320114.697927, best rearrangement setting 12
+Bootstrap[92]: Time 43.804307 seconds, bootstrap likelihood -317503.801577, best rearrangement setting 13
+Bootstrap[93]: Time 43.620084 seconds, bootstrap likelihood -322405.798456, best rearrangement setting 15
+Bootstrap[94]: Time 36.365646 seconds, bootstrap likelihood -320043.375490, best rearrangement setting 5
+Bootstrap[95]: Time 36.295548 seconds, bootstrap likelihood -318589.348345, best rearrangement setting 5
+Bootstrap[96]: Time 43.010608 seconds, bootstrap likelihood -327052.200109, best rearrangement setting 13
+Bootstrap[97]: Time 44.120864 seconds, bootstrap likelihood -321661.462880, best rearrangement setting 11
+Bootstrap[98]: Time 37.352424 seconds, bootstrap likelihood -324457.816788, best rearrangement setting 6
+Bootstrap[99]: Time 45.333604 seconds, bootstrap likelihood -319782.027668, best rearrangement setting 14
+Bootstrap[100]: Time 44.756033 seconds, bootstrap likelihood -317449.963612, best rearrangement setting 12
+Bootstrap[101]: Time 43.240286 seconds, bootstrap likelihood -317338.270493, best rearrangement setting 10
+Bootstrap[102]: Time 41.268222 seconds, bootstrap likelihood -321679.931641, best rearrangement setting 8
+Bootstrap[103]: Time 42.552906 seconds, bootstrap likelihood -322215.551313, best rearrangement setting 8
+Bootstrap[104]: Time 44.541381 seconds, bootstrap likelihood -321986.320738, best rearrangement setting 15
+Bootstrap[105]: Time 40.514616 seconds, bootstrap likelihood -318035.139946, best rearrangement setting 7
+Bootstrap[106]: Time 41.405913 seconds, bootstrap likelihood -322982.068060, best rearrangement setting 6
+Bootstrap[107]: Time 44.420123 seconds, bootstrap likelihood -321716.507376, best rearrangement setting 13
+Bootstrap[108]: Time 43.848618 seconds, bootstrap likelihood -319690.309588, best rearrangement setting 14
+Bootstrap[109]: Time 43.512476 seconds, bootstrap likelihood -322437.007113, best rearrangement setting 12
+Bootstrap[110]: Time 42.579591 seconds, bootstrap likelihood -320854.748332, best rearrangement setting 7
+Bootstrap[111]: Time 43.129358 seconds, bootstrap likelihood -320541.645857, best rearrangement setting 15
+Bootstrap[112]: Time 43.891307 seconds, bootstrap likelihood -320539.595753, best rearrangement setting 14
+Bootstrap[113]: Time 36.948883 seconds, bootstrap likelihood -321371.613468, best rearrangement setting 5
+Bootstrap[114]: Time 39.090902 seconds, bootstrap likelihood -322033.259386, best rearrangement setting 6
+Bootstrap[115]: Time 40.282384 seconds, bootstrap likelihood -323232.066557, best rearrangement setting 7
+Bootstrap[116]: Time 42.012996 seconds, bootstrap likelihood -322665.943661, best rearrangement setting 11
+Bootstrap[117]: Time 41.958399 seconds, bootstrap likelihood -320374.359618, best rearrangement setting 8
+Bootstrap[118]: Time 41.664237 seconds, bootstrap likelihood -321878.922571, best rearrangement setting 9
+Bootstrap[119]: Time 43.454922 seconds, bootstrap likelihood -321439.720606, best rearrangement setting 14
+Bootstrap[120]: Time 44.557237 seconds, bootstrap likelihood -322864.066193, best rearrangement setting 12
+Bootstrap[121]: Time 45.685948 seconds, bootstrap likelihood -315676.848177, best rearrangement setting 8
+Bootstrap[122]: Time 43.592832 seconds, bootstrap likelihood -325118.280044, best rearrangement setting 9
+Bootstrap[123]: Time 39.184848 seconds, bootstrap likelihood -321099.009144, best rearrangement setting 6
+Bootstrap[124]: Time 44.476633 seconds, bootstrap likelihood -320801.951265, best rearrangement setting 11
+Bootstrap[125]: Time 43.095670 seconds, bootstrap likelihood -323445.091806, best rearrangement setting 11
+Bootstrap[126]: Time 42.739194 seconds, bootstrap likelihood -324108.654009, best rearrangement setting 12
+Bootstrap[127]: Time 41.235162 seconds, bootstrap likelihood -322687.396791, best rearrangement setting 9
+Bootstrap[128]: Time 42.026496 seconds, bootstrap likelihood -321535.324335, best rearrangement setting 11
+Bootstrap[129]: Time 35.896563 seconds, bootstrap likelihood -321076.253343, best rearrangement setting 5
+Bootstrap[130]: Time 45.198954 seconds, bootstrap likelihood -320611.797752, best rearrangement setting 10
+Bootstrap[131]: Time 46.805676 seconds, bootstrap likelihood -320419.875797, best rearrangement setting 9
+Bootstrap[132]: Time 42.445338 seconds, bootstrap likelihood -319523.241831, best rearrangement setting 14
+Bootstrap[133]: Time 42.265447 seconds, bootstrap likelihood -325741.919667, best rearrangement setting 13
+Bootstrap[134]: Time 41.086457 seconds, bootstrap likelihood -323180.979886, best rearrangement setting 6
+Bootstrap[135]: Time 46.901241 seconds, bootstrap likelihood -323147.806318, best rearrangement setting 11
+Bootstrap[136]: Time 43.983546 seconds, bootstrap likelihood -321928.255430, best rearrangement setting 13
+Bootstrap[137]: Time 40.029445 seconds, bootstrap likelihood -322906.951358, best rearrangement setting 6
+Bootstrap[138]: Time 44.836757 seconds, bootstrap likelihood -321949.527149, best rearrangement setting 15
+Bootstrap[139]: Time 37.834936 seconds, bootstrap likelihood -317165.259408, best rearrangement setting 5
+Bootstrap[140]: Time 44.011321 seconds, bootstrap likelihood -318967.075537, best rearrangement setting 13
+Bootstrap[141]: Time 35.398966 seconds, bootstrap likelihood -320757.378342, best rearrangement setting 5
+Bootstrap[142]: Time 44.413651 seconds, bootstrap likelihood -319985.856583, best rearrangement setting 15
+Bootstrap[143]: Time 39.233870 seconds, bootstrap likelihood -320875.796287, best rearrangement setting 7
+Bootstrap[144]: Time 43.513879 seconds, bootstrap likelihood -318916.208422, best rearrangement setting 13
+Bootstrap[145]: Time 43.372062 seconds, bootstrap likelihood -322206.211680, best rearrangement setting 7
+Bootstrap[146]: Time 43.848982 seconds, bootstrap likelihood -321614.958782, best rearrangement setting 9
+Bootstrap[147]: Time 44.830580 seconds, bootstrap likelihood -317685.438491, best rearrangement setting 12
+Bootstrap[148]: Time 43.520307 seconds, bootstrap likelihood -323838.171386, best rearrangement setting 8
+Bootstrap[149]: Time 43.352500 seconds, bootstrap likelihood -321942.556428, best rearrangement setting 12
+Bootstrap[150]: Time 44.547975 seconds, bootstrap likelihood -320436.447543, best rearrangement setting 14
+Bootstrap[151]: Time 36.886087 seconds, bootstrap likelihood -315348.489681, best rearrangement setting 5
+Bootstrap[152]: Time 35.904518 seconds, bootstrap likelihood -318127.620691, best rearrangement setting 5
+Bootstrap[153]: Time 42.081172 seconds, bootstrap likelihood -321063.558105, best rearrangement setting 13
+Bootstrap[154]: Time 44.383212 seconds, bootstrap likelihood -327054.000755, best rearrangement setting 14
+Bootstrap[155]: Time 45.057768 seconds, bootstrap likelihood -318425.361960, best rearrangement setting 13
+Bootstrap[156]: Time 42.443533 seconds, bootstrap likelihood -322452.971113, best rearrangement setting 11
+Bootstrap[157]: Time 42.100952 seconds, bootstrap likelihood -319943.175699, best rearrangement setting 8
+Bootstrap[158]: Time 42.615649 seconds, bootstrap likelihood -321787.607833, best rearrangement setting 8
+Bootstrap[159]: Time 33.447416 seconds, bootstrap likelihood -320591.749147, best rearrangement setting 5
+Bootstrap[160]: Time 43.323841 seconds, bootstrap likelihood -318794.066594, best rearrangement setting 15
+Bootstrap[161]: Time 44.742015 seconds, bootstrap likelihood -323593.124858, best rearrangement setting 13
+Bootstrap[162]: Time 45.535509 seconds, bootstrap likelihood -323210.169220, best rearrangement setting 13
+Bootstrap[163]: Time 46.361812 seconds, bootstrap likelihood -319059.402847, best rearrangement setting 12
+Bootstrap[164]: Time 42.580341 seconds, bootstrap likelihood -320166.027215, best rearrangement setting 7
+Bootstrap[165]: Time 45.481154 seconds, bootstrap likelihood -319336.637354, best rearrangement setting 13
+Bootstrap[166]: Time 44.466384 seconds, bootstrap likelihood -317237.222503, best rearrangement setting 10
+Bootstrap[167]: Time 42.821545 seconds, bootstrap likelihood -315852.984164, best rearrangement setting 12
+Bootstrap[168]: Time 44.214703 seconds, bootstrap likelihood -326935.771292, best rearrangement setting 14
+Bootstrap[169]: Time 43.643366 seconds, bootstrap likelihood -322755.575767, best rearrangement setting 10
+Bootstrap[170]: Time 39.082126 seconds, bootstrap likelihood -325698.966605, best rearrangement setting 5
+Bootstrap[171]: Time 43.150170 seconds, bootstrap likelihood -317166.698469, best rearrangement setting 11
+Bootstrap[172]: Time 44.907484 seconds, bootstrap likelihood -322528.159561, best rearrangement setting 12
+Bootstrap[173]: Time 44.772325 seconds, bootstrap likelihood -323865.938815, best rearrangement setting 11
+Bootstrap[174]: Time 45.470574 seconds, bootstrap likelihood -317336.600946, best rearrangement setting 15
+Bootstrap[175]: Time 43.770266 seconds, bootstrap likelihood -322078.270625, best rearrangement setting 14
+Bootstrap[176]: Time 44.203497 seconds, bootstrap likelihood -316061.760134, best rearrangement setting 8
+Bootstrap[177]: Time 44.350356 seconds, bootstrap likelihood -325642.779325, best rearrangement setting 8
+Bootstrap[178]: Time 44.923007 seconds, bootstrap likelihood -325006.989794, best rearrangement setting 14
+Bootstrap[179]: Time 14.787142 seconds, bootstrap likelihood -321437.997591, best rearrangement setting 5
+Bootstrap[180]: Time 43.061496 seconds, bootstrap likelihood -325253.756095, best rearrangement setting 12
+Bootstrap[181]: Time 42.445197 seconds, bootstrap likelihood -326099.837933, best rearrangement setting 14
+Bootstrap[182]: Time 40.094943 seconds, bootstrap likelihood -322748.142590, best rearrangement setting 7
+Bootstrap[183]: Time 45.127610 seconds, bootstrap likelihood -322190.469588, best rearrangement setting 11
+Bootstrap[184]: Time 45.796556 seconds, bootstrap likelihood -319854.727700, best rearrangement setting 15
+Bootstrap[185]: Time 43.163556 seconds, bootstrap likelihood -323615.585571, best rearrangement setting 8
+Bootstrap[186]: Time 48.168484 seconds, bootstrap likelihood -318848.166611, best rearrangement setting 13
+Bootstrap[187]: Time 42.306219 seconds, bootstrap likelihood -318808.568623, best rearrangement setting 8
+Bootstrap[188]: Time 43.927274 seconds, bootstrap likelihood -321046.443863, best rearrangement setting 12
+Bootstrap[189]: Time 45.010797 seconds, bootstrap likelihood -324436.115348, best rearrangement setting 11
+Bootstrap[190]: Time 44.257518 seconds, bootstrap likelihood -323942.662609, best rearrangement setting 15
+Bootstrap[191]: Time 43.460785 seconds, bootstrap likelihood -325348.087303, best rearrangement setting 8
+Bootstrap[192]: Time 44.001747 seconds, bootstrap likelihood -323493.354604, best rearrangement setting 8
+Bootstrap[193]: Time 43.816930 seconds, bootstrap likelihood -326560.790826, best rearrangement setting 10
+Bootstrap[194]: Time 41.170119 seconds, bootstrap likelihood -325312.514097, best rearrangement setting 8
+Bootstrap[195]: Time 43.699094 seconds, bootstrap likelihood -319944.169516, best rearrangement setting 7
+Bootstrap[196]: Time 43.194933 seconds, bootstrap likelihood -320348.005615, best rearrangement setting 11
+Bootstrap[197]: Time 41.749760 seconds, bootstrap likelihood -322571.988773, best rearrangement setting 8
+Bootstrap[198]: Time 45.930509 seconds, bootstrap likelihood -320142.783775, best rearrangement setting 15
+Bootstrap[199]: Time 43.923061 seconds, bootstrap likelihood -322440.488533, best rearrangement setting 8
+
+
+Stopped Rapid BS search after 200 replicates with MRE-based Bootstopping criterion
+WRF Average of 100 random splits: 1.784327
+Overall Time for 200 Rapid Bootstraps 8441.318366 seconds
+Average Time per Rapid Bootstrap 42.206592 seconds
+
+Starting ML Search ...
+
+Fast ML optimization finished
+
+Fast ML search Time: 6730.985217 seconds
+
+Slow ML Search 0 Likelihood: -321457.998401
+Slow ML Search 1 Likelihood: -321457.998401
+Slow ML Search 2 Likelihood: -321457.998401
+Slow ML Search 3 Likelihood: -321457.998401
+Slow ML Search 4 Likelihood: -321457.998401
+Slow ML Search 5 Likelihood: -321457.998401
+Slow ML Search 6 Likelihood: -321457.998401
+Slow ML Search 7 Likelihood: -321457.998401
+Slow ML Search 8 Likelihood: -321457.998401
+Slow ML Search 9 Likelihood: -321457.998401
+Slow ML optimization finished
+
+Slow ML search Time: 2285.222926 seconds
+Thorough ML search Time: 312.069698 seconds
+
+Final ML Optimization Likelihood: -321457.998296
+
+Model Information:
+
+Model Parameters of Partition 0, Name: RRNS, Type of Data: DNA
+alpha: 0.662404
+Tree-Length: 46.524614
+rate A <-> C: 0.957051
+rate A <-> G: 3.162281
+rate A <-> T: 1.220797
+rate C <-> G: 0.676812
+rate C <-> T: 4.873661
+rate G <-> T: 1.000000
+
+freq pi(A): 0.325809
+freq pi(C): 0.164593
+freq pi(G): 0.215398
+freq pi(T): 0.294201
+
+Model Parameters of Partition 1, Name: RRNL, Type of Data: DNA
+alpha: 0.633286
+Tree-Length: 46.524614
+rate A <-> C: 1.107564
+rate A <-> G: 3.514282
+rate A <-> T: 1.433223
+rate C <-> G: 0.881890
+rate C <-> T: 6.183711
+rate G <-> T: 1.000000
+
+freq pi(A): 0.347531
+freq pi(C): 0.155278
+freq pi(G): 0.206948
+freq pi(T): 0.290242
+
+Model Parameters of Partition 2, Name: COX1, Type of Data: AA
+alpha: 0.409915
+Tree-Length: 46.524614
+rate A <-> R: 0.019291
+rate A <-> N: 0.009938
+rate A <-> D: 0.094119
+rate A <-> C: 1.593008
+rate A <-> Q: 0.042675
+rate A <-> E: 0.099965
+rate A <-> G: 1.691219
+rate A <-> H: 0.013446
+rate A <-> I: 0.194084
+rate A <-> L: 0.091196
+rate A <-> K: 0.001169
+rate A <-> M: 0.797966
+rate A <-> F: 0.154916
+rate A <-> P: 0.361277
+rate A <-> S: 3.770022
+rate A <-> T: 2.210336
+rate A <-> W: 0.018122
+rate A <-> Y: 0.012276
+rate A <-> V: 1.881796
+rate R <-> N: 0.196422
+rate R <-> D: 0.018707
+rate R <-> C: 0.357185
+rate R <-> Q: 1.350403
+rate R <-> E: 0.037414
+rate R <-> G: 0.042090
+rate R <-> H: 0.360692
+rate R <-> I: 0.001169
+rate R <-> L: 0.023968
+rate R <-> K: 1.708757
+rate R <-> M: 0.022214
+rate R <-> F: 0.001169
+rate R <-> P: 0.043844
+rate R <-> S: 0.068982
+rate R <-> T: 0.018707
+rate R <-> W: 0.098796
+rate R <-> Y: 0.080673
+rate R <-> V: 0.029814
+rate N <-> D: 3.606922
+rate N <-> C: 0.553022
+rate N <-> Q: 1.112475
+rate N <-> E: 1.017187
+rate N <-> G: 0.580498
+rate N <-> H: 1.338127
+rate N <-> I: 0.142055
+rate N <-> L: 0.046183
+rate N <-> K: 2.416696
+rate N <-> M: 0.430843
+rate N <-> F: 0.075412
+rate N <-> P: 0.132117
+rate N <-> S: 2.456448
+rate N <-> T: 1.079154
+rate N <-> W: 0.037414
+rate N <-> Y: 0.827780
+rate N <-> V: 0.041506
+rate D <-> C: 0.055536
+rate D <-> Q: 0.112826
+rate D <-> E: 5.165439
+rate D <-> G: 0.151993
+rate D <-> H: 0.325032
+rate D <-> I: 0.008769
+rate D <-> L: 0.002923
+rate D <-> K: 0.001169
+rate D <-> M: 0.001169
+rate D <-> F: 0.011692
+rate D <-> P: 0.001169
+rate D <-> S: 0.300479
+rate D <-> T: 0.013446
+rate D <-> W: 0.001169
+rate D <-> Y: 0.081258
+rate D <-> V: 0.021630
+rate C <-> Q: 0.287034
+rate C <-> E: 0.019876
+rate C <-> G: 0.481702
+rate C <-> H: 0.219221
+rate C <-> I: 0.285280
+rate C <-> L: 0.349000
+rate C <-> K: 0.001169
+rate C <-> M: 1.547995
+rate C <-> F: 0.980942
+rate C <-> P: 0.047352
+rate C <-> S: 3.836665
+rate C <-> T: 1.163335
+rate C <-> W: 0.211037
+rate C <-> Y: 0.448381
+rate C <-> V: 1.425231
+rate Q <-> E: 2.042558
+rate Q <-> G: 0.052029
+rate Q <-> H: 2.465801
+rate Q <-> I: 0.001169
+rate Q <-> L: 0.134456
+rate Q <-> K: 1.952531
+rate Q <-> M: 0.490471
+rate Q <-> F: 0.055536
+rate Q <-> P: 0.305156
+rate Q <-> S: 0.563545
+rate Q <-> T: 0.230329
+rate Q <-> W: 0.035660
+rate Q <-> Y: 0.305741
+rate Q <-> V: 0.052613
+rate E <-> G: 0.251958
+rate E <-> H: 0.087104
+rate E <-> I: 0.042675
+rate E <-> L: 0.005846
+rate E <-> K: 0.954051
+rate E <-> M: 0.001169
+rate E <-> F: 0.001169
+rate E <-> P: 0.120426
+rate E <-> S: 0.224483
+rate E <-> T: 0.201684
+rate E <-> W: 0.020461
+rate E <-> Y: 0.058459
+rate E <-> V: 0.095288
+rate G <-> H: 0.043260
+rate G <-> I: 0.019876
+rate G <-> L: 0.020461
+rate G <-> K: 0.059044
+rate G <-> M: 0.305156
+rate G <-> F: 0.033906
+rate G <-> P: 0.007600
+rate G <-> S: 1.502981
+rate G <-> T: 0.030399
+rate G <-> W: 0.071905
+rate G <-> Y: 0.025137
+rate G <-> V: 0.138548
+rate H <-> I: 0.009353
+rate H <-> L: 0.038583
+rate H <-> K: 0.139717
+rate H <-> M: 0.041506
+rate H <-> F: 0.076581
+rate H <-> P: 0.091196
+rate H <-> S: 0.135040
+rate H <-> T: 0.113410
+rate H <-> W: 0.026307
+rate H <-> Y: 1.557933
+rate H <-> V: 0.001754
+rate I <-> L: 2.485678
+rate I <-> K: 0.049106
+rate I <-> M: 2.628902
+rate I <-> F: 0.527885
+rate I <-> P: 0.015199
+rate I <-> S: 0.042090
+rate I <-> T: 1.299544
+rate I <-> W: 0.056705
+rate I <-> Y: 0.076581
+rate I <-> V: 10.000000
+rate L <-> K: 0.039168
+rate L <-> M: 3.719747
+rate L <-> F: 1.369110
+rate L <-> P: 0.066643
+rate L <-> S: 0.088858
+rate L <-> T: 0.292295
+rate L <-> W: 0.159009
+rate L <-> Y: 0.033322
+rate L <-> V: 0.737168
+rate K <-> M: 0.485210
+rate K <-> F: 0.095288
+rate K <-> P: 0.142055
+rate K <-> S: 0.847071
+rate K <-> T: 0.441366
+rate K <-> W: 0.038583
+rate K <-> Y: 0.263066
+rate K <-> V: 0.064890
+rate M <-> F: 1.260376
+rate M <-> P: 0.031568
+rate M <-> S: 0.557114
+rate M <-> T: 1.783585
+rate M <-> W: 0.284695
+rate M <-> Y: 0.242020
+rate M <-> V: 1.634514
+rate F <-> P: 0.061382
+rate F <-> S: 0.188238
+rate F <-> T: 0.112826
+rate F <-> W: 0.340231
+rate F <-> Y: 3.452005
+rate F <-> V: 0.348416
+rate P <-> S: 0.465918
+rate P <-> T: 0.332632
+rate P <-> W: 0.007600
+rate P <-> Y: 0.024553
+rate P <-> V: 0.104642
+rate S <-> T: 3.895125
+rate S <-> W: 0.060213
+rate S <-> Y: 0.173623
+rate S <-> V: 0.289372
+rate T <-> W: 0.021045
+rate T <-> Y: 0.169531
+rate T <-> V: 2.317316
+rate W <-> Y: 0.466503
+rate W <-> V: 0.080089
+rate Y <-> V: 0.091196
+
+freq pi(A): 0.069160
+freq pi(R): 0.021146
+freq pi(N): 0.034441
+freq pi(D): 0.031056
+freq pi(C): 0.004013
+freq pi(Q): 0.014446
+freq pi(E): 0.014516
+freq pi(G): 0.090760
+freq pi(H): 0.031265
+freq pi(I): 0.094528
+freq pi(L): 0.120490
+freq pi(K): 0.016121
+freq pi(M): 0.038279
+freq pi(F): 0.100216
+freq pi(P): 0.048119
+freq pi(S): 0.074220
+freq pi(T): 0.056145
+freq pi(W): 0.027078
+freq pi(Y): 0.047945
+freq pi(V): 0.066055
+
+Model Parameters of Partition 3, Name: COX2, Type of Data: AA
+alpha: 0.521303
+Tree-Length: 46.524614
+rate A <-> R: 0.019291
+rate A <-> N: 0.009938
+rate A <-> D: 0.094119
+rate A <-> C: 1.593008
+rate A <-> Q: 0.042675
+rate A <-> E: 0.099965
+rate A <-> G: 1.691219
+rate A <-> H: 0.013446
+rate A <-> I: 0.194084
+rate A <-> L: 0.091196
+rate A <-> K: 0.001169
+rate A <-> M: 0.797966
+rate A <-> F: 0.154916
+rate A <-> P: 0.361277
+rate A <-> S: 3.770022
+rate A <-> T: 2.210336
+rate A <-> W: 0.018122
+rate A <-> Y: 0.012276
+rate A <-> V: 1.881796
+rate R <-> N: 0.196422
+rate R <-> D: 0.018707
+rate R <-> C: 0.357185
+rate R <-> Q: 1.350403
+rate R <-> E: 0.037414
+rate R <-> G: 0.042090
+rate R <-> H: 0.360692
+rate R <-> I: 0.001169
+rate R <-> L: 0.023968
+rate R <-> K: 1.708757
+rate R <-> M: 0.022214
+rate R <-> F: 0.001169
+rate R <-> P: 0.043844
+rate R <-> S: 0.068982
+rate R <-> T: 0.018707
+rate R <-> W: 0.098796
+rate R <-> Y: 0.080673
+rate R <-> V: 0.029814
+rate N <-> D: 3.606922
+rate N <-> C: 0.553022
+rate N <-> Q: 1.112475
+rate N <-> E: 1.017187
+rate N <-> G: 0.580498
+rate N <-> H: 1.338127
+rate N <-> I: 0.142055
+rate N <-> L: 0.046183
+rate N <-> K: 2.416696
+rate N <-> M: 0.430843
+rate N <-> F: 0.075412
+rate N <-> P: 0.132117
+rate N <-> S: 2.456448
+rate N <-> T: 1.079154
+rate N <-> W: 0.037414
+rate N <-> Y: 0.827780
+rate N <-> V: 0.041506
+rate D <-> C: 0.055536
+rate D <-> Q: 0.112826
+rate D <-> E: 5.165439
+rate D <-> G: 0.151993
+rate D <-> H: 0.325032
+rate D <-> I: 0.008769
+rate D <-> L: 0.002923
+rate D <-> K: 0.001169
+rate D <-> M: 0.001169
+rate D <-> F: 0.011692
+rate D <-> P: 0.001169
+rate D <-> S: 0.300479
+rate D <-> T: 0.013446
+rate D <-> W: 0.001169
+rate D <-> Y: 0.081258
+rate D <-> V: 0.021630
+rate C <-> Q: 0.287034
+rate C <-> E: 0.019876
+rate C <-> G: 0.481702
+rate C <-> H: 0.219221
+rate C <-> I: 0.285280
+rate C <-> L: 0.349000
+rate C <-> K: 0.001169
+rate C <-> M: 1.547995
+rate C <-> F: 0.980942
+rate C <-> P: 0.047352
+rate C <-> S: 3.836665
+rate C <-> T: 1.163335
+rate C <-> W: 0.211037
+rate C <-> Y: 0.448381
+rate C <-> V: 1.425231
+rate Q <-> E: 2.042558
+rate Q <-> G: 0.052029
+rate Q <-> H: 2.465801
+rate Q <-> I: 0.001169
+rate Q <-> L: 0.134456
+rate Q <-> K: 1.952531
+rate Q <-> M: 0.490471
+rate Q <-> F: 0.055536
+rate Q <-> P: 0.305156
+rate Q <-> S: 0.563545
+rate Q <-> T: 0.230329
+rate Q <-> W: 0.035660
+rate Q <-> Y: 0.305741
+rate Q <-> V: 0.052613
+rate E <-> G: 0.251958
+rate E <-> H: 0.087104
+rate E <-> I: 0.042675
+rate E <-> L: 0.005846
+rate E <-> K: 0.954051
+rate E <-> M: 0.001169
+rate E <-> F: 0.001169
+rate E <-> P: 0.120426
+rate E <-> S: 0.224483
+rate E <-> T: 0.201684
+rate E <-> W: 0.020461
+rate E <-> Y: 0.058459
+rate E <-> V: 0.095288
+rate G <-> H: 0.043260
+rate G <-> I: 0.019876
+rate G <-> L: 0.020461
+rate G <-> K: 0.059044
+rate G <-> M: 0.305156
+rate G <-> F: 0.033906
+rate G <-> P: 0.007600
+rate G <-> S: 1.502981
+rate G <-> T: 0.030399
+rate G <-> W: 0.071905
+rate G <-> Y: 0.025137
+rate G <-> V: 0.138548
+rate H <-> I: 0.009353
+rate H <-> L: 0.038583
+rate H <-> K: 0.139717
+rate H <-> M: 0.041506
+rate H <-> F: 0.076581
+rate H <-> P: 0.091196
+rate H <-> S: 0.135040
+rate H <-> T: 0.113410
+rate H <-> W: 0.026307
+rate H <-> Y: 1.557933
+rate H <-> V: 0.001754
+rate I <-> L: 2.485678
+rate I <-> K: 0.049106
+rate I <-> M: 2.628902
+rate I <-> F: 0.527885
+rate I <-> P: 0.015199
+rate I <-> S: 0.042090
+rate I <-> T: 1.299544
+rate I <-> W: 0.056705
+rate I <-> Y: 0.076581
+rate I <-> V: 10.000000
+rate L <-> K: 0.039168
+rate L <-> M: 3.719747
+rate L <-> F: 1.369110
+rate L <-> P: 0.066643
+rate L <-> S: 0.088858
+rate L <-> T: 0.292295
+rate L <-> W: 0.159009
+rate L <-> Y: 0.033322
+rate L <-> V: 0.737168
+rate K <-> M: 0.485210
+rate K <-> F: 0.095288
+rate K <-> P: 0.142055
+rate K <-> S: 0.847071
+rate K <-> T: 0.441366
+rate K <-> W: 0.038583
+rate K <-> Y: 0.263066
+rate K <-> V: 0.064890
+rate M <-> F: 1.260376
+rate M <-> P: 0.031568
+rate M <-> S: 0.557114
+rate M <-> T: 1.783585
+rate M <-> W: 0.284695
+rate M <-> Y: 0.242020
+rate M <-> V: 1.634514
+rate F <-> P: 0.061382
+rate F <-> S: 0.188238
+rate F <-> T: 0.112826
+rate F <-> W: 0.340231
+rate F <-> Y: 3.452005
+rate F <-> V: 0.348416
+rate P <-> S: 0.465918
+rate P <-> T: 0.332632
+rate P <-> W: 0.007600
+rate P <-> Y: 0.024553
+rate P <-> V: 0.104642
+rate S <-> T: 3.895125
+rate S <-> W: 0.060213
+rate S <-> Y: 0.173623
+rate S <-> V: 0.289372
+rate T <-> W: 0.021045
+rate T <-> Y: 0.169531
+rate T <-> V: 2.317316
+rate W <-> Y: 0.466503
+rate W <-> V: 0.080089
+rate Y <-> V: 0.091196
+
+freq pi(A): 0.049804
+freq pi(R): 0.025393
+freq pi(N): 0.040009
+freq pi(D): 0.053345
+freq pi(C): 0.013262
+freq pi(Q): 0.029461
+freq pi(E): 0.052215
+freq pi(G): 0.049126
+freq pi(H): 0.024187
+freq pi(I): 0.104579
+freq pi(L): 0.113395
+freq pi(K): 0.028783
+freq pi(M): 0.028934
+freq pi(F): 0.065626
+freq pi(P): 0.046414
+freq pi(S): 0.071880
+freq pi(T): 0.047016
+freq pi(W): 0.024865
+freq pi(Y): 0.049201
+freq pi(V): 0.082503
+
+Model Parameters of Partition 4, Name: COX3, Type of Data: AA
+alpha: 0.456460
+Tree-Length: 46.524614
+rate A <-> R: 0.019291
+rate A <-> N: 0.009938
+rate A <-> D: 0.094119
+rate A <-> C: 1.593008
+rate A <-> Q: 0.042675
+rate A <-> E: 0.099965
+rate A <-> G: 1.691219
+rate A <-> H: 0.013446
+rate A <-> I: 0.194084
+rate A <-> L: 0.091196
+rate A <-> K: 0.001169
+rate A <-> M: 0.797966
+rate A <-> F: 0.154916
+rate A <-> P: 0.361277
+rate A <-> S: 3.770022
+rate A <-> T: 2.210336
+rate A <-> W: 0.018122
+rate A <-> Y: 0.012276
+rate A <-> V: 1.881796
+rate R <-> N: 0.196422
+rate R <-> D: 0.018707
+rate R <-> C: 0.357185
+rate R <-> Q: 1.350403
+rate R <-> E: 0.037414
+rate R <-> G: 0.042090
+rate R <-> H: 0.360692
+rate R <-> I: 0.001169
+rate R <-> L: 0.023968
+rate R <-> K: 1.708757
+rate R <-> M: 0.022214
+rate R <-> F: 0.001169
+rate R <-> P: 0.043844
+rate R <-> S: 0.068982
+rate R <-> T: 0.018707
+rate R <-> W: 0.098796
+rate R <-> Y: 0.080673
+rate R <-> V: 0.029814
+rate N <-> D: 3.606922
+rate N <-> C: 0.553022
+rate N <-> Q: 1.112475
+rate N <-> E: 1.017187
+rate N <-> G: 0.580498
+rate N <-> H: 1.338127
+rate N <-> I: 0.142055
+rate N <-> L: 0.046183
+rate N <-> K: 2.416696
+rate N <-> M: 0.430843
+rate N <-> F: 0.075412
+rate N <-> P: 0.132117
+rate N <-> S: 2.456448
+rate N <-> T: 1.079154
+rate N <-> W: 0.037414
+rate N <-> Y: 0.827780
+rate N <-> V: 0.041506
+rate D <-> C: 0.055536
+rate D <-> Q: 0.112826
+rate D <-> E: 5.165439
+rate D <-> G: 0.151993
+rate D <-> H: 0.325032
+rate D <-> I: 0.008769
+rate D <-> L: 0.002923
+rate D <-> K: 0.001169
+rate D <-> M: 0.001169
+rate D <-> F: 0.011692
+rate D <-> P: 0.001169
+rate D <-> S: 0.300479
+rate D <-> T: 0.013446
+rate D <-> W: 0.001169
+rate D <-> Y: 0.081258
+rate D <-> V: 0.021630
+rate C <-> Q: 0.287034
+rate C <-> E: 0.019876
+rate C <-> G: 0.481702
+rate C <-> H: 0.219221
+rate C <-> I: 0.285280
+rate C <-> L: 0.349000
+rate C <-> K: 0.001169
+rate C <-> M: 1.547995
+rate C <-> F: 0.980942
+rate C <-> P: 0.047352
+rate C <-> S: 3.836665
+rate C <-> T: 1.163335
+rate C <-> W: 0.211037
+rate C <-> Y: 0.448381
+rate C <-> V: 1.425231
+rate Q <-> E: 2.042558
+rate Q <-> G: 0.052029
+rate Q <-> H: 2.465801
+rate Q <-> I: 0.001169
+rate Q <-> L: 0.134456
+rate Q <-> K: 1.952531
+rate Q <-> M: 0.490471
+rate Q <-> F: 0.055536
+rate Q <-> P: 0.305156
+rate Q <-> S: 0.563545
+rate Q <-> T: 0.230329
+rate Q <-> W: 0.035660
+rate Q <-> Y: 0.305741
+rate Q <-> V: 0.052613
+rate E <-> G: 0.251958
+rate E <-> H: 0.087104
+rate E <-> I: 0.042675
+rate E <-> L: 0.005846
+rate E <-> K: 0.954051
+rate E <-> M: 0.001169
+rate E <-> F: 0.001169
+rate E <-> P: 0.120426
+rate E <-> S: 0.224483
+rate E <-> T: 0.201684
+rate E <-> W: 0.020461
+rate E <-> Y: 0.058459
+rate E <-> V: 0.095288
+rate G <-> H: 0.043260
+rate G <-> I: 0.019876
+rate G <-> L: 0.020461
+rate G <-> K: 0.059044
+rate G <-> M: 0.305156
+rate G <-> F: 0.033906
+rate G <-> P: 0.007600
+rate G <-> S: 1.502981
+rate G <-> T: 0.030399
+rate G <-> W: 0.071905
+rate G <-> Y: 0.025137
+rate G <-> V: 0.138548
+rate H <-> I: 0.009353
+rate H <-> L: 0.038583
+rate H <-> K: 0.139717
+rate H <-> M: 0.041506
+rate H <-> F: 0.076581
+rate H <-> P: 0.091196
+rate H <-> S: 0.135040
+rate H <-> T: 0.113410
+rate H <-> W: 0.026307
+rate H <-> Y: 1.557933
+rate H <-> V: 0.001754
+rate I <-> L: 2.485678
+rate I <-> K: 0.049106
+rate I <-> M: 2.628902
+rate I <-> F: 0.527885
+rate I <-> P: 0.015199
+rate I <-> S: 0.042090
+rate I <-> T: 1.299544
+rate I <-> W: 0.056705
+rate I <-> Y: 0.076581
+rate I <-> V: 10.000000
+rate L <-> K: 0.039168
+rate L <-> M: 3.719747
+rate L <-> F: 1.369110
+rate L <-> P: 0.066643
+rate L <-> S: 0.088858
+rate L <-> T: 0.292295
+rate L <-> W: 0.159009
+rate L <-> Y: 0.033322
+rate L <-> V: 0.737168
+rate K <-> M: 0.485210
+rate K <-> F: 0.095288
+rate K <-> P: 0.142055
+rate K <-> S: 0.847071
+rate K <-> T: 0.441366
+rate K <-> W: 0.038583
+rate K <-> Y: 0.263066
+rate K <-> V: 0.064890
+rate M <-> F: 1.260376
+rate M <-> P: 0.031568
+rate M <-> S: 0.557114
+rate M <-> T: 1.783585
+rate M <-> W: 0.284695
+rate M <-> Y: 0.242020
+rate M <-> V: 1.634514
+rate F <-> P: 0.061382
+rate F <-> S: 0.188238
+rate F <-> T: 0.112826
+rate F <-> W: 0.340231
+rate F <-> Y: 3.452005
+rate F <-> V: 0.348416
+rate P <-> S: 0.465918
+rate P <-> T: 0.332632
+rate P <-> W: 0.007600
+rate P <-> Y: 0.024553
+rate P <-> V: 0.104642
+rate S <-> T: 3.895125
+rate S <-> W: 0.060213
+rate S <-> Y: 0.173623
+rate S <-> V: 0.289372
+rate T <-> W: 0.021045
+rate T <-> Y: 0.169531
+rate T <-> V: 2.317316
+rate W <-> Y: 0.466503
+rate W <-> V: 0.080089
+rate Y <-> V: 0.091196
+
+freq pi(A): 0.059222
+freq pi(R): 0.019626
+freq pi(N): 0.021906
+freq pi(D): 0.018658
+freq pi(C): 0.014098
+freq pi(Q): 0.019488
+freq pi(E): 0.027089
+freq pi(G): 0.074494
+freq pi(H): 0.049064
+freq pi(I): 0.080851
+freq pi(L): 0.124179
+freq pi(K): 0.015341
+freq pi(M): 0.019004
+freq pi(F): 0.111671
+freq pi(P): 0.035865
+freq pi(S): 0.074286
+freq pi(T): 0.062953
+freq pi(W): 0.038906
+freq pi(Y): 0.051137
+freq pi(V): 0.082164
+
+Model Parameters of Partition 5, Name: CYTB, Type of Data: AA
+alpha: 0.556467
+Tree-Length: 46.524614
+rate A <-> R: 0.019291
+rate A <-> N: 0.009938
+rate A <-> D: 0.094119
+rate A <-> C: 1.593008
+rate A <-> Q: 0.042675
+rate A <-> E: 0.099965
+rate A <-> G: 1.691219
+rate A <-> H: 0.013446
+rate A <-> I: 0.194084
+rate A <-> L: 0.091196
+rate A <-> K: 0.001169
+rate A <-> M: 0.797966
+rate A <-> F: 0.154916
+rate A <-> P: 0.361277
+rate A <-> S: 3.770022
+rate A <-> T: 2.210336
+rate A <-> W: 0.018122
+rate A <-> Y: 0.012276
+rate A <-> V: 1.881796
+rate R <-> N: 0.196422
+rate R <-> D: 0.018707
+rate R <-> C: 0.357185
+rate R <-> Q: 1.350403
+rate R <-> E: 0.037414
+rate R <-> G: 0.042090
+rate R <-> H: 0.360692
+rate R <-> I: 0.001169
+rate R <-> L: 0.023968
+rate R <-> K: 1.708757
+rate R <-> M: 0.022214
+rate R <-> F: 0.001169
+rate R <-> P: 0.043844
+rate R <-> S: 0.068982
+rate R <-> T: 0.018707
+rate R <-> W: 0.098796
+rate R <-> Y: 0.080673
+rate R <-> V: 0.029814
+rate N <-> D: 3.606922
+rate N <-> C: 0.553022
+rate N <-> Q: 1.112475
+rate N <-> E: 1.017187
+rate N <-> G: 0.580498
+rate N <-> H: 1.338127
+rate N <-> I: 0.142055
+rate N <-> L: 0.046183
+rate N <-> K: 2.416696
+rate N <-> M: 0.430843
+rate N <-> F: 0.075412
+rate N <-> P: 0.132117
+rate N <-> S: 2.456448
+rate N <-> T: 1.079154
+rate N <-> W: 0.037414
+rate N <-> Y: 0.827780
+rate N <-> V: 0.041506
+rate D <-> C: 0.055536
+rate D <-> Q: 0.112826
+rate D <-> E: 5.165439
+rate D <-> G: 0.151993
+rate D <-> H: 0.325032
+rate D <-> I: 0.008769
+rate D <-> L: 0.002923
+rate D <-> K: 0.001169
+rate D <-> M: 0.001169
+rate D <-> F: 0.011692
+rate D <-> P: 0.001169
+rate D <-> S: 0.300479
+rate D <-> T: 0.013446
+rate D <-> W: 0.001169
+rate D <-> Y: 0.081258
+rate D <-> V: 0.021630
+rate C <-> Q: 0.287034
+rate C <-> E: 0.019876
+rate C <-> G: 0.481702
+rate C <-> H: 0.219221
+rate C <-> I: 0.285280
+rate C <-> L: 0.349000
+rate C <-> K: 0.001169
+rate C <-> M: 1.547995
+rate C <-> F: 0.980942
+rate C <-> P: 0.047352
+rate C <-> S: 3.836665
+rate C <-> T: 1.163335
+rate C <-> W: 0.211037
+rate C <-> Y: 0.448381
+rate C <-> V: 1.425231
+rate Q <-> E: 2.042558
+rate Q <-> G: 0.052029
+rate Q <-> H: 2.465801
+rate Q <-> I: 0.001169
+rate Q <-> L: 0.134456
+rate Q <-> K: 1.952531
+rate Q <-> M: 0.490471
+rate Q <-> F: 0.055536
+rate Q <-> P: 0.305156
+rate Q <-> S: 0.563545
+rate Q <-> T: 0.230329
+rate Q <-> W: 0.035660
+rate Q <-> Y: 0.305741
+rate Q <-> V: 0.052613
+rate E <-> G: 0.251958
+rate E <-> H: 0.087104
+rate E <-> I: 0.042675
+rate E <-> L: 0.005846
+rate E <-> K: 0.954051
+rate E <-> M: 0.001169
+rate E <-> F: 0.001169
+rate E <-> P: 0.120426
+rate E <-> S: 0.224483
+rate E <-> T: 0.201684
+rate E <-> W: 0.020461
+rate E <-> Y: 0.058459
+rate E <-> V: 0.095288
+rate G <-> H: 0.043260
+rate G <-> I: 0.019876
+rate G <-> L: 0.020461
+rate G <-> K: 0.059044
+rate G <-> M: 0.305156
+rate G <-> F: 0.033906
+rate G <-> P: 0.007600
+rate G <-> S: 1.502981
+rate G <-> T: 0.030399
+rate G <-> W: 0.071905
+rate G <-> Y: 0.025137
+rate G <-> V: 0.138548
+rate H <-> I: 0.009353
+rate H <-> L: 0.038583
+rate H <-> K: 0.139717
+rate H <-> M: 0.041506
+rate H <-> F: 0.076581
+rate H <-> P: 0.091196
+rate H <-> S: 0.135040
+rate H <-> T: 0.113410
+rate H <-> W: 0.026307
+rate H <-> Y: 1.557933
+rate H <-> V: 0.001754
+rate I <-> L: 2.485678
+rate I <-> K: 0.049106
+rate I <-> M: 2.628902
+rate I <-> F: 0.527885
+rate I <-> P: 0.015199
+rate I <-> S: 0.042090
+rate I <-> T: 1.299544
+rate I <-> W: 0.056705
+rate I <-> Y: 0.076581
+rate I <-> V: 10.000000
+rate L <-> K: 0.039168
+rate L <-> M: 3.719747
+rate L <-> F: 1.369110
+rate L <-> P: 0.066643
+rate L <-> S: 0.088858
+rate L <-> T: 0.292295
+rate L <-> W: 0.159009
+rate L <-> Y: 0.033322
+rate L <-> V: 0.737168
+rate K <-> M: 0.485210
+rate K <-> F: 0.095288
+rate K <-> P: 0.142055
+rate K <-> S: 0.847071
+rate K <-> T: 0.441366
+rate K <-> W: 0.038583
+rate K <-> Y: 0.263066
+rate K <-> V: 0.064890
+rate M <-> F: 1.260376
+rate M <-> P: 0.031568
+rate M <-> S: 0.557114
+rate M <-> T: 1.783585
+rate M <-> W: 0.284695
+rate M <-> Y: 0.242020
+rate M <-> V: 1.634514
+rate F <-> P: 0.061382
+rate F <-> S: 0.188238
+rate F <-> T: 0.112826
+rate F <-> W: 0.340231
+rate F <-> Y: 3.452005
+rate F <-> V: 0.348416
+rate P <-> S: 0.465918
+rate P <-> T: 0.332632
+rate P <-> W: 0.007600
+rate P <-> Y: 0.024553
+rate P <-> V: 0.104642
+rate S <-> T: 3.895125
+rate S <-> W: 0.060213
+rate S <-> Y: 0.173623
+rate S <-> V: 0.289372
+rate T <-> W: 0.021045
+rate T <-> Y: 0.169531
+rate T <-> V: 2.317316
+rate W <-> Y: 0.466503
+rate W <-> V: 0.080089
+rate Y <-> V: 0.091196
+
+freq pi(A): 0.055530
+freq pi(R): 0.026614
+freq pi(N): 0.049474
+freq pi(D): 0.023704
+freq pi(C): 0.009152
+freq pi(Q): 0.014785
+freq pi(E): 0.019198
+freq pi(G): 0.066044
+freq pi(H): 0.027365
+freq pi(I): 0.103972
+freq pi(L): 0.145374
+freq pi(K): 0.023704
+freq pi(M): 0.023657
+freq pi(F): 0.102987
+freq pi(P): 0.048019
+freq pi(S): 0.068251
+freq pi(T): 0.039570
+freq pi(W): 0.023939
+freq pi(Y): 0.055436
+freq pi(V): 0.073226
+
+Model Parameters of Partition 6, Name: NAD1, Type of Data: AA
+alpha: 0.610050
+Tree-Length: 46.524614
+rate A <-> R: 0.019291
+rate A <-> N: 0.009938
+rate A <-> D: 0.094119
+rate A <-> C: 1.593008
+rate A <-> Q: 0.042675
+rate A <-> E: 0.099965
+rate A <-> G: 1.691219
+rate A <-> H: 0.013446
+rate A <-> I: 0.194084
+rate A <-> L: 0.091196
+rate A <-> K: 0.001169
+rate A <-> M: 0.797966
+rate A <-> F: 0.154916
+rate A <-> P: 0.361277
+rate A <-> S: 3.770022
+rate A <-> T: 2.210336
+rate A <-> W: 0.018122
+rate A <-> Y: 0.012276
+rate A <-> V: 1.881796
+rate R <-> N: 0.196422
+rate R <-> D: 0.018707
+rate R <-> C: 0.357185
+rate R <-> Q: 1.350403
+rate R <-> E: 0.037414
+rate R <-> G: 0.042090
+rate R <-> H: 0.360692
+rate R <-> I: 0.001169
+rate R <-> L: 0.023968
+rate R <-> K: 1.708757
+rate R <-> M: 0.022214
+rate R <-> F: 0.001169
+rate R <-> P: 0.043844
+rate R <-> S: 0.068982
+rate R <-> T: 0.018707
+rate R <-> W: 0.098796
+rate R <-> Y: 0.080673
+rate R <-> V: 0.029814
+rate N <-> D: 3.606922
+rate N <-> C: 0.553022
+rate N <-> Q: 1.112475
+rate N <-> E: 1.017187
+rate N <-> G: 0.580498
+rate N <-> H: 1.338127
+rate N <-> I: 0.142055
+rate N <-> L: 0.046183
+rate N <-> K: 2.416696
+rate N <-> M: 0.430843
+rate N <-> F: 0.075412
+rate N <-> P: 0.132117
+rate N <-> S: 2.456448
+rate N <-> T: 1.079154
+rate N <-> W: 0.037414
+rate N <-> Y: 0.827780
+rate N <-> V: 0.041506
+rate D <-> C: 0.055536
+rate D <-> Q: 0.112826
+rate D <-> E: 5.165439
+rate D <-> G: 0.151993
+rate D <-> H: 0.325032
+rate D <-> I: 0.008769
+rate D <-> L: 0.002923
+rate D <-> K: 0.001169
+rate D <-> M: 0.001169
+rate D <-> F: 0.011692
+rate D <-> P: 0.001169
+rate D <-> S: 0.300479
+rate D <-> T: 0.013446
+rate D <-> W: 0.001169
+rate D <-> Y: 0.081258
+rate D <-> V: 0.021630
+rate C <-> Q: 0.287034
+rate C <-> E: 0.019876
+rate C <-> G: 0.481702
+rate C <-> H: 0.219221
+rate C <-> I: 0.285280
+rate C <-> L: 0.349000
+rate C <-> K: 0.001169
+rate C <-> M: 1.547995
+rate C <-> F: 0.980942
+rate C <-> P: 0.047352
+rate C <-> S: 3.836665
+rate C <-> T: 1.163335
+rate C <-> W: 0.211037
+rate C <-> Y: 0.448381
+rate C <-> V: 1.425231
+rate Q <-> E: 2.042558
+rate Q <-> G: 0.052029
+rate Q <-> H: 2.465801
+rate Q <-> I: 0.001169
+rate Q <-> L: 0.134456
+rate Q <-> K: 1.952531
+rate Q <-> M: 0.490471
+rate Q <-> F: 0.055536
+rate Q <-> P: 0.305156
+rate Q <-> S: 0.563545
+rate Q <-> T: 0.230329
+rate Q <-> W: 0.035660
+rate Q <-> Y: 0.305741
+rate Q <-> V: 0.052613
+rate E <-> G: 0.251958
+rate E <-> H: 0.087104
+rate E <-> I: 0.042675
+rate E <-> L: 0.005846
+rate E <-> K: 0.954051
+rate E <-> M: 0.001169
+rate E <-> F: 0.001169
+rate E <-> P: 0.120426
+rate E <-> S: 0.224483
+rate E <-> T: 0.201684
+rate E <-> W: 0.020461
+rate E <-> Y: 0.058459
+rate E <-> V: 0.095288
+rate G <-> H: 0.043260
+rate G <-> I: 0.019876
+rate G <-> L: 0.020461
+rate G <-> K: 0.059044
+rate G <-> M: 0.305156
+rate G <-> F: 0.033906
+rate G <-> P: 0.007600
+rate G <-> S: 1.502981
+rate G <-> T: 0.030399
+rate G <-> W: 0.071905
+rate G <-> Y: 0.025137
+rate G <-> V: 0.138548
+rate H <-> I: 0.009353
+rate H <-> L: 0.038583
+rate H <-> K: 0.139717
+rate H <-> M: 0.041506
+rate H <-> F: 0.076581
+rate H <-> P: 0.091196
+rate H <-> S: 0.135040
+rate H <-> T: 0.113410
+rate H <-> W: 0.026307
+rate H <-> Y: 1.557933
+rate H <-> V: 0.001754
+rate I <-> L: 2.485678
+rate I <-> K: 0.049106
+rate I <-> M: 2.628902
+rate I <-> F: 0.527885
+rate I <-> P: 0.015199
+rate I <-> S: 0.042090
+rate I <-> T: 1.299544
+rate I <-> W: 0.056705
+rate I <-> Y: 0.076581
+rate I <-> V: 10.000000
+rate L <-> K: 0.039168
+rate L <-> M: 3.719747
+rate L <-> F: 1.369110
+rate L <-> P: 0.066643
+rate L <-> S: 0.088858
+rate L <-> T: 0.292295
+rate L <-> W: 0.159009
+rate L <-> Y: 0.033322
+rate L <-> V: 0.737168
+rate K <-> M: 0.485210
+rate K <-> F: 0.095288
+rate K <-> P: 0.142055
+rate K <-> S: 0.847071
+rate K <-> T: 0.441366
+rate K <-> W: 0.038583
+rate K <-> Y: 0.263066
+rate K <-> V: 0.064890
+rate M <-> F: 1.260376
+rate M <-> P: 0.031568
+rate M <-> S: 0.557114
+rate M <-> T: 1.783585
+rate M <-> W: 0.284695
+rate M <-> Y: 0.242020
+rate M <-> V: 1.634514
+rate F <-> P: 0.061382
+rate F <-> S: 0.188238
+rate F <-> T: 0.112826
+rate F <-> W: 0.340231
+rate F <-> Y: 3.452005
+rate F <-> V: 0.348416
+rate P <-> S: 0.465918
+rate P <-> T: 0.332632
+rate P <-> W: 0.007600
+rate P <-> Y: 0.024553
+rate P <-> V: 0.104642
+rate S <-> T: 3.895125
+rate S <-> W: 0.060213
+rate S <-> Y: 0.173623
+rate S <-> V: 0.289372
+rate T <-> W: 0.021045
+rate T <-> Y: 0.169531
+rate T <-> V: 2.317316
+rate W <-> Y: 0.466503
+rate W <-> V: 0.080089
+rate Y <-> V: 0.091196
+
+freq pi(A): 0.068163
+freq pi(R): 0.025700
+freq pi(N): 0.032148
+freq pi(D): 0.015085
+freq pi(C): 0.008693
+freq pi(Q): 0.017475
+freq pi(E): 0.032314
+freq pi(G): 0.061883
+freq pi(H): 0.005080
+freq pi(I): 0.123910
+freq pi(L): 0.163205
+freq pi(K): 0.025311
+freq pi(M): 0.027312
+freq pi(F): 0.097732
+freq pi(P): 0.040485
+freq pi(S): 0.085504
+freq pi(T): 0.034982
+freq pi(W): 0.019420
+freq pi(Y): 0.046376
+freq pi(V): 0.069220
+
+Model Parameters of Partition 7, Name: NAD2, Type of Data: AA
+alpha: 1.077248
+Tree-Length: 46.524614
+rate A <-> R: 0.019291
+rate A <-> N: 0.009938
+rate A <-> D: 0.094119
+rate A <-> C: 1.593008
+rate A <-> Q: 0.042675
+rate A <-> E: 0.099965
+rate A <-> G: 1.691219
+rate A <-> H: 0.013446
+rate A <-> I: 0.194084
+rate A <-> L: 0.091196
+rate A <-> K: 0.001169
+rate A <-> M: 0.797966
+rate A <-> F: 0.154916
+rate A <-> P: 0.361277
+rate A <-> S: 3.770022
+rate A <-> T: 2.210336
+rate A <-> W: 0.018122
+rate A <-> Y: 0.012276
+rate A <-> V: 1.881796
+rate R <-> N: 0.196422
+rate R <-> D: 0.018707
+rate R <-> C: 0.357185
+rate R <-> Q: 1.350403
+rate R <-> E: 0.037414
+rate R <-> G: 0.042090
+rate R <-> H: 0.360692
+rate R <-> I: 0.001169
+rate R <-> L: 0.023968
+rate R <-> K: 1.708757
+rate R <-> M: 0.022214
+rate R <-> F: 0.001169
+rate R <-> P: 0.043844
+rate R <-> S: 0.068982
+rate R <-> T: 0.018707
+rate R <-> W: 0.098796
+rate R <-> Y: 0.080673
+rate R <-> V: 0.029814
+rate N <-> D: 3.606922
+rate N <-> C: 0.553022
+rate N <-> Q: 1.112475
+rate N <-> E: 1.017187
+rate N <-> G: 0.580498
+rate N <-> H: 1.338127
+rate N <-> I: 0.142055
+rate N <-> L: 0.046183
+rate N <-> K: 2.416696
+rate N <-> M: 0.430843
+rate N <-> F: 0.075412
+rate N <-> P: 0.132117
+rate N <-> S: 2.456448
+rate N <-> T: 1.079154
+rate N <-> W: 0.037414
+rate N <-> Y: 0.827780
+rate N <-> V: 0.041506
+rate D <-> C: 0.055536
+rate D <-> Q: 0.112826
+rate D <-> E: 5.165439
+rate D <-> G: 0.151993
+rate D <-> H: 0.325032
+rate D <-> I: 0.008769
+rate D <-> L: 0.002923
+rate D <-> K: 0.001169
+rate D <-> M: 0.001169
+rate D <-> F: 0.011692
+rate D <-> P: 0.001169
+rate D <-> S: 0.300479
+rate D <-> T: 0.013446
+rate D <-> W: 0.001169
+rate D <-> Y: 0.081258
+rate D <-> V: 0.021630
+rate C <-> Q: 0.287034
+rate C <-> E: 0.019876
+rate C <-> G: 0.481702
+rate C <-> H: 0.219221
+rate C <-> I: 0.285280
+rate C <-> L: 0.349000
+rate C <-> K: 0.001169
+rate C <-> M: 1.547995
+rate C <-> F: 0.980942
+rate C <-> P: 0.047352
+rate C <-> S: 3.836665
+rate C <-> T: 1.163335
+rate C <-> W: 0.211037
+rate C <-> Y: 0.448381
+rate C <-> V: 1.425231
+rate Q <-> E: 2.042558
+rate Q <-> G: 0.052029
+rate Q <-> H: 2.465801
+rate Q <-> I: 0.001169
+rate Q <-> L: 0.134456
+rate Q <-> K: 1.952531
+rate Q <-> M: 0.490471
+rate Q <-> F: 0.055536
+rate Q <-> P: 0.305156
+rate Q <-> S: 0.563545
+rate Q <-> T: 0.230329
+rate Q <-> W: 0.035660
+rate Q <-> Y: 0.305741
+rate Q <-> V: 0.052613
+rate E <-> G: 0.251958
+rate E <-> H: 0.087104
+rate E <-> I: 0.042675
+rate E <-> L: 0.005846
+rate E <-> K: 0.954051
+rate E <-> M: 0.001169
+rate E <-> F: 0.001169
+rate E <-> P: 0.120426
+rate E <-> S: 0.224483
+rate E <-> T: 0.201684
+rate E <-> W: 0.020461
+rate E <-> Y: 0.058459
+rate E <-> V: 0.095288
+rate G <-> H: 0.043260
+rate G <-> I: 0.019876
+rate G <-> L: 0.020461
+rate G <-> K: 0.059044
+rate G <-> M: 0.305156
+rate G <-> F: 0.033906
+rate G <-> P: 0.007600
+rate G <-> S: 1.502981
+rate G <-> T: 0.030399
+rate G <-> W: 0.071905
+rate G <-> Y: 0.025137
+rate G <-> V: 0.138548
+rate H <-> I: 0.009353
+rate H <-> L: 0.038583
+rate H <-> K: 0.139717
+rate H <-> M: 0.041506
+rate H <-> F: 0.076581
+rate H <-> P: 0.091196
+rate H <-> S: 0.135040
+rate H <-> T: 0.113410
+rate H <-> W: 0.026307
+rate H <-> Y: 1.557933
+rate H <-> V: 0.001754
+rate I <-> L: 2.485678
+rate I <-> K: 0.049106
+rate I <-> M: 2.628902
+rate I <-> F: 0.527885
+rate I <-> P: 0.015199
+rate I <-> S: 0.042090
+rate I <-> T: 1.299544
+rate I <-> W: 0.056705
+rate I <-> Y: 0.076581
+rate I <-> V: 10.000000
+rate L <-> K: 0.039168
+rate L <-> M: 3.719747
+rate L <-> F: 1.369110
+rate L <-> P: 0.066643
+rate L <-> S: 0.088858
+rate L <-> T: 0.292295
+rate L <-> W: 0.159009
+rate L <-> Y: 0.033322
+rate L <-> V: 0.737168
+rate K <-> M: 0.485210
+rate K <-> F: 0.095288
+rate K <-> P: 0.142055
+rate K <-> S: 0.847071
+rate K <-> T: 0.441366
+rate K <-> W: 0.038583
+rate K <-> Y: 0.263066
+rate K <-> V: 0.064890
+rate M <-> F: 1.260376
+rate M <-> P: 0.031568
+rate M <-> S: 0.557114
+rate M <-> T: 1.783585
+rate M <-> W: 0.284695
+rate M <-> Y: 0.242020
+rate M <-> V: 1.634514
+rate F <-> P: 0.061382
+rate F <-> S: 0.188238
+rate F <-> T: 0.112826
+rate F <-> W: 0.340231
+rate F <-> Y: 3.452005
+rate F <-> V: 0.348416
+rate P <-> S: 0.465918
+rate P <-> T: 0.332632
+rate P <-> W: 0.007600
+rate P <-> Y: 0.024553
+rate P <-> V: 0.104642
+rate S <-> T: 3.895125
+rate S <-> W: 0.060213
+rate S <-> Y: 0.173623
+rate S <-> V: 0.289372
+rate T <-> W: 0.021045
+rate T <-> Y: 0.169531
+rate T <-> V: 2.317316
+rate W <-> Y: 0.466503
+rate W <-> V: 0.080089
+rate Y <-> V: 0.091196
+
+freq pi(A): 0.055632
+freq pi(R): 0.019456
+freq pi(N): 0.040928
+freq pi(D): 0.015790
+freq pi(C): 0.009989
+freq pi(Q): 0.019375
+freq pi(E): 0.025579
+freq pi(G): 0.068966
+freq pi(H): 0.011157
+freq pi(I): 0.131731
+freq pi(L): 0.168712
+freq pi(K): 0.032790
+freq pi(M): 0.020302
+freq pi(F): 0.083711
+freq pi(P): 0.029567
+freq pi(S): 0.089794
+freq pi(T): 0.051805
+freq pi(W): 0.015186
+freq pi(Y): 0.048139
+freq pi(V): 0.061393
+
+Model Parameters of Partition 8, Name: NAD3, Type of Data: AA
+alpha: 0.875659
+Tree-Length: 46.524614
+rate A <-> R: 0.019291
+rate A <-> N: 0.009938
+rate A <-> D: 0.094119
+rate A <-> C: 1.593008
+rate A <-> Q: 0.042675
+rate A <-> E: 0.099965
+rate A <-> G: 1.691219
+rate A <-> H: 0.013446
+rate A <-> I: 0.194084
+rate A <-> L: 0.091196
+rate A <-> K: 0.001169
+rate A <-> M: 0.797966
+rate A <-> F: 0.154916
+rate A <-> P: 0.361277
+rate A <-> S: 3.770022
+rate A <-> T: 2.210336
+rate A <-> W: 0.018122
+rate A <-> Y: 0.012276
+rate A <-> V: 1.881796
+rate R <-> N: 0.196422
+rate R <-> D: 0.018707
+rate R <-> C: 0.357185
+rate R <-> Q: 1.350403
+rate R <-> E: 0.037414
+rate R <-> G: 0.042090
+rate R <-> H: 0.360692
+rate R <-> I: 0.001169
+rate R <-> L: 0.023968
+rate R <-> K: 1.708757
+rate R <-> M: 0.022214
+rate R <-> F: 0.001169
+rate R <-> P: 0.043844
+rate R <-> S: 0.068982
+rate R <-> T: 0.018707
+rate R <-> W: 0.098796
+rate R <-> Y: 0.080673
+rate R <-> V: 0.029814
+rate N <-> D: 3.606922
+rate N <-> C: 0.553022
+rate N <-> Q: 1.112475
+rate N <-> E: 1.017187
+rate N <-> G: 0.580498
+rate N <-> H: 1.338127
+rate N <-> I: 0.142055
+rate N <-> L: 0.046183
+rate N <-> K: 2.416696
+rate N <-> M: 0.430843
+rate N <-> F: 0.075412
+rate N <-> P: 0.132117
+rate N <-> S: 2.456448
+rate N <-> T: 1.079154
+rate N <-> W: 0.037414
+rate N <-> Y: 0.827780
+rate N <-> V: 0.041506
+rate D <-> C: 0.055536
+rate D <-> Q: 0.112826
+rate D <-> E: 5.165439
+rate D <-> G: 0.151993
+rate D <-> H: 0.325032
+rate D <-> I: 0.008769
+rate D <-> L: 0.002923
+rate D <-> K: 0.001169
+rate D <-> M: 0.001169
+rate D <-> F: 0.011692
+rate D <-> P: 0.001169
+rate D <-> S: 0.300479
+rate D <-> T: 0.013446
+rate D <-> W: 0.001169
+rate D <-> Y: 0.081258
+rate D <-> V: 0.021630
+rate C <-> Q: 0.287034
+rate C <-> E: 0.019876
+rate C <-> G: 0.481702
+rate C <-> H: 0.219221
+rate C <-> I: 0.285280
+rate C <-> L: 0.349000
+rate C <-> K: 0.001169
+rate C <-> M: 1.547995
+rate C <-> F: 0.980942
+rate C <-> P: 0.047352
+rate C <-> S: 3.836665
+rate C <-> T: 1.163335
+rate C <-> W: 0.211037
+rate C <-> Y: 0.448381
+rate C <-> V: 1.425231
+rate Q <-> E: 2.042558
+rate Q <-> G: 0.052029
+rate Q <-> H: 2.465801
+rate Q <-> I: 0.001169
+rate Q <-> L: 0.134456
+rate Q <-> K: 1.952531
+rate Q <-> M: 0.490471
+rate Q <-> F: 0.055536
+rate Q <-> P: 0.305156
+rate Q <-> S: 0.563545
+rate Q <-> T: 0.230329
+rate Q <-> W: 0.035660
+rate Q <-> Y: 0.305741
+rate Q <-> V: 0.052613
+rate E <-> G: 0.251958
+rate E <-> H: 0.087104
+rate E <-> I: 0.042675
+rate E <-> L: 0.005846
+rate E <-> K: 0.954051
+rate E <-> M: 0.001169
+rate E <-> F: 0.001169
+rate E <-> P: 0.120426
+rate E <-> S: 0.224483
+rate E <-> T: 0.201684
+rate E <-> W: 0.020461
+rate E <-> Y: 0.058459
+rate E <-> V: 0.095288
+rate G <-> H: 0.043260
+rate G <-> I: 0.019876
+rate G <-> L: 0.020461
+rate G <-> K: 0.059044
+rate G <-> M: 0.305156
+rate G <-> F: 0.033906
+rate G <-> P: 0.007600
+rate G <-> S: 1.502981
+rate G <-> T: 0.030399
+rate G <-> W: 0.071905
+rate G <-> Y: 0.025137
+rate G <-> V: 0.138548
+rate H <-> I: 0.009353
+rate H <-> L: 0.038583
+rate H <-> K: 0.139717
+rate H <-> M: 0.041506
+rate H <-> F: 0.076581
+rate H <-> P: 0.091196
+rate H <-> S: 0.135040
+rate H <-> T: 0.113410
+rate H <-> W: 0.026307
+rate H <-> Y: 1.557933
+rate H <-> V: 0.001754
+rate I <-> L: 2.485678
+rate I <-> K: 0.049106
+rate I <-> M: 2.628902
+rate I <-> F: 0.527885
+rate I <-> P: 0.015199
+rate I <-> S: 0.042090
+rate I <-> T: 1.299544
+rate I <-> W: 0.056705
+rate I <-> Y: 0.076581
+rate I <-> V: 10.000000
+rate L <-> K: 0.039168
+rate L <-> M: 3.719747
+rate L <-> F: 1.369110
+rate L <-> P: 0.066643
+rate L <-> S: 0.088858
+rate L <-> T: 0.292295
+rate L <-> W: 0.159009
+rate L <-> Y: 0.033322
+rate L <-> V: 0.737168
+rate K <-> M: 0.485210
+rate K <-> F: 0.095288
+rate K <-> P: 0.142055
+rate K <-> S: 0.847071
+rate K <-> T: 0.441366
+rate K <-> W: 0.038583
+rate K <-> Y: 0.263066
+rate K <-> V: 0.064890
+rate M <-> F: 1.260376
+rate M <-> P: 0.031568
+rate M <-> S: 0.557114
+rate M <-> T: 1.783585
+rate M <-> W: 0.284695
+rate M <-> Y: 0.242020
+rate M <-> V: 1.634514
+rate F <-> P: 0.061382
+rate F <-> S: 0.188238
+rate F <-> T: 0.112826
+rate F <-> W: 0.340231
+rate F <-> Y: 3.452005
+rate F <-> V: 0.348416
+rate P <-> S: 0.465918
+rate P <-> T: 0.332632
+rate P <-> W: 0.007600
+rate P <-> Y: 0.024553
+rate P <-> V: 0.104642
+rate S <-> T: 3.895125
+rate S <-> W: 0.060213
+rate S <-> Y: 0.173623
+rate S <-> V: 0.289372
+rate T <-> W: 0.021045
+rate T <-> Y: 0.169531
+rate T <-> V: 2.317316
+rate W <-> Y: 0.466503
+rate W <-> V: 0.080089
+rate Y <-> V: 0.091196
+
+freq pi(A): 0.026268
+freq pi(R): 0.015034
+freq pi(N): 0.028749
+freq pi(D): 0.027727
+freq pi(C): 0.013575
+freq pi(Q): 0.012991
+freq pi(E): 0.052823
+freq pi(G): 0.062599
+freq pi(H): 0.005988
+freq pi(I): 0.128402
+freq pi(L): 0.151893
+freq pi(K): 0.030937
+freq pi(M): 0.020432
+freq pi(F): 0.136865
+freq pi(P): 0.034293
+freq pi(S): 0.080545
+freq pi(T): 0.032834
+freq pi(W): 0.027290
+freq pi(Y): 0.043777
+freq pi(V): 0.066976
+
+Model Parameters of Partition 9, Name: NAD4, Type of Data: AA
+alpha: 0.758967
+Tree-Length: 46.524614
+rate A <-> R: 0.019291
+rate A <-> N: 0.009938
+rate A <-> D: 0.094119
+rate A <-> C: 1.593008
+rate A <-> Q: 0.042675
+rate A <-> E: 0.099965
+rate A <-> G: 1.691219
+rate A <-> H: 0.013446
+rate A <-> I: 0.194084
+rate A <-> L: 0.091196
+rate A <-> K: 0.001169
+rate A <-> M: 0.797966
+rate A <-> F: 0.154916
+rate A <-> P: 0.361277
+rate A <-> S: 3.770022
+rate A <-> T: 2.210336
+rate A <-> W: 0.018122
+rate A <-> Y: 0.012276
+rate A <-> V: 1.881796
+rate R <-> N: 0.196422
+rate R <-> D: 0.018707
+rate R <-> C: 0.357185
+rate R <-> Q: 1.350403
+rate R <-> E: 0.037414
+rate R <-> G: 0.042090
+rate R <-> H: 0.360692
+rate R <-> I: 0.001169
+rate R <-> L: 0.023968
+rate R <-> K: 1.708757
+rate R <-> M: 0.022214
+rate R <-> F: 0.001169
+rate R <-> P: 0.043844
+rate R <-> S: 0.068982
+rate R <-> T: 0.018707
+rate R <-> W: 0.098796
+rate R <-> Y: 0.080673
+rate R <-> V: 0.029814
+rate N <-> D: 3.606922
+rate N <-> C: 0.553022
+rate N <-> Q: 1.112475
+rate N <-> E: 1.017187
+rate N <-> G: 0.580498
+rate N <-> H: 1.338127
+rate N <-> I: 0.142055
+rate N <-> L: 0.046183
+rate N <-> K: 2.416696
+rate N <-> M: 0.430843
+rate N <-> F: 0.075412
+rate N <-> P: 0.132117
+rate N <-> S: 2.456448
+rate N <-> T: 1.079154
+rate N <-> W: 0.037414
+rate N <-> Y: 0.827780
+rate N <-> V: 0.041506
+rate D <-> C: 0.055536
+rate D <-> Q: 0.112826
+rate D <-> E: 5.165439
+rate D <-> G: 0.151993
+rate D <-> H: 0.325032
+rate D <-> I: 0.008769
+rate D <-> L: 0.002923
+rate D <-> K: 0.001169
+rate D <-> M: 0.001169
+rate D <-> F: 0.011692
+rate D <-> P: 0.001169
+rate D <-> S: 0.300479
+rate D <-> T: 0.013446
+rate D <-> W: 0.001169
+rate D <-> Y: 0.081258
+rate D <-> V: 0.021630
+rate C <-> Q: 0.287034
+rate C <-> E: 0.019876
+rate C <-> G: 0.481702
+rate C <-> H: 0.219221
+rate C <-> I: 0.285280
+rate C <-> L: 0.349000
+rate C <-> K: 0.001169
+rate C <-> M: 1.547995
+rate C <-> F: 0.980942
+rate C <-> P: 0.047352
+rate C <-> S: 3.836665
+rate C <-> T: 1.163335
+rate C <-> W: 0.211037
+rate C <-> Y: 0.448381
+rate C <-> V: 1.425231
+rate Q <-> E: 2.042558
+rate Q <-> G: 0.052029
+rate Q <-> H: 2.465801
+rate Q <-> I: 0.001169
+rate Q <-> L: 0.134456
+rate Q <-> K: 1.952531
+rate Q <-> M: 0.490471
+rate Q <-> F: 0.055536
+rate Q <-> P: 0.305156
+rate Q <-> S: 0.563545
+rate Q <-> T: 0.230329
+rate Q <-> W: 0.035660
+rate Q <-> Y: 0.305741
+rate Q <-> V: 0.052613
+rate E <-> G: 0.251958
+rate E <-> H: 0.087104
+rate E <-> I: 0.042675
+rate E <-> L: 0.005846
+rate E <-> K: 0.954051
+rate E <-> M: 0.001169
+rate E <-> F: 0.001169
+rate E <-> P: 0.120426
+rate E <-> S: 0.224483
+rate E <-> T: 0.201684
+rate E <-> W: 0.020461
+rate E <-> Y: 0.058459
+rate E <-> V: 0.095288
+rate G <-> H: 0.043260
+rate G <-> I: 0.019876
+rate G <-> L: 0.020461
+rate G <-> K: 0.059044
+rate G <-> M: 0.305156
+rate G <-> F: 0.033906
+rate G <-> P: 0.007600
+rate G <-> S: 1.502981
+rate G <-> T: 0.030399
+rate G <-> W: 0.071905
+rate G <-> Y: 0.025137
+rate G <-> V: 0.138548
+rate H <-> I: 0.009353
+rate H <-> L: 0.038583
+rate H <-> K: 0.139717
+rate H <-> M: 0.041506
+rate H <-> F: 0.076581
+rate H <-> P: 0.091196
+rate H <-> S: 0.135040
+rate H <-> T: 0.113410
+rate H <-> W: 0.026307
+rate H <-> Y: 1.557933
+rate H <-> V: 0.001754
+rate I <-> L: 2.485678
+rate I <-> K: 0.049106
+rate I <-> M: 2.628902
+rate I <-> F: 0.527885
+rate I <-> P: 0.015199
+rate I <-> S: 0.042090
+rate I <-> T: 1.299544
+rate I <-> W: 0.056705
+rate I <-> Y: 0.076581
+rate I <-> V: 10.000000
+rate L <-> K: 0.039168
+rate L <-> M: 3.719747
+rate L <-> F: 1.369110
+rate L <-> P: 0.066643
+rate L <-> S: 0.088858
+rate L <-> T: 0.292295
+rate L <-> W: 0.159009
+rate L <-> Y: 0.033322
+rate L <-> V: 0.737168
+rate K <-> M: 0.485210
+rate K <-> F: 0.095288
+rate K <-> P: 0.142055
+rate K <-> S: 0.847071
+rate K <-> T: 0.441366
+rate K <-> W: 0.038583
+rate K <-> Y: 0.263066
+rate K <-> V: 0.064890
+rate M <-> F: 1.260376
+rate M <-> P: 0.031568
+rate M <-> S: 0.557114
+rate M <-> T: 1.783585
+rate M <-> W: 0.284695
+rate M <-> Y: 0.242020
+rate M <-> V: 1.634514
+rate F <-> P: 0.061382
+rate F <-> S: 0.188238
+rate F <-> T: 0.112826
+rate F <-> W: 0.340231
+rate F <-> Y: 3.452005
+rate F <-> V: 0.348416
+rate P <-> S: 0.465918
+rate P <-> T: 0.332632
+rate P <-> W: 0.007600
+rate P <-> Y: 0.024553
+rate P <-> V: 0.104642
+rate S <-> T: 3.895125
+rate S <-> W: 0.060213
+rate S <-> Y: 0.173623
+rate S <-> V: 0.289372
+rate T <-> W: 0.021045
+rate T <-> Y: 0.169531
+rate T <-> V: 2.317316
+rate W <-> Y: 0.466503
+rate W <-> V: 0.080089
+rate Y <-> V: 0.091196
+
+freq pi(A): 0.054905
+freq pi(R): 0.026263
+freq pi(N): 0.029072
+freq pi(D): 0.015454
+freq pi(C): 0.012878
+freq pi(Q): 0.017795
+freq pi(E): 0.026770
+freq pi(G): 0.059510
+freq pi(H): 0.016624
+freq pi(I): 0.125535
+freq pi(L): 0.164948
+freq pi(K): 0.027043
+freq pi(M): 0.024000
+freq pi(F): 0.112268
+freq pi(P): 0.034731
+freq pi(S): 0.077343
+freq pi(T): 0.049754
+freq pi(W): 0.015649
+freq pi(Y): 0.048466
+freq pi(V): 0.060993
+
+Model Parameters of Partition 10, Name: NAD5, Type of Data: AA
+alpha: 0.581557
+Tree-Length: 46.524614
+rate A <-> R: 0.019291
+rate A <-> N: 0.009938
+rate A <-> D: 0.094119
+rate A <-> C: 1.593008
+rate A <-> Q: 0.042675
+rate A <-> E: 0.099965
+rate A <-> G: 1.691219
+rate A <-> H: 0.013446
+rate A <-> I: 0.194084
+rate A <-> L: 0.091196
+rate A <-> K: 0.001169
+rate A <-> M: 0.797966
+rate A <-> F: 0.154916
+rate A <-> P: 0.361277
+rate A <-> S: 3.770022
+rate A <-> T: 2.210336
+rate A <-> W: 0.018122
+rate A <-> Y: 0.012276
+rate A <-> V: 1.881796
+rate R <-> N: 0.196422
+rate R <-> D: 0.018707
+rate R <-> C: 0.357185
+rate R <-> Q: 1.350403
+rate R <-> E: 0.037414
+rate R <-> G: 0.042090
+rate R <-> H: 0.360692
+rate R <-> I: 0.001169
+rate R <-> L: 0.023968
+rate R <-> K: 1.708757
+rate R <-> M: 0.022214
+rate R <-> F: 0.001169
+rate R <-> P: 0.043844
+rate R <-> S: 0.068982
+rate R <-> T: 0.018707
+rate R <-> W: 0.098796
+rate R <-> Y: 0.080673
+rate R <-> V: 0.029814
+rate N <-> D: 3.606922
+rate N <-> C: 0.553022
+rate N <-> Q: 1.112475
+rate N <-> E: 1.017187
+rate N <-> G: 0.580498
+rate N <-> H: 1.338127
+rate N <-> I: 0.142055
+rate N <-> L: 0.046183
+rate N <-> K: 2.416696
+rate N <-> M: 0.430843
+rate N <-> F: 0.075412
+rate N <-> P: 0.132117
+rate N <-> S: 2.456448
+rate N <-> T: 1.079154
+rate N <-> W: 0.037414
+rate N <-> Y: 0.827780
+rate N <-> V: 0.041506
+rate D <-> C: 0.055536
+rate D <-> Q: 0.112826
+rate D <-> E: 5.165439
+rate D <-> G: 0.151993
+rate D <-> H: 0.325032
+rate D <-> I: 0.008769
+rate D <-> L: 0.002923
+rate D <-> K: 0.001169
+rate D <-> M: 0.001169
+rate D <-> F: 0.011692
+rate D <-> P: 0.001169
+rate D <-> S: 0.300479
+rate D <-> T: 0.013446
+rate D <-> W: 0.001169
+rate D <-> Y: 0.081258
+rate D <-> V: 0.021630
+rate C <-> Q: 0.287034
+rate C <-> E: 0.019876
+rate C <-> G: 0.481702
+rate C <-> H: 0.219221
+rate C <-> I: 0.285280
+rate C <-> L: 0.349000
+rate C <-> K: 0.001169
+rate C <-> M: 1.547995
+rate C <-> F: 0.980942
+rate C <-> P: 0.047352
+rate C <-> S: 3.836665
+rate C <-> T: 1.163335
+rate C <-> W: 0.211037
+rate C <-> Y: 0.448381
+rate C <-> V: 1.425231
+rate Q <-> E: 2.042558
+rate Q <-> G: 0.052029
+rate Q <-> H: 2.465801
+rate Q <-> I: 0.001169
+rate Q <-> L: 0.134456
+rate Q <-> K: 1.952531
+rate Q <-> M: 0.490471
+rate Q <-> F: 0.055536
+rate Q <-> P: 0.305156
+rate Q <-> S: 0.563545
+rate Q <-> T: 0.230329
+rate Q <-> W: 0.035660
+rate Q <-> Y: 0.305741
+rate Q <-> V: 0.052613
+rate E <-> G: 0.251958
+rate E <-> H: 0.087104
+rate E <-> I: 0.042675
+rate E <-> L: 0.005846
+rate E <-> K: 0.954051
+rate E <-> M: 0.001169
+rate E <-> F: 0.001169
+rate E <-> P: 0.120426
+rate E <-> S: 0.224483
+rate E <-> T: 0.201684
+rate E <-> W: 0.020461
+rate E <-> Y: 0.058459
+rate E <-> V: 0.095288
+rate G <-> H: 0.043260
+rate G <-> I: 0.019876
+rate G <-> L: 0.020461
+rate G <-> K: 0.059044
+rate G <-> M: 0.305156
+rate G <-> F: 0.033906
+rate G <-> P: 0.007600
+rate G <-> S: 1.502981
+rate G <-> T: 0.030399
+rate G <-> W: 0.071905
+rate G <-> Y: 0.025137
+rate G <-> V: 0.138548
+rate H <-> I: 0.009353
+rate H <-> L: 0.038583
+rate H <-> K: 0.139717
+rate H <-> M: 0.041506
+rate H <-> F: 0.076581
+rate H <-> P: 0.091196
+rate H <-> S: 0.135040
+rate H <-> T: 0.113410
+rate H <-> W: 0.026307
+rate H <-> Y: 1.557933
+rate H <-> V: 0.001754
+rate I <-> L: 2.485678
+rate I <-> K: 0.049106
+rate I <-> M: 2.628902
+rate I <-> F: 0.527885
+rate I <-> P: 0.015199
+rate I <-> S: 0.042090
+rate I <-> T: 1.299544
+rate I <-> W: 0.056705
+rate I <-> Y: 0.076581
+rate I <-> V: 10.000000
+rate L <-> K: 0.039168
+rate L <-> M: 3.719747
+rate L <-> F: 1.369110
+rate L <-> P: 0.066643
+rate L <-> S: 0.088858
+rate L <-> T: 0.292295
+rate L <-> W: 0.159009
+rate L <-> Y: 0.033322
+rate L <-> V: 0.737168
+rate K <-> M: 0.485210
+rate K <-> F: 0.095288
+rate K <-> P: 0.142055
+rate K <-> S: 0.847071
+rate K <-> T: 0.441366
+rate K <-> W: 0.038583
+rate K <-> Y: 0.263066
+rate K <-> V: 0.064890
+rate M <-> F: 1.260376
+rate M <-> P: 0.031568
+rate M <-> S: 0.557114
+rate M <-> T: 1.783585
+rate M <-> W: 0.284695
+rate M <-> Y: 0.242020
+rate M <-> V: 1.634514
+rate F <-> P: 0.061382
+rate F <-> S: 0.188238
+rate F <-> T: 0.112826
+rate F <-> W: 0.340231
+rate F <-> Y: 3.452005
+rate F <-> V: 0.348416
+rate P <-> S: 0.465918
+rate P <-> T: 0.332632
+rate P <-> W: 0.007600
+rate P <-> Y: 0.024553
+rate P <-> V: 0.104642
+rate S <-> T: 3.895125
+rate S <-> W: 0.060213
+rate S <-> Y: 0.173623
+rate S <-> V: 0.289372
+rate T <-> W: 0.021045
+rate T <-> Y: 0.169531
+rate T <-> V: 2.317316
+rate W <-> Y: 0.466503
+rate W <-> V: 0.080089
+rate Y <-> V: 0.091196
+
+freq pi(A): 0.060535
+freq pi(R): 0.021341
+freq pi(N): 0.038126
+freq pi(D): 0.021668
+freq pi(C): 0.012264
+freq pi(Q): 0.017829
+freq pi(E): 0.021311
+freq pi(G): 0.070594
+freq pi(H): 0.018097
+freq pi(I): 0.109550
+freq pi(L): 0.148358
+freq pi(K): 0.033989
+freq pi(M): 0.030239
+freq pi(F): 0.100831
+freq pi(P): 0.027977
+freq pi(S): 0.085087
+freq pi(T): 0.054762
+freq pi(W): 0.017740
+freq pi(Y): 0.050893
+freq pi(V): 0.058809
+
+Model Parameters of Partition 11, Name: NAD6, Type of Data: AA
+alpha: 0.634536
+Tree-Length: 46.524614
+rate A <-> R: 0.019291
+rate A <-> N: 0.009938
+rate A <-> D: 0.094119
+rate A <-> C: 1.593008
+rate A <-> Q: 0.042675
+rate A <-> E: 0.099965
+rate A <-> G: 1.691219
+rate A <-> H: 0.013446
+rate A <-> I: 0.194084
+rate A <-> L: 0.091196
+rate A <-> K: 0.001169
+rate A <-> M: 0.797966
+rate A <-> F: 0.154916
+rate A <-> P: 0.361277
+rate A <-> S: 3.770022
+rate A <-> T: 2.210336
+rate A <-> W: 0.018122
+rate A <-> Y: 0.012276
+rate A <-> V: 1.881796
+rate R <-> N: 0.196422
+rate R <-> D: 0.018707
+rate R <-> C: 0.357185
+rate R <-> Q: 1.350403
+rate R <-> E: 0.037414
+rate R <-> G: 0.042090
+rate R <-> H: 0.360692
+rate R <-> I: 0.001169
+rate R <-> L: 0.023968
+rate R <-> K: 1.708757
+rate R <-> M: 0.022214
+rate R <-> F: 0.001169
+rate R <-> P: 0.043844
+rate R <-> S: 0.068982
+rate R <-> T: 0.018707
+rate R <-> W: 0.098796
+rate R <-> Y: 0.080673
+rate R <-> V: 0.029814
+rate N <-> D: 3.606922
+rate N <-> C: 0.553022
+rate N <-> Q: 1.112475
+rate N <-> E: 1.017187
+rate N <-> G: 0.580498
+rate N <-> H: 1.338127
+rate N <-> I: 0.142055
+rate N <-> L: 0.046183
+rate N <-> K: 2.416696
+rate N <-> M: 0.430843
+rate N <-> F: 0.075412
+rate N <-> P: 0.132117
+rate N <-> S: 2.456448
+rate N <-> T: 1.079154
+rate N <-> W: 0.037414
+rate N <-> Y: 0.827780
+rate N <-> V: 0.041506
+rate D <-> C: 0.055536
+rate D <-> Q: 0.112826
+rate D <-> E: 5.165439
+rate D <-> G: 0.151993
+rate D <-> H: 0.325032
+rate D <-> I: 0.008769
+rate D <-> L: 0.002923
+rate D <-> K: 0.001169
+rate D <-> M: 0.001169
+rate D <-> F: 0.011692
+rate D <-> P: 0.001169
+rate D <-> S: 0.300479
+rate D <-> T: 0.013446
+rate D <-> W: 0.001169
+rate D <-> Y: 0.081258
+rate D <-> V: 0.021630
+rate C <-> Q: 0.287034
+rate C <-> E: 0.019876
+rate C <-> G: 0.481702
+rate C <-> H: 0.219221
+rate C <-> I: 0.285280
+rate C <-> L: 0.349000
+rate C <-> K: 0.001169
+rate C <-> M: 1.547995
+rate C <-> F: 0.980942
+rate C <-> P: 0.047352
+rate C <-> S: 3.836665
+rate C <-> T: 1.163335
+rate C <-> W: 0.211037
+rate C <-> Y: 0.448381
+rate C <-> V: 1.425231
+rate Q <-> E: 2.042558
+rate Q <-> G: 0.052029
+rate Q <-> H: 2.465801
+rate Q <-> I: 0.001169
+rate Q <-> L: 0.134456
+rate Q <-> K: 1.952531
+rate Q <-> M: 0.490471
+rate Q <-> F: 0.055536
+rate Q <-> P: 0.305156
+rate Q <-> S: 0.563545
+rate Q <-> T: 0.230329
+rate Q <-> W: 0.035660
+rate Q <-> Y: 0.305741
+rate Q <-> V: 0.052613
+rate E <-> G: 0.251958
+rate E <-> H: 0.087104
+rate E <-> I: 0.042675
+rate E <-> L: 0.005846
+rate E <-> K: 0.954051
+rate E <-> M: 0.001169
+rate E <-> F: 0.001169
+rate E <-> P: 0.120426
+rate E <-> S: 0.224483
+rate E <-> T: 0.201684
+rate E <-> W: 0.020461
+rate E <-> Y: 0.058459
+rate E <-> V: 0.095288
+rate G <-> H: 0.043260
+rate G <-> I: 0.019876
+rate G <-> L: 0.020461
+rate G <-> K: 0.059044
+rate G <-> M: 0.305156
+rate G <-> F: 0.033906
+rate G <-> P: 0.007600
+rate G <-> S: 1.502981
+rate G <-> T: 0.030399
+rate G <-> W: 0.071905
+rate G <-> Y: 0.025137
+rate G <-> V: 0.138548
+rate H <-> I: 0.009353
+rate H <-> L: 0.038583
+rate H <-> K: 0.139717
+rate H <-> M: 0.041506
+rate H <-> F: 0.076581
+rate H <-> P: 0.091196
+rate H <-> S: 0.135040
+rate H <-> T: 0.113410
+rate H <-> W: 0.026307
+rate H <-> Y: 1.557933
+rate H <-> V: 0.001754
+rate I <-> L: 2.485678
+rate I <-> K: 0.049106
+rate I <-> M: 2.628902
+rate I <-> F: 0.527885
+rate I <-> P: 0.015199
+rate I <-> S: 0.042090
+rate I <-> T: 1.299544
+rate I <-> W: 0.056705
+rate I <-> Y: 0.076581
+rate I <-> V: 10.000000
+rate L <-> K: 0.039168
+rate L <-> M: 3.719747
+rate L <-> F: 1.369110
+rate L <-> P: 0.066643
+rate L <-> S: 0.088858
+rate L <-> T: 0.292295
+rate L <-> W: 0.159009
+rate L <-> Y: 0.033322
+rate L <-> V: 0.737168
+rate K <-> M: 0.485210
+rate K <-> F: 0.095288
+rate K <-> P: 0.142055
+rate K <-> S: 0.847071
+rate K <-> T: 0.441366
+rate K <-> W: 0.038583
+rate K <-> Y: 0.263066
+rate K <-> V: 0.064890
+rate M <-> F: 1.260376
+rate M <-> P: 0.031568
+rate M <-> S: 0.557114
+rate M <-> T: 1.783585
+rate M <-> W: 0.284695
+rate M <-> Y: 0.242020
+rate M <-> V: 1.634514
+rate F <-> P: 0.061382
+rate F <-> S: 0.188238
+rate F <-> T: 0.112826
+rate F <-> W: 0.340231
+rate F <-> Y: 3.452005
+rate F <-> V: 0.348416
+rate P <-> S: 0.465918
+rate P <-> T: 0.332632
+rate P <-> W: 0.007600
+rate P <-> Y: 0.024553
+rate P <-> V: 0.104642
+rate S <-> T: 3.895125
+rate S <-> W: 0.060213
+rate S <-> Y: 0.173623
+rate S <-> V: 0.289372
+rate T <-> W: 0.021045
+rate T <-> Y: 0.169531
+rate T <-> V: 2.317316
+rate W <-> Y: 0.466503
+rate W <-> V: 0.080089
+rate Y <-> V: 0.091196
+
+freq pi(A): 0.057332
+freq pi(R): 0.019283
+freq pi(N): 0.051669
+freq pi(D): 0.024747
+freq pi(C): 0.005872
+freq pi(Q): 0.022164
+freq pi(E): 0.030608
+freq pi(G): 0.061206
+freq pi(H): 0.013124
+freq pi(I): 0.136806
+freq pi(L): 0.154291
+freq pi(K): 0.022065
+freq pi(M): 0.034582
+freq pi(F): 0.087035
+freq pi(P): 0.024250
+freq pi(S): 0.079783
+freq pi(T): 0.045609
+freq pi(W): 0.011932
+freq pi(Y): 0.042827
+freq pi(V): 0.074816
+
+Model Parameters of Partition 12, Name: ND4L, Type of Data: AA
+alpha: 1.079211
+Tree-Length: 46.524614
+rate A <-> R: 0.019291
+rate A <-> N: 0.009938
+rate A <-> D: 0.094119
+rate A <-> C: 1.593008
+rate A <-> Q: 0.042675
+rate A <-> E: 0.099965
+rate A <-> G: 1.691219
+rate A <-> H: 0.013446
+rate A <-> I: 0.194084
+rate A <-> L: 0.091196
+rate A <-> K: 0.001169
+rate A <-> M: 0.797966
+rate A <-> F: 0.154916
+rate A <-> P: 0.361277
+rate A <-> S: 3.770022
+rate A <-> T: 2.210336
+rate A <-> W: 0.018122
+rate A <-> Y: 0.012276
+rate A <-> V: 1.881796
+rate R <-> N: 0.196422
+rate R <-> D: 0.018707
+rate R <-> C: 0.357185
+rate R <-> Q: 1.350403
+rate R <-> E: 0.037414
+rate R <-> G: 0.042090
+rate R <-> H: 0.360692
+rate R <-> I: 0.001169
+rate R <-> L: 0.023968
+rate R <-> K: 1.708757
+rate R <-> M: 0.022214
+rate R <-> F: 0.001169
+rate R <-> P: 0.043844
+rate R <-> S: 0.068982
+rate R <-> T: 0.018707
+rate R <-> W: 0.098796
+rate R <-> Y: 0.080673
+rate R <-> V: 0.029814
+rate N <-> D: 3.606922
+rate N <-> C: 0.553022
+rate N <-> Q: 1.112475
+rate N <-> E: 1.017187
+rate N <-> G: 0.580498
+rate N <-> H: 1.338127
+rate N <-> I: 0.142055
+rate N <-> L: 0.046183
+rate N <-> K: 2.416696
+rate N <-> M: 0.430843
+rate N <-> F: 0.075412
+rate N <-> P: 0.132117
+rate N <-> S: 2.456448
+rate N <-> T: 1.079154
+rate N <-> W: 0.037414
+rate N <-> Y: 0.827780
+rate N <-> V: 0.041506
+rate D <-> C: 0.055536
+rate D <-> Q: 0.112826
+rate D <-> E: 5.165439
+rate D <-> G: 0.151993
+rate D <-> H: 0.325032
+rate D <-> I: 0.008769
+rate D <-> L: 0.002923
+rate D <-> K: 0.001169
+rate D <-> M: 0.001169
+rate D <-> F: 0.011692
+rate D <-> P: 0.001169
+rate D <-> S: 0.300479
+rate D <-> T: 0.013446
+rate D <-> W: 0.001169
+rate D <-> Y: 0.081258
+rate D <-> V: 0.021630
+rate C <-> Q: 0.287034
+rate C <-> E: 0.019876
+rate C <-> G: 0.481702
+rate C <-> H: 0.219221
+rate C <-> I: 0.285280
+rate C <-> L: 0.349000
+rate C <-> K: 0.001169
+rate C <-> M: 1.547995
+rate C <-> F: 0.980942
+rate C <-> P: 0.047352
+rate C <-> S: 3.836665
+rate C <-> T: 1.163335
+rate C <-> W: 0.211037
+rate C <-> Y: 0.448381
+rate C <-> V: 1.425231
+rate Q <-> E: 2.042558
+rate Q <-> G: 0.052029
+rate Q <-> H: 2.465801
+rate Q <-> I: 0.001169
+rate Q <-> L: 0.134456
+rate Q <-> K: 1.952531
+rate Q <-> M: 0.490471
+rate Q <-> F: 0.055536
+rate Q <-> P: 0.305156
+rate Q <-> S: 0.563545
+rate Q <-> T: 0.230329
+rate Q <-> W: 0.035660
+rate Q <-> Y: 0.305741
+rate Q <-> V: 0.052613
+rate E <-> G: 0.251958
+rate E <-> H: 0.087104
+rate E <-> I: 0.042675
+rate E <-> L: 0.005846
+rate E <-> K: 0.954051
+rate E <-> M: 0.001169
+rate E <-> F: 0.001169
+rate E <-> P: 0.120426
+rate E <-> S: 0.224483
+rate E <-> T: 0.201684
+rate E <-> W: 0.020461
+rate E <-> Y: 0.058459
+rate E <-> V: 0.095288
+rate G <-> H: 0.043260
+rate G <-> I: 0.019876
+rate G <-> L: 0.020461
+rate G <-> K: 0.059044
+rate G <-> M: 0.305156
+rate G <-> F: 0.033906
+rate G <-> P: 0.007600
+rate G <-> S: 1.502981
+rate G <-> T: 0.030399
+rate G <-> W: 0.071905
+rate G <-> Y: 0.025137
+rate G <-> V: 0.138548
+rate H <-> I: 0.009353
+rate H <-> L: 0.038583
+rate H <-> K: 0.139717
+rate H <-> M: 0.041506
+rate H <-> F: 0.076581
+rate H <-> P: 0.091196
+rate H <-> S: 0.135040
+rate H <-> T: 0.113410
+rate H <-> W: 0.026307
+rate H <-> Y: 1.557933
+rate H <-> V: 0.001754
+rate I <-> L: 2.485678
+rate I <-> K: 0.049106
+rate I <-> M: 2.628902
+rate I <-> F: 0.527885
+rate I <-> P: 0.015199
+rate I <-> S: 0.042090
+rate I <-> T: 1.299544
+rate I <-> W: 0.056705
+rate I <-> Y: 0.076581
+rate I <-> V: 10.000000
+rate L <-> K: 0.039168
+rate L <-> M: 3.719747
+rate L <-> F: 1.369110
+rate L <-> P: 0.066643
+rate L <-> S: 0.088858
+rate L <-> T: 0.292295
+rate L <-> W: 0.159009
+rate L <-> Y: 0.033322
+rate L <-> V: 0.737168
+rate K <-> M: 0.485210
+rate K <-> F: 0.095288
+rate K <-> P: 0.142055
+rate K <-> S: 0.847071
+rate K <-> T: 0.441366
+rate K <-> W: 0.038583
+rate K <-> Y: 0.263066
+rate K <-> V: 0.064890
+rate M <-> F: 1.260376
+rate M <-> P: 0.031568
+rate M <-> S: 0.557114
+rate M <-> T: 1.783585
+rate M <-> W: 0.284695
+rate M <-> Y: 0.242020
+rate M <-> V: 1.634514
+rate F <-> P: 0.061382
+rate F <-> S: 0.188238
+rate F <-> T: 0.112826
+rate F <-> W: 0.340231
+rate F <-> Y: 3.452005
+rate F <-> V: 0.348416
+rate P <-> S: 0.465918
+rate P <-> T: 0.332632
+rate P <-> W: 0.007600
+rate P <-> Y: 0.024553
+rate P <-> V: 0.104642
+rate S <-> T: 3.895125
+rate S <-> W: 0.060213
+rate S <-> Y: 0.173623
+rate S <-> V: 0.289372
+rate T <-> W: 0.021045
+rate T <-> Y: 0.169531
+rate T <-> V: 2.317316
+rate W <-> Y: 0.466503
+rate W <-> V: 0.080089
+rate Y <-> V: 0.091196
+
+freq pi(A): 0.070406
+freq pi(R): 0.035010
+freq pi(N): 0.044101
+freq pi(D): 0.008898
+freq pi(C): 0.005029
+freq pi(Q): 0.008511
+freq pi(E): 0.027466
+freq pi(G): 0.064023
+freq pi(H): 0.003482
+freq pi(I): 0.179497
+freq pi(L): 0.193230
+freq pi(K): 0.017021
+freq pi(M): 0.038298
+freq pi(F): 0.079497
+freq pi(P): 0.001741
+freq pi(S): 0.070986
+freq pi(T): 0.045068
+freq pi(W): 0.001741
+freq pi(Y): 0.039845
+freq pi(V): 0.066151
+
+
+ML search took 9328.364998 secs or 2.591212 hours
+
+Combined Bootstrap and ML search took 17769.683451 secs or 4.936023 hours
+
+Drawing Bootstrap Support Values on best-scoring ML tree ...
+
+
+
+Found 1 tree in File /home/dschultz/git/beroe_forskalii_mitogenome/phylogeny/20180609_rooted_tree/RAxML_bestTree.best
+
+
+
+Found 1 tree in File /home/dschultz/git/beroe_forskalii_mitogenome/phylogeny/20180609_rooted_tree/RAxML_bestTree.best
+
+Program execution info written to /home/dschultz/git/beroe_forskalii_mitogenome/phylogeny/20180609_rooted_tree/RAxML_info.best
+All 200 bootstrapped trees written to: /home/dschultz/git/beroe_forskalii_mitogenome/phylogeny/20180609_rooted_tree/RAxML_bootstrap.best
+
+Best-scoring ML tree written to: /home/dschultz/git/beroe_forskalii_mitogenome/phylogeny/20180609_rooted_tree/RAxML_bestTree.best
+
+Best-scoring ML tree with support values written to: /home/dschultz/git/beroe_forskalii_mitogenome/phylogeny/20180609_rooted_tree/RAxML_bipartitions.best
+
+Best-scoring ML tree with support values as branch labels written to: /home/dschultz/git/beroe_forskalii_mitogenome/phylogeny/20180609_rooted_tree/RAxML_bipartitionsBranchLabels.best
+
+Overall execution time for full ML analysis: 17769.714264 secs or 4.936032 hours or 0.205668 days
+
