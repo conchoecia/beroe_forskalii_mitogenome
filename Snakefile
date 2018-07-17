@@ -16,8 +16,31 @@ rule all:
         "figures/nuc_div/nucdiv.csv",
         "figures/nuc_div/nuc_div_boxplot.png",
         "figures/nuc_div/nuc_div_picheck.png",
-        "figures/codonusage/codonplot.pdf"
+        "figures/codonusage/codonplot.pdf",
+        #raxml
+        "phylogeny/20180609_rooted_tree/RAxML_bipartitions.best"
 
+rule raxml:
+    input:
+        "phylogeny/20180609_rooted_tree/nuc_and_prot.phy",
+        "phylogeny/20180609_rooted_tree/partition.txt"
+    output:
+        "phylogeny/20180609_rooted_tree/RAxML_bipartitions.best"
+    params:
+        wd = "phylogeny/20180609_rooted_tree"
+    shell:
+        """
+        cd {params.wd};\
+        raxmlHPC-PTHREADS-SSE3 \
+          -m GTRGAMMA \
+          -p 12345 -x 12345 \
+          -f a -# autoMRE \
+          -o FUN_Imsh_alue_NC035550 \
+          -s nuc_and_prot.phy \
+          -q partition.txt
+          -n best -T 4; \
+        cd ../../
+        """
 
 rule plot_synteny:
     """Generates the synteny plot of all of the ctenophore mitochondrial genomes.
