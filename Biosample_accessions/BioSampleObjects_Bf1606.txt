@@ -1,2 +1,0 @@
-Accession	Sample Name	Organism	Tax ID	Breed	Isolate	
-SAMN08156691	Bf1606	Beroe forskalii	140453	not applicable	not applicable	

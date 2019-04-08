@@ -1,0 +1,2 @@
+Accession	Sample Name	Organism	Tax ID	Breed	Isolate	
+SAMN08156690	Bf201311	Beroe forskalii	140453	not applicable	not applicable	
