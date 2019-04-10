@@ -1,0 +1,1700 @@
+--- init HoT_COS_GUIDANCE2.pl pid=75473 Wed Apr 10 14:50:36 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_0_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_0.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 94 of 121 ...
+---
+ MSA_0_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_0_cos_MFT
+Wed Apr 10 14:50:37 2019
+--- init HoT_COS_GUIDANCE2.pl pid=76039 Wed Apr 10 14:50:37 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_1_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_1.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 101 of 121 ...
+---
+ MSA_1_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_1_cos_MFT
+Wed Apr 10 14:50:39 2019
+--- init HoT_COS_GUIDANCE2.pl pid=76606 Wed Apr 10 14:50:39 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_2_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_2.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 57 of 121 ...
+---
+ MSA_2_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_2_cos_MFT
+Wed Apr 10 14:50:40 2019
+--- init HoT_COS_GUIDANCE2.pl pid=76984 Wed Apr 10 14:50:40 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_3_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_3.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 41 of 121 ...
+---
+ MSA_3_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_3_cos_MFT
+Wed Apr 10 14:50:41 2019
+--- init HoT_COS_GUIDANCE2.pl pid=77365 Wed Apr 10 14:50:41 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_4_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_4.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 74 of 121 ...
+---
+ MSA_4_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_4_cos_MFT
+Wed Apr 10 14:50:42 2019
+--- init HoT_COS_GUIDANCE2.pl pid=77937 Wed Apr 10 14:50:42 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_5_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_5.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 94 of 121 ...
+---
+ MSA_5_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_5_cos_MFT
+Wed Apr 10 14:50:44 2019
+--- init HoT_COS_GUIDANCE2.pl pid=78506 Wed Apr 10 14:50:44 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_6_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_6.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 111 of 121 ...
+---
+ MSA_6_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_6_cos_MFT
+Wed Apr 10 14:50:45 2019
+--- init HoT_COS_GUIDANCE2.pl pid=79069 Wed Apr 10 14:50:45 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_7_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_7.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 120 of 121 ...
+---
+ MSA_7_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_7_cos_MFT
+Wed Apr 10 14:50:46 2019
+--- init HoT_COS_GUIDANCE2.pl pid=79638 Wed Apr 10 14:50:46 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_8_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_8.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 51 of 121 ...
+---
+ MSA_8_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_8_cos_MFT
+Wed Apr 10 14:50:47 2019
+--- init HoT_COS_GUIDANCE2.pl pid=80014 Wed Apr 10 14:50:48 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_9_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_9.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 9 of 121 ...
+---
+ MSA_9_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_9_cos_MFT
+Wed Apr 10 14:50:49 2019
+--- init HoT_COS_GUIDANCE2.pl pid=80392 Wed Apr 10 14:50:49 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_10_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_10.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 100 of 121 ...
+---
+ MSA_10_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_10_cos_MFT
+Wed Apr 10 14:50:50 2019
+--- init HoT_COS_GUIDANCE2.pl pid=80955 Wed Apr 10 14:50:50 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_11_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_11.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 89 of 121 ...
+---
+ MSA_11_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_11_cos_MFT
+Wed Apr 10 14:50:51 2019
+--- init HoT_COS_GUIDANCE2.pl pid=81520 Wed Apr 10 14:50:51 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_12_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_12.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 15 of 121 ...
+---
+ MSA_12_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_12_cos_MFT
+Wed Apr 10 14:50:52 2019
+--- init HoT_COS_GUIDANCE2.pl pid=81897 Wed Apr 10 14:50:53 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_13_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_13.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 13 of 121 ...
+---
+ MSA_13_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_13_cos_MFT
+Wed Apr 10 14:50:54 2019
+--- init HoT_COS_GUIDANCE2.pl pid=82274 Wed Apr 10 14:50:54 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_14_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_14.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 4 of 121 ...
+---
+ MSA_14_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_14_cos_MFT
+Wed Apr 10 14:50:55 2019
+--- init HoT_COS_GUIDANCE2.pl pid=82648 Wed Apr 10 14:50:55 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_15_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_15.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 4 of 121 ...
+---
+ MSA_15_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_15_cos_MFT
+Wed Apr 10 14:50:56 2019
+--- init HoT_COS_GUIDANCE2.pl pid=83024 Wed Apr 10 14:50:56 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_16_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_16.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 58 of 121 ...
+---
+ MSA_16_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_16_cos_MFT
+Wed Apr 10 14:50:57 2019
+--- init HoT_COS_GUIDANCE2.pl pid=83398 Wed Apr 10 14:50:57 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_17_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_17.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 77 of 121 ...
+---
+ MSA_17_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_17_cos_MFT
+Wed Apr 10 14:50:59 2019
+--- init HoT_COS_GUIDANCE2.pl pid=83962 Wed Apr 10 14:50:59 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_18_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_18.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 29 of 121 ...
+---
+ MSA_18_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_18_cos_MFT
+Wed Apr 10 14:51:00 2019
+--- init HoT_COS_GUIDANCE2.pl pid=84336 Wed Apr 10 14:51:00 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_19_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_19.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 55 of 121 ...
+---
+ MSA_19_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_19_cos_MFT
+Wed Apr 10 14:51:01 2019
+--- init HoT_COS_GUIDANCE2.pl pid=84713 Wed Apr 10 14:51:01 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_20_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_20.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 32 of 121 ...
+---
+ MSA_20_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_20_cos_MFT
+Wed Apr 10 14:51:04 2019
+--- init HoT_COS_GUIDANCE2.pl pid=85089 Wed Apr 10 14:51:04 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_21_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_21.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 54 of 121 ...
+---
+ MSA_21_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_21_cos_MFT
+Wed Apr 10 14:51:05 2019
+--- init HoT_COS_GUIDANCE2.pl pid=85463 Wed Apr 10 14:51:05 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_22_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_22.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 118 of 121 ...
+---
+ MSA_22_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_22_cos_MFT
+Wed Apr 10 14:51:06 2019
+--- init HoT_COS_GUIDANCE2.pl pid=86026 Wed Apr 10 14:51:06 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_23_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_23.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 27 of 121 ...
+---
+ MSA_23_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_23_cos_MFT
+Wed Apr 10 14:51:07 2019
+--- init HoT_COS_GUIDANCE2.pl pid=86401 Wed Apr 10 14:51:08 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_24_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_24.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 29 of 121 ...
+---
+ MSA_24_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_24_cos_MFT
+Wed Apr 10 14:51:09 2019
+--- init HoT_COS_GUIDANCE2.pl pid=86780 Wed Apr 10 14:51:09 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_25_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_25.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 85 of 121 ...
+---
+ MSA_25_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_25_cos_MFT
+Wed Apr 10 14:51:12 2019
+--- init HoT_COS_GUIDANCE2.pl pid=87344 Wed Apr 10 14:51:13 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_26_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_26.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 3 of 121 ...
+---
+ MSA_26_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_26_cos_MFT
+Wed Apr 10 14:51:14 2019
+--- init HoT_COS_GUIDANCE2.pl pid=87720 Wed Apr 10 14:51:14 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_27_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_27.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 14 of 121 ...
+---
+ MSA_27_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_27_cos_MFT
+Wed Apr 10 14:51:15 2019
+--- init HoT_COS_GUIDANCE2.pl pid=88097 Wed Apr 10 14:51:15 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_28_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_28.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 57 of 121 ...
+---
+ MSA_28_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_28_cos_MFT
+Wed Apr 10 14:51:16 2019
+--- init HoT_COS_GUIDANCE2.pl pid=88472 Wed Apr 10 14:51:16 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_29_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_29.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 59 of 121 ...
+---
+ MSA_29_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_29_cos_MFT
+Wed Apr 10 14:51:18 2019
+--- init HoT_COS_GUIDANCE2.pl pid=88846 Wed Apr 10 14:51:18 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_30_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_30.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 95 of 121 ...
+---
+ MSA_30_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_30_cos_MFT
+Wed Apr 10 14:51:20 2019
+--- init HoT_COS_GUIDANCE2.pl pid=89411 Wed Apr 10 14:51:20 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_31_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_31.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 95 of 121 ...
+---
+ MSA_31_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_31_cos_MFT
+Wed Apr 10 14:51:22 2019
+--- init HoT_COS_GUIDANCE2.pl pid=89976 Wed Apr 10 14:51:22 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_32_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_32.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 74 of 121 ...
+---
+ MSA_32_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_32_cos_MFT
+Wed Apr 10 14:51:23 2019
+--- init HoT_COS_GUIDANCE2.pl pid=90541 Wed Apr 10 14:51:23 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_33_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_33.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 48 of 121 ...
+---
+ MSA_33_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_33_cos_MFT
+Wed Apr 10 14:51:24 2019
+--- init HoT_COS_GUIDANCE2.pl pid=90917 Wed Apr 10 14:51:24 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_34_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_34.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 21 of 121 ...
+---
+ MSA_34_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_34_cos_MFT
+Wed Apr 10 14:51:25 2019
+--- init HoT_COS_GUIDANCE2.pl pid=91292 Wed Apr 10 14:51:25 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_35_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_35.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 90 of 121 ...
+---
+ MSA_35_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_35_cos_MFT
+Wed Apr 10 14:51:27 2019
+--- init HoT_COS_GUIDANCE2.pl pid=91861 Wed Apr 10 14:51:27 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_36_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_36.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 60 of 121 ...
+---
+ MSA_36_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_36_cos_MFT
+Wed Apr 10 14:51:29 2019
+--- init HoT_COS_GUIDANCE2.pl pid=92236 Wed Apr 10 14:51:29 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_37_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_37.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 36 of 121 ...
+---
+ MSA_37_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_37_cos_MFT
+Wed Apr 10 14:51:30 2019
+--- init HoT_COS_GUIDANCE2.pl pid=92610 Wed Apr 10 14:51:30 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_38_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_38.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 15 of 121 ...
+---
+ MSA_38_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_38_cos_MFT
+Wed Apr 10 14:51:33 2019
+--- init HoT_COS_GUIDANCE2.pl pid=92985 Wed Apr 10 14:51:33 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_39_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_39.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 18 of 121 ...
+---
+ MSA_39_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_39_cos_MFT
+Wed Apr 10 14:51:34 2019
+--- init HoT_COS_GUIDANCE2.pl pid=93360 Wed Apr 10 14:51:34 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_40_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_40.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 9 of 121 ...
+---
+ MSA_40_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_40_cos_MFT
+Wed Apr 10 14:51:35 2019
+--- init HoT_COS_GUIDANCE2.pl pid=93734 Wed Apr 10 14:51:35 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_41_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_41.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 14 of 121 ...
+---
+ MSA_41_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_41_cos_MFT
+Wed Apr 10 14:51:36 2019
+--- init HoT_COS_GUIDANCE2.pl pid=94109 Wed Apr 10 14:51:36 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_42_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_42.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 10 of 121 ...
+---
+ MSA_42_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_42_cos_MFT
+Wed Apr 10 14:51:38 2019
+--- init HoT_COS_GUIDANCE2.pl pid=94483 Wed Apr 10 14:51:38 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_43_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_43.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 117 of 121 ...
+---
+ MSA_43_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_43_cos_MFT
+Wed Apr 10 14:51:39 2019
+--- init HoT_COS_GUIDANCE2.pl pid=95046 Wed Apr 10 14:51:39 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_44_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_44.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 14 of 121 ...
+---
+ MSA_44_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_44_cos_MFT
+Wed Apr 10 14:51:40 2019
+--- init HoT_COS_GUIDANCE2.pl pid=95429 Wed Apr 10 14:51:40 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_45_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_45.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 50 of 121 ...
+---
+ MSA_45_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_45_cos_MFT
+Wed Apr 10 14:51:41 2019
+--- init HoT_COS_GUIDANCE2.pl pid=95805 Wed Apr 10 14:51:41 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_46_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_46.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 52 of 121 ...
+---
+ MSA_46_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_46_cos_MFT
+Wed Apr 10 14:51:42 2019
+--- init HoT_COS_GUIDANCE2.pl pid=96180 Wed Apr 10 14:51:42 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_47_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_47.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 43 of 121 ...
+---
+ MSA_47_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_47_cos_MFT
+Wed Apr 10 14:51:45 2019
+--- init HoT_COS_GUIDANCE2.pl pid=96556 Wed Apr 10 14:51:45 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_48_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_48.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 111 of 121 ...
+---
+ MSA_48_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_48_cos_MFT
+Wed Apr 10 14:51:46 2019
+--- init HoT_COS_GUIDANCE2.pl pid=97120 Wed Apr 10 14:51:46 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_49_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_49.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 66 of 121 ...
+---
+ MSA_49_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_49_cos_MFT
+Wed Apr 10 14:51:47 2019
+--- init HoT_COS_GUIDANCE2.pl pid=97685 Wed Apr 10 14:51:47 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_50_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_50.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 41 of 121 ...
+---
+ MSA_50_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_50_cos_MFT
+Wed Apr 10 14:51:48 2019
+--- init HoT_COS_GUIDANCE2.pl pid=98060 Wed Apr 10 14:51:48 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_51_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_51.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 20 of 121 ...
+---
+ MSA_51_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_51_cos_MFT
+Wed Apr 10 14:51:50 2019
+--- init HoT_COS_GUIDANCE2.pl pid=615 Wed Apr 10 14:51:50 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_52_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_52.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 48 of 121 ...
+---
+ MSA_52_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_52_cos_MFT
+Wed Apr 10 14:51:53 2019
+--- init HoT_COS_GUIDANCE2.pl pid=1015 Wed Apr 10 14:51:53 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_53_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_53.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 110 of 121 ...
+---
+ MSA_53_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_53_cos_MFT
+Wed Apr 10 14:51:55 2019
+--- init HoT_COS_GUIDANCE2.pl pid=1587 Wed Apr 10 14:51:55 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_54_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_54.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 9 of 121 ...
+---
+ MSA_54_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_54_cos_MFT
+Wed Apr 10 14:51:56 2019
+--- init HoT_COS_GUIDANCE2.pl pid=1965 Wed Apr 10 14:51:56 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_55_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_55.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 111 of 121 ...
+---
+ MSA_55_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_55_cos_MFT
+Wed Apr 10 14:51:57 2019
+--- init HoT_COS_GUIDANCE2.pl pid=2539 Wed Apr 10 14:51:58 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_56_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_56.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 10 of 121 ...
+---
+ MSA_56_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_56_cos_MFT
+Wed Apr 10 14:52:00 2019
+--- init HoT_COS_GUIDANCE2.pl pid=2919 Wed Apr 10 14:52:00 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_57_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_57.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 64 of 121 ...
+---
+ MSA_57_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_57_cos_MFT
+Wed Apr 10 14:52:02 2019
+--- init HoT_COS_GUIDANCE2.pl pid=3509 Wed Apr 10 14:52:02 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_58_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_58.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 72 of 121 ...
+---
+ MSA_58_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_58_cos_MFT
+Wed Apr 10 14:52:03 2019
+--- init HoT_COS_GUIDANCE2.pl pid=4098 Wed Apr 10 14:52:03 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_59_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_59.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 111 of 121 ...
+---
+ MSA_59_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_59_cos_MFT
+Wed Apr 10 14:52:05 2019
+--- init HoT_COS_GUIDANCE2.pl pid=4673 Wed Apr 10 14:52:05 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_60_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_60.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 65 of 121 ...
+---
+ MSA_60_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_60_cos_MFT
+Wed Apr 10 14:52:07 2019
+--- init HoT_COS_GUIDANCE2.pl pid=5265 Wed Apr 10 14:52:07 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_61_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_61.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 109 of 121 ...
+---
+ MSA_61_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_61_cos_MFT
+Wed Apr 10 14:52:12 2019
+--- init HoT_COS_GUIDANCE2.pl pid=5843 Wed Apr 10 14:52:12 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_62_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_62.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 111 of 121 ...
+---
+ MSA_62_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_62_cos_MFT
+Wed Apr 10 14:52:16 2019
+--- init HoT_COS_GUIDANCE2.pl pid=6411 Wed Apr 10 14:52:16 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_63_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_63.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 84 of 121 ...
+---
+ MSA_63_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_63_cos_MFT
+Wed Apr 10 14:52:18 2019
+--- init HoT_COS_GUIDANCE2.pl pid=6976 Wed Apr 10 14:52:18 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_64_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_64.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 91 of 121 ...
+---
+ MSA_64_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_64_cos_MFT
+Wed Apr 10 14:52:22 2019
+--- init HoT_COS_GUIDANCE2.pl pid=7544 Wed Apr 10 14:52:22 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_65_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_65.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 84 of 121 ...
+---
+ MSA_65_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_65_cos_MFT
+Wed Apr 10 14:52:26 2019
+--- init HoT_COS_GUIDANCE2.pl pid=8109 Wed Apr 10 14:52:26 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_66_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_66.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 45 of 121 ...
+---
+ MSA_66_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_66_cos_MFT
+Wed Apr 10 14:52:29 2019
+--- init HoT_COS_GUIDANCE2.pl pid=8487 Wed Apr 10 14:52:29 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_67_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_67.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 27 of 121 ...
+---
+ MSA_67_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_67_cos_MFT
+Wed Apr 10 14:52:31 2019
+--- init HoT_COS_GUIDANCE2.pl pid=8865 Wed Apr 10 14:52:31 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_68_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_68.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 60 of 121 ...
+---
+ MSA_68_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_68_cos_MFT
+Wed Apr 10 14:52:32 2019
+--- init HoT_COS_GUIDANCE2.pl pid=9241 Wed Apr 10 14:52:32 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_69_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_69.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 43 of 121 ...
+---
+ MSA_69_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_69_cos_MFT
+Wed Apr 10 14:52:34 2019
+--- init HoT_COS_GUIDANCE2.pl pid=9618 Wed Apr 10 14:52:34 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_70_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_70.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 1 of 121 ...
+---
+ MSA_70_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_70_cos_MFT
+Wed Apr 10 14:52:36 2019
+--- init HoT_COS_GUIDANCE2.pl pid=9995 Wed Apr 10 14:52:37 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_71_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_71.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 5 of 121 ...
+---
+ MSA_71_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_71_cos_MFT
+Wed Apr 10 14:52:39 2019
+--- init HoT_COS_GUIDANCE2.pl pid=10373 Wed Apr 10 14:52:40 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_72_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_72.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 103 of 121 ...
+---
+ MSA_72_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_72_cos_MFT
+Wed Apr 10 14:52:44 2019
+--- init HoT_COS_GUIDANCE2.pl pid=10944 Wed Apr 10 14:52:44 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_73_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_73.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 42 of 121 ...
+---
+ MSA_73_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_73_cos_MFT
+Wed Apr 10 14:52:45 2019
+--- init HoT_COS_GUIDANCE2.pl pid=11322 Wed Apr 10 14:52:45 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_74_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_74.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 45 of 121 ...
+---
+ MSA_74_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_74_cos_MFT
+Wed Apr 10 14:52:46 2019
+--- init HoT_COS_GUIDANCE2.pl pid=11699 Wed Apr 10 14:52:46 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_75_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_75.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 52 of 121 ...
+---
+ MSA_75_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_75_cos_MFT
+Wed Apr 10 14:52:47 2019
+--- init HoT_COS_GUIDANCE2.pl pid=12074 Wed Apr 10 14:52:47 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_76_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_76.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 78 of 121 ...
+---
+ MSA_76_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_76_cos_MFT
+Wed Apr 10 14:52:49 2019
+--- init HoT_COS_GUIDANCE2.pl pid=12636 Wed Apr 10 14:52:49 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_77_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_77.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 82 of 121 ...
+---
+ MSA_77_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_77_cos_MFT
+Wed Apr 10 14:52:51 2019
+--- init HoT_COS_GUIDANCE2.pl pid=13199 Wed Apr 10 14:52:51 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_78_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_78.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 100 of 121 ...
+---
+ MSA_78_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_78_cos_MFT
+Wed Apr 10 14:52:53 2019
+--- init HoT_COS_GUIDANCE2.pl pid=13763 Wed Apr 10 14:52:53 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_79_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_79.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 92 of 121 ...
+---
+ MSA_79_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_79_cos_MFT
+Wed Apr 10 14:52:56 2019
+--- init HoT_COS_GUIDANCE2.pl pid=14326 Wed Apr 10 14:52:56 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_80_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_80.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 18 of 121 ...
+---
+ MSA_80_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_80_cos_MFT
+Wed Apr 10 14:52:57 2019
+--- init HoT_COS_GUIDANCE2.pl pid=14702 Wed Apr 10 14:52:57 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_81_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_81.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 114 of 121 ...
+---
+ MSA_81_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_81_cos_MFT
+Wed Apr 10 14:53:00 2019
+--- init HoT_COS_GUIDANCE2.pl pid=15265 Wed Apr 10 14:53:01 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_82_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_82.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 11 of 121 ...
+---
+ MSA_82_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_82_cos_MFT
+Wed Apr 10 14:53:03 2019
+--- init HoT_COS_GUIDANCE2.pl pid=15640 Wed Apr 10 14:53:03 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_83_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_83.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 116 of 121 ...
+---
+ MSA_83_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_83_cos_MFT
+Wed Apr 10 14:53:07 2019
+--- init HoT_COS_GUIDANCE2.pl pid=16206 Wed Apr 10 14:53:07 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_84_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_84.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 64 of 121 ...
+---
+ MSA_84_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_84_cos_MFT
+Wed Apr 10 14:53:08 2019
+--- init HoT_COS_GUIDANCE2.pl pid=16773 Wed Apr 10 14:53:08 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_85_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_85.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 73 of 121 ...
+---
+ MSA_85_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_85_cos_MFT
+Wed Apr 10 14:53:10 2019
+--- init HoT_COS_GUIDANCE2.pl pid=17337 Wed Apr 10 14:53:10 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_86_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_86.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 13 of 121 ...
+---
+ MSA_86_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_86_cos_MFT
+Wed Apr 10 14:53:13 2019
+--- init HoT_COS_GUIDANCE2.pl pid=17715 Wed Apr 10 14:53:13 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_87_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_87.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 86 of 121 ...
+---
+ MSA_87_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_87_cos_MFT
+Wed Apr 10 14:53:15 2019
+--- init HoT_COS_GUIDANCE2.pl pid=18280 Wed Apr 10 14:53:15 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_88_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_88.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 96 of 121 ...
+---
+ MSA_88_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_88_cos_MFT
+Wed Apr 10 14:53:18 2019
+--- init HoT_COS_GUIDANCE2.pl pid=18912 Wed Apr 10 14:53:18 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_89_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_89.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 98 of 121 ...
+---
+ MSA_89_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_89_cos_MFT
+Wed Apr 10 14:53:23 2019
+--- init HoT_COS_GUIDANCE2.pl pid=19477 Wed Apr 10 14:53:23 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_90_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_90.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 73 of 121 ...
+---
+ MSA_90_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_90_cos_MFT
+Wed Apr 10 14:53:27 2019
+--- init HoT_COS_GUIDANCE2.pl pid=20044 Wed Apr 10 14:53:27 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_91_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_91.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 23 of 121 ...
+---
+ MSA_91_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_91_cos_MFT
+Wed Apr 10 14:53:28 2019
+--- init HoT_COS_GUIDANCE2.pl pid=20421 Wed Apr 10 14:53:28 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_92_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_92.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 38 of 121 ...
+---
+ MSA_92_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_92_cos_MFT
+Wed Apr 10 14:53:29 2019
+--- init HoT_COS_GUIDANCE2.pl pid=20798 Wed Apr 10 14:53:29 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_93_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_93.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 16 of 121 ...
+---
+ MSA_93_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_93_cos_MFT
+Wed Apr 10 14:53:30 2019
+--- init HoT_COS_GUIDANCE2.pl pid=21173 Wed Apr 10 14:53:30 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_94_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_94.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 47 of 121 ...
+---
+ MSA_94_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_94_cos_MFT
+Wed Apr 10 14:53:32 2019
+--- init HoT_COS_GUIDANCE2.pl pid=21551 Wed Apr 10 14:53:32 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_95_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_95.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 77 of 121 ...
+---
+ MSA_95_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_95_cos_MFT
+Wed Apr 10 14:53:34 2019
+--- init HoT_COS_GUIDANCE2.pl pid=22165 Wed Apr 10 14:53:34 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_96_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_96.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 18 of 121 ...
+---
+ MSA_96_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_96_cos_MFT
+Wed Apr 10 14:53:35 2019
+--- init HoT_COS_GUIDANCE2.pl pid=22659 Wed Apr 10 14:53:35 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_97_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_97.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 44 of 121 ...
+---
+ MSA_97_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_97_cos_MFT
+Wed Apr 10 14:53:36 2019
+--- init HoT_COS_GUIDANCE2.pl pid=23039 Wed Apr 10 14:53:36 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_98_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_98.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 101 of 121 ...
+---
+ MSA_98_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_98_cos_MFT
+Wed Apr 10 14:53:38 2019
+--- init HoT_COS_GUIDANCE2.pl pid=23671 Wed Apr 10 14:53:38 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX3_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX3_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX3_all
+output_id=MSA_99_cos_MFT
+---
+TREE_FILE:MSA.MAFFT.semphy.tree_99.rooted.GoodBranchLength
+-Making hot_H ...
+-Making hot_T ...
+-Making branch 50 of 121 ...
+---
+ MSA_99_cos_MFT HoT_COS_GUIDANCE2.pl done : dir saved to /data/user/dschultz/temp/guidance/COX3_all/MSA_99_cos_MFT
+Wed Apr 10 14:53:39 2019

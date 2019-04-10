@@ -1,0 +1,17 @@
+--- init HoT_COS_GUIDANCE2.pl pid=29460 Wed Apr 10 13:43:34 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX1_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX1_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX1_all
+output_id=MSA_46_cos_MFT
+---
+hot_H.fasta 
+hot_T.atsaf 
+prof110_00.fasta 
+prof110_01.atsaf 
+prof110_10.fasta 
+Total: 0.51,0.02,0.42,1,3
+Wed Apr 10 13:43:37 2019

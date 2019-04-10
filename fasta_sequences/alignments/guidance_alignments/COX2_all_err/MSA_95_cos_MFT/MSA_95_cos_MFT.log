@@ -1,0 +1,25 @@
+--- init HoT_COS_GUIDANCE2.pl pid=2797 Wed Apr 10 13:47:32 2019
+met=MFT
+infile=/data/user/dschultz/temp/guidance/COX2_all/Seqs.numberd.fas
+seqtype=0
+outdir=/data/user/dschultz/temp/guidance/COX2_all
+tgz=0
+debug=0
+basedir=/data/user/dschultz/temp/guidance/COX2_all
+output_id=MSA_95_cos_MFT
+---
+---- sh: line 122 of /usr/local/bin/temp/guidance.v2.02/www/Guidance/exec/HoT_COS_GUIDANCE2.pl
+find . -size 0 -delete
+-Making hot_H ...
+---- sh: line 377 of /usr/local/bin/temp/guidance.v2.02/www/Guidance/exec/HoT_COS_GUIDANCE2.pl
+(mafft  --reorder --op 2.08876669551942   --amino --quiet --treein MSA.MAFFT.semphy.tree_95.rooted.GoodBranchLength in.fasta  | tr  '[:lower:]'  '[:upper:]' | sed 's/>SEQ/>seq/' >hot_H.fasta 2>&1 ) 2>&1
+-Making hot_T ...
+---- sh: line 377 of /usr/local/bin/temp/guidance.v2.02/www/Guidance/exec/HoT_COS_GUIDANCE2.pl
+(mafft  --reorder --op 2.08876669551942   --amino --quiet --treein MSA.MAFFT.semphy.tree_95.rooted.GoodBranchLength in.atsaf  | tr  '[:lower:]'  '[:upper:]' | sed 's/>SEQ/>seq/' >hot_T.atsaf 2>&1 ) 2>&1
+---- sh: line 377 of /usr/local/bin/temp/guidance.v2.02/www/Guidance/exec/HoT_COS_GUIDANCE2.pl
+(mafft  --reorder --op 2.08876669551942   --amino --quiet --treein tree_13_1.dnd in.fasta  | tr  '[:lower:]'  '[:upper:]' | sed 's/>SEQ/>seq/' >prof13_10.fasta 2>&1 ) 2>&1
+---- sh: line 377 of /usr/local/bin/temp/guidance.v2.02/www/Guidance/exec/HoT_COS_GUIDANCE2.pl
+(mafft  --reorder --op 2.08876669551942   --amino --quiet --treein tree_13_1.dnd in.atsaf  | tr  '[:lower:]'  '[:upper:]' | sed 's/>SEQ/>seq/' >prof13_11.atsaf 2>&1 ) 2>&1
+@ line 642 of /usr/local/bin/temp/guidance.v2.02/www/Guidance/exec/HoT_COS_GUIDANCE2.pl
+ERROR: HoT_COS_GUIDANCE2.pl 2797 : File not in fasta format: prof13_11.atsaf
+@---
