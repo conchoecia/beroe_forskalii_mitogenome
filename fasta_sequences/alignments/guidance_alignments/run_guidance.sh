@@ -1,6 +1,6 @@
 #!/bin/bash
 guidance_path=YOUR_PATH_TO_guidance.pl_HERE
-seqs_path=./seqs
+seqs_path=./seqs_to_process
 threads=1
 echo "guidance path is ${guidance_path}"
 for file in ${seqs_path}/*.fasta;
