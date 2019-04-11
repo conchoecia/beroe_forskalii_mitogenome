@@ -53,5 +53,7 @@ Mean G+C content = 17.3%
     TV-loop mtRNA-Phe(aaa)
     66 bases, %GC = 16.7
     Sequence c[2759,2824]
+
+This occurs in the middle of the 16S sequence.
  
 

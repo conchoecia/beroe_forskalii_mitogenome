@@ -53,3 +53,5 @@ Mean G+C content = 17.0%
     TV-loop mtRNA-Ser(act)
     58 bases, %GC = 19.0
     Sequence [13064,13121]
+
+This is in the middle of the COX2 CDS.
