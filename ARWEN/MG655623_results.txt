@@ -1,0 +1,27 @@
+------------------------------
+ARWEN v1.2   Dean Laslett
+------------------------------
+
+Please reference the following paper if you use this
+program as part of any published research.
+
+Laslett, D. and Canback, B. (2008) ARWEN: a
+program to detect tRNA genes in metazoan mitochondrial
+nucleotide sequences
+Bioinformatics, 24(2); 172-175.
+
+
+Searching for Metazoan mitochondrial tRNA genes
+Assuming circular topology, search wraps around ends
+Searching both strands
+Using composite Metazoan Mitochondrial genetic code
+
+
+MG655623
+13339 nucleotides in sequence
+Mean G+C content = 17.5%
+
+Nothing found in MG655623
+
+
+
