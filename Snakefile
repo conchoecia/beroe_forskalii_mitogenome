@@ -45,10 +45,11 @@ rule plot_synteny:
     output:
         optimum = "figures/synteny_plot/synteny_optimum.pdf"
     params:
-        basename = "figures/synteny_plot/synteny_optimum"
+        basename = "figures/synteny_plot/synteny_optimum",
+        alndir = "fasta_sequences/alignments/nucl_alignment/"
     shell:
         """
-        pauvre synplot --aln_dir fasta_sequences/alignments/ \
+        pauvre synplot --aln_dir {params.alndir} \
           --fileform pdf \
           --gff_paths {input.Cloyai} {input.Bforsk} {input.Pbache} {input.Mleidy} {input.Cyulia} {input.Vmulti} \
           --gff_labels "C. loyai" "B. forskalii" "P. bachei" "M. leidyi" "C. yulianicorum" "V. multiformis" \
