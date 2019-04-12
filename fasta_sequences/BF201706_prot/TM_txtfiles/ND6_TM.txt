@@ -1,0 +1,11 @@
+# MG655622_ND6 Length: 67
+# MG655622_ND6 Number of predicted TMHs:  2
+# MG655622_ND6 Exp number of AAs in TMHs: 49.60055
+# MG655622_ND6 Exp number, first 60 AAs:  44.40653
+# MG655622_ND6 Total prob of N-in:        0.60701
+# MG655622_ND6 POSSIBLE N-term signal sequence
+MG655622_ND6	TMHMM2.0	inside	     1     6
+MG655622_ND6	TMHMM2.0	TMhelix	     7    29
+MG655622_ND6	TMHMM2.0	outside	    30    43
+MG655622_ND6	TMHMM2.0	TMhelix	    44    66
+MG655622_ND6	TMHMM2.0	inside	    67    67
