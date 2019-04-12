@@ -17,54 +17,31 @@ rule all:
         "figures/nuc_div/nuc_div_boxplot.png",
         "figures/nuc_div/nuc_div_picheck.png",
         "figures/codonusage/codonplot.pdf",
-        #raxml
-        "phylogeny/20180609_rooted_tree/RAxML_bipartitions.best"
 
-rule raxml:
-    input:
-        "phylogeny/20180609_rooted_tree/nuc_and_prot.phy",
-        "phylogeny/20180609_rooted_tree/partition.txt"
-    output:
-        "phylogeny/20180609_rooted_tree/RAxML_bipartitions.best"
-    params:
-        wd = "phylogeny/20180609_rooted_tree"
-    shell:
-        """
-        cd {params.wd};\
-        raxmlHPC-PTHREADS-SSE3 \
-          -m GTRGAMMA \
-          -p 12345 -x 12345 \
-          -f a -# autoMRE \
-          -o FUN_Imsh_alue_NC035550 \
-          -s nuc_and_prot.phy \
-          -q partition.txt
-          -n best -T 4; \
-        cd ../../
-        """
 
 rule plot_synteny:
     """Generates the synteny plot of all of the ctenophore mitochondrial genomes.
     """
     input:
-        twelveS = "fasta_sequences/alignments/12S.fasta",
-        sixteenS = "fasta_sequences/alignments/16S.fasta",
-        COX1 = "fasta_sequences/alignments/COX1.fasta",
-        COX2 = "fasta_sequences/alignments/COX2.fasta",
-        COX3 = "fasta_sequences/alignments/COX3.fasta",
-        CYTB = "fasta_sequences/alignments/CYTB.fasta",
-        ND1 = "fasta_sequences/alignments/ND1.fasta",
-        ND2 = "fasta_sequences/alignments/ND2.fasta",
-        ND3 = "fasta_sequences/alignments/ND3.fasta",
-        ND4 = "fasta_sequences/alignments/ND4.fasta",
-        ND4L = "fasta_sequences/alignments/ND4L.fasta",
-        ND5 = "fasta_sequences/alignments/ND5.fasta",
-        ND6 = "fasta_sequences/alignments/ND6.fasta",
-        Cloyai = "gff_files/LN898113.gff",
-        Bforsk = "gff_files/Bf201706.gff",
-        Pbache = "gff_files/JN392469.gff",
-        Mleidy = "gff_files/NC016117.gff",
-        Cyulia = "gff_files/LN898114.gff",
-        Vmulti = "gff_files/LN898115.gff",
+        twelveS =  "fasta_sequences/alignments/nucl_alignment/12S.fasta",
+        sixteenS = "fasta_sequences/alignments/nucl_alignment/16S.fasta",
+        COX1 =     "fasta_sequences/alignments/nucl_alignment/COX1.fasta",
+        COX2 =     "fasta_sequences/alignments/nucl_alignment/COX2.fasta",
+        COX3 =     "fasta_sequences/alignments/nucl_alignment/COX3.fasta",
+        CYTB =     "fasta_sequences/alignments/nucl_alignment/CYTB.fasta",
+        ND1 =      "fasta_sequences/alignments/nucl_alignment/ND1.fasta",
+        ND2 =      "fasta_sequences/alignments/nucl_alignment/ND2.fasta",
+        ND3 =      "fasta_sequences/alignments/nucl_alignment/ND3.fasta",
+        ND4 =      "fasta_sequences/alignments/nucl_alignment/ND4.fasta",
+        ND4L =     "fasta_sequences/alignments/nucl_alignment/ND4L.fasta",
+        ND5 =      "fasta_sequences/alignments/nucl_alignment/ND5.fasta",
+        ND6 =      "fasta_sequences/alignments/nucl_alignment/ND6.fasta",
+        Cloyai =   "gff_files/LN898113.gff",
+        Bforsk =   "gff_files/Bf201706.gff",
+        Pbache =   "gff_files/JN392469.gff",
+        Mleidy =   "gff_files/NC016117.gff",
+        Cyulia =   "gff_files/LN898114.gff",
+        Vmulti =   "gff_files/LN898115.gff",
     output:
         optimum = "figures/synteny_plot/synteny_optimum.pdf"
     params:
@@ -187,12 +164,12 @@ rule plot_dirichlet:
         ND6 = "fasta_sequences/coding_seqs/ND6.fasta",
         nc1 = "fasta_sequences/noncoding_seqs/COX1to12S.fasta",
         nc2 = "fasta_sequences/noncoding_seqs/COX3toND3.fasta",
-        nc3 = "fasta_sequences/noncoding_seqs/ND2LtoUNK.fasta",
+        nc3 = "fasta_sequences/noncoding_seqs/URF1toURF2.fasta",
         nc4 = "fasta_sequences/noncoding_seqs/ND2toCYTB.fasta",
-        nc5 = "fasta_sequences/noncoding_seqs/ND5toND2L.fasta",
-        nc6 = "fasta_sequences/noncoding_seqs/UNKtoND2.fasta",
-        t1  = "fasta_sequences/test_seqs/ND2L.fasta",
-        t2  = "fasta_sequences/test_seqs/UNK.fasta"
+        nc5 = "fasta_sequences/noncoding_seqs/ND5toURF1.fasta",
+        nc6 = "fasta_sequences/noncoding_seqs/URF2toND2.fasta",
+        t1  = "fasta_sequences/test_seqs/URF1.fasta",
+        t2  = "fasta_sequences/test_seqs/URF2.fasta"
     output:
         fig = "figures/dirichlet_plot/dirichlet_violins.png",
         results = "results/dirichlet_results.csv"
@@ -228,8 +205,8 @@ rule plot_hetero:
         ND4L = "fasta_sequences/coding_seqs/ND4L.fasta",
         ND5 = "fasta_sequences/coding_seqs/ND5.fasta",
         ND6 = "fasta_sequences/coding_seqs/ND6.fasta",
-        t1  = "fasta_sequences/test_seqs/ND2L.fasta",
-        t2  = "fasta_sequences/test_seqs/UNK.fasta"
+        t1  = "fasta_sequences/test_seqs/URF1.fasta",
+        t2  = "fasta_sequences/test_seqs/URF2.fasta"
     output:
          "figures/heterogeneity_plot/hetero.pdf",
          "figures/heterogeneity_plot/hetero.csv",
@@ -244,3 +221,25 @@ rule plot_hetero:
         --fasta_dir {params.coding} {params.test} \
         --fileform pdf --no_timestamp -o {params.basename}
         """
+
+#rule raxml:
+#    input:
+#        "phylogeny/20180609_rooted_tree/nuc_and_prot.phy",
+#        "phylogeny/20180609_rooted_tree/partition.txt"
+#    output:
+#        "phylogeny/20180609_rooted_tree/RAxML_bipartitions.best"
+#    params:
+#        wd = "phylogeny/20180609_rooted_tree"
+#    shell:
+#        """
+#        cd {params.wd};\
+#        raxmlHPC-PTHREADS-SSE3 \
+#          -m GTRGAMMA \
+#          -p 12345 -x 12345 \
+#          -f a -# autoMRE \
+#          -o FUN_Imsh_alue_NC035550 \
+#          -s nuc_and_prot.phy \
+#          -q partition.txt
+#          -n best -T 4; \
+#        cd ../../
+#        """
