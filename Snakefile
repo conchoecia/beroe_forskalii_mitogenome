@@ -67,7 +67,7 @@ rule plot_redwood:
         RNA = "figures/redwood/R007mergeASgt140.sorted.bam",
         gff = "gff_files/Bf201706.gff"
     output:
-        pngout = "figures/redwood/redwood.png",
+        pngout = "figures/redwood/redwood.png"
     params:
         basename = "figures/redwood/redwood"
     shell:
@@ -207,19 +207,34 @@ rule plot_hetero:
         ND5 = "fasta_sequences/coding_seqs/ND5.fasta",
         ND6 = "fasta_sequences/coding_seqs/ND6.fasta",
         t1  = "fasta_sequences/test_seqs/URF1.fasta",
-        t2  = "fasta_sequences/test_seqs/URF2.fasta"
+        t2  = "fasta_sequences/test_seqs/URF2.fasta",
+        COX1_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/COX1_TM.txt",
+        COX2_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/COX2_TM.txt",
+        COX3_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/COX3_TM.txt",
+        CYTB_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/CYTB_TM.txt",
+         ND1_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/ND1_TM.txt",
+         ND2_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/ND2_TM.txt",
+         ND3_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/ND3_TM.txt",
+         ND4_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/ND4_TM.txt",
+        ND4L_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/ND4L_TM.txt",
+         ND5_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/ND5_TM.txt",
+         ND6_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/ND6_TM.txt",
+          t1_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/URF1_TM.txt",
+          t2_TM = "fasta_sequences/BF201706_prot/TM_txtfiles/URF2_TM.txt",
     output:
          "figures/heterogeneity_plot/hetero.pdf",
          "figures/heterogeneity_plot/hetero.csv",
     params:
         coding = "fasta_sequences/coding_seqs/",
         test = "fasta_sequences/test_seqs/",
-        basename = "figures/heterogeneity_plot/hetero"
+        basename = "figures/heterogeneity_plot/hetero",
+        TM = "fasta_sequences/BF201706_prot/TM_txtfiles/"
     shell:
         """
         cuttlery heterogeneity \
         --tt_code 4 \
         --fasta_dir {params.coding} {params.test} \
+        --TM_dir {params.TM} \
         --fileform pdf --no_timestamp -o {params.basename}
         """
 
