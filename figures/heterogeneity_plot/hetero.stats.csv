@@ -1,4 +1,4 @@
-,I_N_count,I_S_count,O_N_count,O_S_count,IO_N_count,IO_S_count,TM_N_count,TM_S_count,TM_N_per_of_TM_NS,TM_S_per_of_TM_NS,IO_N_per_of_IO_NS,IO_S_per_of_IO_NS,I_N_per_of_I_NS,I_S_per_of_I_NS,O_N_per_of_I_NS,O_S_per_of_I_NS,TM_N_per_of_all_NS,TM_S_per_of_all_NS,IO_N_per_of_all_NS,IO_S_per_of_all_NS,I_N_per_of_all_NS,I_S_per_of_all_NS,O_N_per_of_all_NS,O_S_per_of_all_NS
+,I_N_count,I_S_count,O_N_count,O_S_count,IO_N_count,IO_S_count,TM_N_count,TM_S_count,TM_N_per_of_TM_NS,TM_S_per_of_TM_NS,IO_N_per_of_IO_NS,IO_S_per_of_IO_NS,I_N_per_of_I_NS,I_S_per_of_I_NS,O_N_per_of_O_NS,O_S_per_of_O_NS,TM_N_per_of_all_NS,TM_S_per_of_all_NS,IO_N_per_of_all_NS,IO_S_per_of_all_NS,I_N_per_of_all_NS,I_S_per_of_all_NS,O_N_per_of_all_NS,O_S_per_of_all_NS
 ND3,0,0,1,0,1,0,0,7,0.0,1.0,1.0,0.0,,,1.0,0.0,0.0,0.875,0.125,0.0,0.0,0.0,0.125,0.0
 CYTB,0,4,0,8,0,12,2,26,0.07142857142857142,0.9285714285714286,0.0,1.0,0.0,1.0,0.0,1.0,0.05,0.65,0.0,0.3,0.0,0.1,0.0,0.2
 ND1,0,3,0,7,0,10,1,9,0.1,0.9,0.0,1.0,0.0,1.0,0.0,1.0,0.05,0.45,0.0,0.5,0.0,0.15,0.0,0.35
