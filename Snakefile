@@ -138,13 +138,14 @@ rule plot_nucdiv:
         """
         cuttlery piNpiSsim \
           --tt_code 4 \
-          --numsims 100 \
-          --fasta_dir fasta_sequences/coding_seqs/ \
+          --numsims 1000 \
+          --fasta_dir fasta_sequences/coding_seqs/ fasta_sequences/test_seqs/ \
           --results_file {output.csv} \
           --method NG86 \
           -@ 4 \
           -o {params.basename} \
           --no_timestamp
+          --fileform png pdf jpg
         """
 
 rule plot_dirichlet:
