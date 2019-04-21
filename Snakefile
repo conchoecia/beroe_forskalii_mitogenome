@@ -144,7 +144,7 @@ rule plot_nucdiv:
           --method NG86 \
           -@ 4 \
           -o {params.basename} \
-          --no_timestamp
+          --no_timestamp \
           --fileform png pdf jpg
         """
 
@@ -174,7 +174,7 @@ rule plot_dirichlet:
         t2  = "fasta_sequences/test_seqs/URF2.fasta"
     output:
         fig = "figures/dirichlet_plot/dirichlet_violins.png",
-        results = "results/dirichlet_results.csv"
+        results = "figures/dirichlet_plot/dirichlet_results.csv"
     params:
         obasename = "figures/dirichlet_plot/dirichlet"
     shell:
