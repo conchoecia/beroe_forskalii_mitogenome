@@ -1,0 +1,10 @@
+name                effsize	rel_diff
+
+loglik              158		0.202667
+length              118		0.195524
+alpha               268		0.134393
+Nmode               260		0.128282
+statent             230		0.199698
+statalpha           833		0.138533
+rrent               617		0.0311119
+rrmean              3163		0.0480641
