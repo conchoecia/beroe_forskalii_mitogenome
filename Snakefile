@@ -17,6 +17,12 @@ rule all:
         "figures/nuc_div/nuc_div_boxplot.png",
         "figures/nuc_div/nuc_div_picheck.png",
         "figures/codonusage/codonplot.pdf",
+        #non-beroe
+        "figures/dirichlet_plot_non_beroe/daphnia/daphnia_violins.png",
+        "figures/dirichlet_plot_non_beroe/drosophila/drosophila_violins.png",
+        "figures/dirichlet_plot_non_beroe/human/human_violins.png",
+        "figures/dirichlet_plot_non_beroe/strongylocentrotus/strongylocentrotus_violins.png",
+        "figures/dirichlet_plot_non_beroe/chlamydomonas/chlamydomonas_violins.png",
 
 
 rule plot_synteny:
@@ -164,7 +170,7 @@ rule plot_dirichlet:
         ND4L = "fasta_sequences/coding_seqs/ND4L.fasta",
         ND5 = "fasta_sequences/coding_seqs/ND5.fasta",
         ND6 = "fasta_sequences/coding_seqs/ND6.fasta",
-        nc1 = "fasta_sequences/noncoding_seqs/COX1to12S.fasta",
+        nc1 = "fasta_sequences/noncoding_seqs/COX1toND6.fasta",
         nc2 = "fasta_sequences/noncoding_seqs/COX3toND3.fasta",
         nc3 = "fasta_sequences/noncoding_seqs/URF1toURF2.fasta",
         nc4 = "fasta_sequences/noncoding_seqs/ND2toCYTB.fasta",
@@ -186,10 +192,136 @@ rule plot_dirichlet:
         --numsims 5000 \
         --results_file \
         {output.results} \
-        -s meandec --fileform png \
+        -s meandec --fileform png pdf jpg \
         --no_timestamp \
         -o {params.obasename}
         """
+
+rule plot_dirichlet_daphnia:
+    """
+    Generates the dirichlet LOO analysis plot for daphnia genes.
+    """
+    input:
+        COX1= "fasta_sequences/non-beroe/daphnia/coding/COX1.fasta",
+    output:
+        fig = "figures/dirichlet_plot_non_beroe/daphnia/daphnia_violins.png",
+        results = "figures/dirichlet_plot_non_beroe/daphnia/daphnia_results.csv"
+    params:
+        coding_dir = "fasta_sequences/non-beroe/daphnia/coding/",
+        noncoding_dir = "fasta_sequences/non-beroe/daphnia/noncoding/",
+        obasename = "figures/dirichlet_plot_non_beroe/daphnia"
+    shell:
+        """
+        cuttlery dirichlet \
+        --coding_dir {params.coding_dir} \
+        --noncoding_dir {params.noncoding_dir} \
+        --numsims 5000 \
+        --results_file {output.results} \
+        -s meandec --fileform png pdf jpg \
+        --no_timestamp \
+        -o {params.obasename}
+        """
+
+rule plot_dirichlet_strongylocentrotus:
+    """
+    Generates the dirichlet LOO analysis plot for strongylocentrotus genes.
+    """
+    input:
+        COX1= "fasta_sequences/non-beroe/strongylocentrotus/coding/COX1.fasta",
+    output:
+        fig = "figures/dirichlet_plot_non_beroe/strongylocentrotus/strongylocentrotus_violins.png",
+        results = "figures/dirichlet_plot_non_beroe/strongylocentrotus/strongylocentrotus_results.csv"
+    params:
+        coding_dir = "fasta_sequences/non-beroe/strongylocentrotus/coding/",
+        noncoding_dir = "fasta_sequences/non-beroe/strongylocentrotus/noncoding/",
+        obasename = "figures/dirichlet_plot_non_beroe/strongylocentrotus"
+    shell:
+        """
+        cuttlery dirichlet \
+        --coding_dir {params.coding_dir} \
+        --noncoding_dir {params.noncoding_dir} \
+        --numsims 5000 \
+        --results_file {output.results} \
+        -s meandec --fileform png pdf jpg \
+        --no_timestamp \
+        -o {params.obasename}
+        """
+
+rule plot_dirichlet_human:
+    """
+    Generates the dirichlet LOO analysis plot for human genes.
+    """
+    input:
+        COX1= "fasta_sequences/non-beroe/human/coding/COX1.fasta",
+    output:
+        fig = "figures/dirichlet_plot_non_beroe/human/human_violins.png",
+        results = "figures/dirichlet_plot_non_beroe/human/human_results.csv"
+    params:
+        coding_dir = "fasta_sequences/non-beroe/human/coding/",
+        noncoding_dir = "fasta_sequences/non-beroe/human/noncoding/",
+        obasename = "figures/dirichlet_plot_non_beroe/human"
+    shell:
+        """
+        cuttlery dirichlet \
+        --coding_dir {params.coding_dir} \
+        --noncoding_dir {params.noncoding_dir} \
+        --numsims 5000 \
+        --results_file {output.results} \
+        -s meandec --fileform png pdf jpg \
+        --no_timestamp \
+        -o {params.obasename}
+        """
+
+rule plot_dirichlet_drosophila:
+    """
+    Generates the dirichlet LOO analysis plot for drosophila genes.
+    """
+    input:
+        COX1= "fasta_sequences/non-beroe/drosophila/coding/COX1.fasta",
+    output:
+        fig = "figures/dirichlet_plot_non_beroe/drosophila/drosophila_violins.png",
+        results = "figures/dirichlet_plot_non_beroe/drosophila/drosophila_results.csv"
+    params:
+        coding_dir = "fasta_sequences/non-beroe/drosophila/coding/",
+        noncoding_dir = "fasta_sequences/non-beroe/drosophila/noncoding/",
+        obasename = "figures/dirichlet_plot_non_beroe/drosophila"
+    shell:
+        """
+        cuttlery dirichlet \
+        --coding_dir {params.coding_dir} \
+        --noncoding_dir {params.noncoding_dir} \
+        --numsims 5000 \
+        --results_file {output.results} \
+        -s meandec --fileform png pdf jpg \
+        --no_timestamp \
+        -o {params.obasename}
+        """
+
+rule plot_dirichlet_chlamydomonas:
+    """
+    Generates the dirichlet LOO analysis plot for chlamydomonas genes.
+    """
+    input:
+        COX1= "fasta_sequences/non-beroe/chlamydomonas/coding/COX1.fasta",
+    output:
+        fig = "figures/dirichlet_plot_non_beroe/chlamydomonas/chlamydomonas_violins.png",
+        results = "figures/dirichlet_plot_non_beroe/chlamydomonas/chlamydomonas_results.csv"
+    params:
+        coding_dir = "fasta_sequences/non-beroe/chlamydomonas/coding/",
+        noncoding_dir = "fasta_sequences/non-beroe/chlamydomonas/noncoding/",
+        obasename = "figures/dirichlet_plot_non_beroe/chlamydomonas"
+    shell:
+        """
+        cuttlery dirichlet \
+        --coding_dir {params.coding_dir} \
+        --noncoding_dir {params.noncoding_dir} \
+        --numsims 5000 \
+        --results_file {output.results} \
+        -s meandec --fileform png pdf jpg \
+        --no_timestamp \
+        -o {params.obasename}
+        """
+
 
 rule plot_hetero:
     """
