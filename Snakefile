@@ -23,6 +23,14 @@ rule all:
         "figures/dirichlet_plot_non_beroe/human/human_violins.png",
         "figures/dirichlet_plot_non_beroe/strongylocentrotus/strongylocentrotus_violins.png",
         "figures/dirichlet_plot_non_beroe/chlamydomonas/chlamydomonas_violins.png",
+        #non-beroe nucdiv
+        "figures/nuc_div_non_beroe/daphnia/daphnia_nuc_div_boxplot.png",
+        "figures/nuc_div_non_beroe/drosophila/drosophila_nuc_div_boxplot.png",
+        "figures/nuc_div_non_beroe/human/human_nuc_div_boxplot.png",
+        "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nuc_div_boxplot.png",
+        "figures/nuc_div_non_beroe/chlamydomonas/chlamydomonas_nuc_div_boxplot.png",
+
+
 
 
 rule plot_synteny:
@@ -154,6 +162,146 @@ rule plot_nucdiv:
           --fileform png pdf jpg
         """
 
+rule plot_nucdiv_human:
+    """
+    Generates the nucleotide diversity plot.
+    """
+    input:
+        COX1= "fasta_sequences/non-beroe/human/coding/COX1.fasta",
+    output:
+        csv = "figures/nuc_div_non_beroe/human/human_nucdiv.csv",
+        bp =  "figures/nuc_div_non_beroe/human/human_nuc_div_boxplot.png",
+        pc =  "figures/nuc_div_non_beroe/human/human_nuc_div_picheck.png"
+    params:
+        coding_seqs = "fasta_sequences/non-beroe/human/coding/",
+        basename = "figures/nuc_div_non_beroe/human/human_nuc_div",
+        tt_code = 2
+    shell:
+        """
+        cuttlery piNpiSsim \
+          --tt_code {params.tt_code} \
+          --numsims 1000 \
+          --fasta_dir {params.coding_seqs} \
+          --results_file {output.csv} \
+          --method NG86 \
+          -@ 4 \
+          -o {params.basename} \
+          --no_timestamp \
+          --fileform png pdf jpg
+        """
+
+rule plot_nucdiv_chlamydomonas:
+    """
+    Generates the nucleotide diversity plot.
+    """
+    input:
+        COX1= "fasta_sequences/non-beroe/chlamydomonas/coding/COX1.fasta",
+    output:
+        csv = "figures/nuc_div_non_beroe/chlamydomonas/chlamydomonas_nucdiv.csv",
+        bp =  "figures/nuc_div_non_beroe/chlamydomonas/chlamydomonas_nuc_div_boxplot.png",
+        pc =  "figures/nuc_div_non_beroe/chlamydomonas/chlamydomonas_nuc_div_picheck.png"
+    params:
+        coding_seqs = "fasta_sequences/non-beroe/chlamydomonas/coding/",
+        basename = "figures/nuc_div_non_beroe/chlamydomonas/chlamydomonas_nuc_div",
+        tt_code = 1
+    shell:
+        """
+        cuttlery piNpiSsim \
+          --tt_code {params.tt_code} \
+          --numsims 1000 \
+          --fasta_dir {params.coding_seqs} \
+          --results_file {output.csv} \
+          --method NG86 \
+          -@ 4 \
+          -o {params.basename} \
+          --no_timestamp \
+          --fileform png pdf jpg
+        """
+
+rule plot_nucdiv_drosophila:
+    """
+    Generates the nucleotide diversity plot.
+    """
+    input:
+        COX1= "fasta_sequences/non-beroe/drosophila/coding/COX1.fasta",
+    output:
+        csv = "figures/nuc_div_non_beroe/drosophila/drosophila_nucdiv.csv",
+        bp =  "figures/nuc_div_non_beroe/drosophila/drosophila_nuc_div_boxplot.png",
+        pc =  "figures/nuc_div_non_beroe/drosophila/drosophila_nuc_div_picheck.png"
+    params:
+        coding_seqs = "fasta_sequences/non-beroe/drosophila/coding/",
+        basename = "figures/nuc_div_non_beroe/drosophila/drosophila_nuc_div",
+        tt_code = 5
+    shell:
+        """
+        cuttlery piNpiSsim \
+          --tt_code {params.tt_code} \
+          --numsims 1000 \
+          --fasta_dir {params.coding_seqs} \
+          --results_file {output.csv} \
+          --method NG86 \
+          -@ 4 \
+          -o {params.basename} \
+          --no_timestamp \
+          --fileform png pdf jpg
+        """
+
+rule plot_nucdiv_daphnia:
+    """
+    Generates the nucleotide diversity plot.
+    """
+    input:
+        COX1= "fasta_sequences/non-beroe/daphnia/coding/COX1.fasta",
+    output:
+        csv = "figures/nuc_div_non_beroe/daphnia/daphnia_nucdiv.csv",
+        bp =  "figures/nuc_div_non_beroe/daphnia/daphnia_nuc_div_boxplot.png",
+        pc =  "figures/nuc_div_non_beroe/daphnia/daphnia_nuc_div_picheck.png"
+    params:
+        coding_seqs = "fasta_sequences/non-beroe/daphnia/coding/",
+        basename = "figures/nuc_div_non_beroe/daphnia/daphnia_nuc_div",
+        tt_code = 5
+    shell:
+        """
+        cuttlery piNpiSsim \
+          --tt_code {params.tt_code} \
+          --numsims 1000 \
+          --fasta_dir {params.coding_seqs} \
+          --results_file {output.csv} \
+          --method NG86 \
+          -@ 4 \
+          -o {params.basename} \
+          --no_timestamp \
+          --fileform png pdf jpg
+        """
+
+rule plot_nucdiv_strongylocentrotus:
+    """
+    Generates the nucleotide diversity plot.
+    """
+    input:
+        COX1= "fasta_sequences/non-beroe/strongylocentrotus/coding/COX1.fasta",
+    output:
+        csv = "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nucdiv.csv",
+        bp =  "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nuc_div_boxplot.png",
+        pc =  "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nuc_div_picheck.png"
+    params:
+        coding_seqs = "fasta_sequences/non-beroe/strongylocentrotus/coding/",
+        basename = "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nuc_div",
+        tt_code = 9
+    shell:
+        """
+        cuttlery piNpiSsim \
+          --tt_code {params.tt_code} \
+          --numsims 1000 \
+          --fasta_dir {params.coding_seqs} \
+          --results_file {output.csv} \
+          --method NG86 \
+          -@ 4 \
+          -o {params.basename} \
+          --no_timestamp \
+          --fileform png pdf jpg
+        """
+
 rule plot_dirichlet:
     """
     Generates the dirichlet LOO analysis plot for all genes.
@@ -209,7 +357,7 @@ rule plot_dirichlet_daphnia:
     params:
         coding_dir = "fasta_sequences/non-beroe/daphnia/coding/",
         noncoding_dir = "fasta_sequences/non-beroe/daphnia/noncoding/",
-        obasename = "figures/dirichlet_plot_non_beroe/daphnia"
+        obasename = "figures/dirichlet_plot_non_beroe/daphnia/daphnia"
     shell:
         """
         cuttlery dirichlet \
@@ -234,7 +382,7 @@ rule plot_dirichlet_strongylocentrotus:
     params:
         coding_dir = "fasta_sequences/non-beroe/strongylocentrotus/coding/",
         noncoding_dir = "fasta_sequences/non-beroe/strongylocentrotus/noncoding/",
-        obasename = "figures/dirichlet_plot_non_beroe/strongylocentrotus"
+        obasename = "figures/dirichlet_plot_non_beroe/strongylocentrotus/strongylocentrotus"
     shell:
         """
         cuttlery dirichlet \
@@ -259,7 +407,7 @@ rule plot_dirichlet_human:
     params:
         coding_dir = "fasta_sequences/non-beroe/human/coding/",
         noncoding_dir = "fasta_sequences/non-beroe/human/noncoding/",
-        obasename = "figures/dirichlet_plot_non_beroe/human"
+        obasename = "figures/dirichlet_plot_non_beroe/human/human"
     shell:
         """
         cuttlery dirichlet \
@@ -284,7 +432,7 @@ rule plot_dirichlet_drosophila:
     params:
         coding_dir = "fasta_sequences/non-beroe/drosophila/coding/",
         noncoding_dir = "fasta_sequences/non-beroe/drosophila/noncoding/",
-        obasename = "figures/dirichlet_plot_non_beroe/drosophila"
+        obasename = "figures/dirichlet_plot_non_beroe/drosophila/drosophila"
     shell:
         """
         cuttlery dirichlet \
@@ -309,7 +457,7 @@ rule plot_dirichlet_chlamydomonas:
     params:
         coding_dir = "fasta_sequences/non-beroe/chlamydomonas/coding/",
         noncoding_dir = "fasta_sequences/non-beroe/chlamydomonas/noncoding/",
-        obasename = "figures/dirichlet_plot_non_beroe/chlamydomonas"
+        obasename = "figures/dirichlet_plot_non_beroe/chlamydomonas/chlamydomonas"
     shell:
         """
         cuttlery dirichlet \
