@@ -69,6 +69,29 @@ This directory contains a single file, `bf_raw_mito.fa`, which is the raw mitoch
 
 ### Directory -- `fasta_sequences`
 
+This directory contains fasta files used in various analyses, including nucleotide and amino acid sequences, as well as various alignments. The files in this directory are
+
+- Directory `BF201706_prot`
+  - Directory `TM_results`
+    - contains html file results from TMHMM for COX1, COX2, COX3, CYTB, ND1-6, URF1, and URF2.
+  - Directory `TM_txtfiles`
+    - Contains text files with transmembrane domain predictions by TMHMM. There are files for COX1, COX2, COX3, CYTB, ND1-6, URF1, and URF2.
+  - file `Bf201706_prot.fasta` - the protein sequences from MG655622/Bf201706. These were used in generating the transmembrane domain prediction with TMHMM.
+- Directory `alignments`
+  - Directory `concatenated_after_guidance`
+    - file `concatenated`
+  - Directory `concatenated_noguidance`
+  - Directory `ctenos_all_proteins_noguidance`
+  - Directory `guidance_alignments`
+  - Directory `nucl_alignment`
+  - file `12S.fasta` - 12S alignment from _Pb_ and other ctenophores.
+  - file `16S.fasta` - 16S alignment from _Bf_ and other ctenophores.
+- Directory `coding_seqs`
+- Directory `non-beroe`
+- Directory `noncoding_seqs`
+- Directory `test_seqs`
+- file `bf_mitogenomes_alignment.fasta` - the whole-mitogenome _Bf_ alignment used to generate the table listing indels.
+
 ### Directory -- `figures`
 
 ### Directory -- `final_annotations`
