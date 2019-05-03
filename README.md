@@ -83,7 +83,7 @@ This directory contains fasta files used in various analyses, including nucleoti
   - Directory `concatenated_noguidance`
   - Directory `ctenos_all_proteins_noguidance`
   - Directory `guidance_alignments`
-  - Directory `nucl_alignment`
+  - Directory `prot_cteno_aln` contains nucleotide alignments for 12S and 16S for all ctenophore mitochondrial genomes, as well as protein alignments for all ctenophores for genes COX1, COX2, COX3, CYTB, and ND1-ND6.
   - file `12S.fasta` - 12S alignment from _Pb_ and other ctenophores.
   - file `16S.fasta` - 16S alignment from _Bf_ and other ctenophores.
 - Directory `coding_seqs`
