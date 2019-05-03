@@ -96,6 +96,8 @@ This directory contains fasta files used in various analyses, including nucleoti
 
 ### Directory -- `figures`
 
+When the `snakemake` pipeline is run, the figures and associated text files are output to this directory.
+
 ### Directory -- `final_annotations`
 
 Text files in this directory include the final DNA sequences of the
@@ -106,7 +108,16 @@ the mitochondrial sequences.
 
 ### Directory -- `gff_files`
 
+This directory contains GFF files used in plotting mitochondrial genomes for synteny.
+
 ### Directory -- `indels`
+
+Contains scripts and files to analyze the number and distribution of indels between individuals.
+
+- file `Bf_alignment.fasta` is a whole-mitogenome alignment for all three individuals of _B. forskalii_
+- file `Bf_alignment.geneious` - the same alignment, in geneious format.
+- file `Bforsk_indels.txt` - a table of indels, the sample in which they occur, the position, and the size.
+- file `print_gaps.py` - a python script that produces `Bforsk_indels.txt` from `Bf_alignment.fasta`
 
 ### Directory -- `itasser_results`
 
