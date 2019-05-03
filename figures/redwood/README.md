@@ -1,2 +1,0 @@
-- The command to generate this plot was:
-  - `pauvre redwood -M ./gd122_to_2013_doubled.bam --doubled main -R ./R007mergeASgt140.sorted.bam --gff ../../gff_files/Bf201706.gff --fileform pdf --sort ALNLEN --query 'ALNLEN >= 10000' 'MAPLEN < reflength' --small_start inside --ticks 0 10 100 1000`
