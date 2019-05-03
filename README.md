@@ -79,17 +79,19 @@ This directory contains fasta files used in various analyses, including nucleoti
   - file `Bf201706_prot.fasta` - the protein sequences from MG655622/Bf201706. These were used in generating the transmembrane domain prediction with TMHMM.
 - Directory `alignments`
   - Directory `concatenated_after_guidance`
-    - file `concatenated`
+    - `concatenated_prot.phy` is the COX1, COX2, COX3, CYTB, ND1, ND3, and ND5 alignments concatenated together. These are the the protein alignments that have had sites removed using Guidance2.
   - Directory `concatenated_noguidance`
+    - `concatenated_noguidance.phy` is the COX1, COX2, COX3, CYTB, ND1, ND3, and ND5 alignments concatenated together. No columns were removed using Guidance2.
   - Directory `ctenos_all_proteins_noguidance`
-  - Directory `guidance_alignments`
+    - `all_proteins_ctenos_monoallo_noguidance.phy` is the concatenated alignment for COX1, COX2, COX3, CYTB, and ND1-6 for all ctenophores and two outgroups.
+  - Directory `guidance_alignments` - This directory contains a files and script, `run_guidance.sh`, that produces alignments with columns removed using Guidance2.
   - Directory `prot_cteno_aln` contains nucleotide alignments for 12S and 16S for all ctenophore mitochondrial genomes, as well as protein alignments for all ctenophores for genes COX1, COX2, COX3, CYTB, and ND1-ND6.
   - file `12S.fasta` - 12S alignment from _Pb_ and other ctenophores.
   - file `16S.fasta` - 16S alignment from _Bf_ and other ctenophores.
-- Directory `coding_seqs`
-- Directory `non-beroe`
-- Directory `noncoding_seqs`
-- Directory `test_seqs`
+- Directory `coding_seqs` contains all of the nucleotide sequences for _Bf_ for COX1, COX2, COX3, CYTB, and ND1-6.
+- Directory `non-beroe` contains directories of nucleotide sequences for coding and noncoding regions of the following organisms: _Chlamydomonas_, _Daphnia_, _Drosophila_, Human, and _Strongylocentrotus_.
+- Directory `noncoding_seqs` contains all of the _Bf_ nucleotide sequences for the noncoding regions `COX1 to ND6`, `COX3 to ND3`, `ND2 to CYTB`, `ND5 to URF1`, `URF1 to URF2`, and `URF2 to ND2`.
+- Directory `test_seqs` contains all of the _Bf_ nucleotide sequences for URF1 and URF2.
 - file `bf_mitogenomes_alignment.fasta` - the whole-mitogenome _Bf_ alignment used to generate the table listing indels.
 
 ### Directory -- `figures`
