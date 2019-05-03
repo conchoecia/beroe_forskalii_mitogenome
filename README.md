@@ -4,8 +4,7 @@
 
 - This repository contains additional files for the manuscript, "Novel
   ORFs in the mitochondrial genome of the ctenophore, Beroe forskalii"
-- The Additional Files section below is formatted for publication in a
-  journal article.
+- To recreate most of the figures for the manuscript, please install [`snakemake`](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html), [`cuttlery`](https://github.com/conchoecia/cuttlery), and [`pauvre`](https://github.com/conchoecia/pauvre), then naviagate to this directory and run the snakemake pipeline by executing the command `snakemake` in your terminal. 
 
 ## Abbreviations
 
@@ -127,10 +126,16 @@ be opened with protein viewing software.
 
 ### Directory - `phylogeny`
 
-Text files in the directory `20170905_partition_finder` contain
-results from a partition finder analysis of the mitochondrial
-loci. The `20170906_rooted_tree` directory contains the phylip gene
-matrix, RAxML partition files, and RAxML results. The command used to
-generate these files are located in `20170906_rooted_tree/README.md`.
+Files in this directory contain phylogenetic analyses. All subdirectories listed below are in the directory `phylogeny/201904_rooted_tree`.
+
+- Directory `RAxML_ctenos_allgenes_noguidance` - RAxML analysis conducted on COX1, COX2, COX3, CYTB, and ND1-6 using only ctenophores with two outgroups. Guidance2 was not used to remove columns from the amino acid matrix.
+- Directory `RAxML_protcatwag_guidance` - RAxML analysis conducted on COX1, COX2, COX3, CYTB, ND1, ND3, and ND5 using ctenophores and many outgroups. Guidance2 **was** used to remove columns from the amino acid matrix.
+- Directory `RAxML_protcatwag_noguidance` - RAxML analysis conducted on COX1, COX2, COX3, CYTB, ND1, ND3, and ND5 using ctenophores and many outgroups. Guidance2 **was not** used to remove columns from the amino acid matrix.
+- Directory `phylobayes_ctenos_allgenes_noguidance` - Phylobayes analysis conducted on COX1, COX2, COX3, CYTB, and ND1-6 using only ctenophores with two outgroups. Guidance2 was not used to remove columns from the amino acid matrix.
+- Directory `phylobayes_guidance` - Phylobayes analysis conducted on COX1, COX2, COX3, CYTB, ND1, ND3, and ND5 using ctenophores and many outgroups. Guidance2 **was** used to remove columns from the amino acid matrix.
+- Directory `phylobayes_noguidance` - Phylobayes analysis conducted on COX1, COX2, COX3, CYTB, ND1, ND3, and ND5 using ctenophores and many outgroups. Guidance2 **was not** used to remove columns from the amino acid matrix.
+
 
 ### Directory - `tRNAscanSE`
+ 
+Contains HTML files of results from running tRNAscanSE on the whole mitochondrial genomes for Bf201706, Bf201606, and Bf201311.
