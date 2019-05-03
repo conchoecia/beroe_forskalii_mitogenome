@@ -1,4 +1,3 @@
-# This document is in markdown. View in a markdown viewing app or on Github to see text formatting and htmls properly
 - ATP6 for _B. forskalii_, _M. leidyi_, and _P. bachei_
   - _P. bachei_
     - [gene page located here](https://neurobase.rc.ufl.edu/pleurobrachia/seqDetail?sbid=3468347&projectID=38)
