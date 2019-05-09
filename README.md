@@ -1,6 +1,5 @@
 [![DOI](https://zenodo.org/badge/112774670.svg)](https://zenodo.org/badge/latestdoi/112774670)
 
-
 # beroe_forskalii_mitogenome
 
 - This repository contains additional files for the manuscript, "Novel
