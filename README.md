@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/112774670.svg)](https://zenodo.org/badge/latestdoi/112774670)
+[![DOI](https://zenodo.org/badge/112774670.svg)](https://zenodo.org/record/2678159#.XNOyFKZlDOQ)
 
 # beroe_forskalii_mitogenome
 
