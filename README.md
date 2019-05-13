@@ -2,9 +2,9 @@
 
 # beroe_forskalii_mitogenome
 
-- This repository contains additional files for the manuscript, "Novel
-  ORFs in the mitochondrial genome of the ctenophore, Beroe forskalii"
-- To recreate most of the figures for the manuscript, please install [`snakemake`](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html), [`cuttlery`](https://github.com/conchoecia/cuttlery), and [`pauvre`](https://github.com/conchoecia/pauvre), then naviagate to this directory and run the snakemake pipeline by executing the command `snakemake` in your terminal. 
+- This repository contains additional files for the manuscript, "Conserved novel
+  ORFs in the mitochondrial genome of the ctenophore Beroe forskalii"
+- To recreate most of the figures for the manuscript, please install [`snakemake`](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html), [`cuttlery`](https://github.com/conchoecia/cuttlery), and [`pauvre`](https://github.com/conchoecia/pauvre), then navigate to this directory and run the `snakemake` pipeline by executing the command `snakemake` in your terminal. 
 
 ## Abbreviations
 
@@ -20,8 +20,8 @@ Files in this directory are related to determining the 16S structure
 of the _B. forskalii_ mitochondrial genome. The files in this directory are:
 
 - `mnemiopsis_rrnl_final.sto` is a structural Stockholm file. This encodes the _M. leidyi_ 16S rRNA structure from Pett et al 2011.
-- `mnemi16S.cm` is the infernal covariance model built using `mnemiopsis_rrnl_final.sto`. 
-- `Bf1311_against_mnemi16S.txt` is the infernal results file when the Bf1311 mitochondrial genome was searched against using the `mnemi16S.cm` covariance model.
+- `mnemi16S.cm` is the `infernal` covariance model built using `mnemiopsis_rrnl_final.sto`. 
+- `Bf1311_against_mnemi16S.txt` is the `infernal` results file when the Bf1311 mitochondrial genome was searched against using the `mnemi16S.cm` covariance model.
 
 ### Directory -- `ARWEN`
 
@@ -54,8 +54,8 @@ for all four _B. forskalii_ ctenophore individuals.
 
 ### Directory -- `CREx`
 
-This directory contains the file, `crex_results_summary.pdf`, which
-are the CREx mitochondrial rearrangement analysis results for the
+This directory contains the file `crex_results_summary.pdf`, which
+is the CREx mitochondrial rearrangement analysis results for the
 _M. leidyi_, _B. forskalii_, and _P. bachei_ mitochondrial genomes.
 
 ### Directory -- `FTGwindow`
@@ -83,7 +83,7 @@ This directory contains fasta files used in various analyses, including nucleoti
     - `concatenated_noguidance.phy` is the COX1, COX2, COX3, CYTB, ND1, ND3, and ND5 alignments concatenated together. No columns were removed using Guidance2.
   - Directory `ctenos_all_proteins_noguidance`
     - `all_proteins_ctenos_monoallo_noguidance.phy` is the concatenated alignment for COX1, COX2, COX3, CYTB, and ND1-6 for all ctenophores and two outgroups.
-  - Directory `guidance_alignments` - This directory contains a files and script, `run_guidance.sh`, that produces alignments with columns removed using Guidance2.
+  - Directory `guidance_alignments` - This directory contains files and a script, `run_guidance.sh`, that produces alignments with columns removed using Guidance2.
   - Directory `prot_cteno_aln` contains nucleotide alignments for 12S and 16S for all ctenophore mitochondrial genomes, as well as protein alignments for all ctenophores for genes COX1, COX2, COX3, CYTB, and ND1-ND6.
   - file `12S.fasta` - 12S alignment from _Pb_ and other ctenophores.
   - file `16S.fasta` - 16S alignment from _Bf_ and other ctenophores.
