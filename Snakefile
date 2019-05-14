@@ -60,7 +60,7 @@ rule plot_synteny:
         optimum = "figures/synteny_plot/synteny_optimum.pdf"
     params:
         basename = "figures/synteny_plot/synteny_optimum",
-        alndir = "fasta_sequences/alignments/nucl_alignment/"
+        alndir = "fasta_sequences/alignments/prot_cteno_aln/"
     shell:
         """
         pauvre synplot --aln_dir {params.alndir} \
