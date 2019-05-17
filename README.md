@@ -6,6 +6,8 @@
   ORFs in the mitochondrial genome of the ctenophore Beroe forskalii"
 - To recreate most of the figures for the manuscript, please install [`snakemake`](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html), [`cuttlery`](https://github.com/conchoecia/cuttlery), and [`pauvre`](https://github.com/conchoecia/pauvre), then navigate to this directory and run the `snakemake` pipeline by executing the command `snakemake` in your terminal. 
 
+## Installation
+
 To install everything, use the following commands
 ```
 # If on linux, execute the following command to ensure that everything plots correctly
