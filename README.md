@@ -6,6 +6,22 @@
   ORFs in the mitochondrial genome of the ctenophore Beroe forskalii"
 - To recreate most of the figures for the manuscript, please install [`snakemake`](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html), [`cuttlery`](https://github.com/conchoecia/cuttlery), and [`pauvre`](https://github.com/conchoecia/pauvre), then navigate to this directory and run the `snakemake` pipeline by executing the command `snakemake` in your terminal. 
 
+To install everything, use the following commands
+```
+# If on linux, execute the following command to ensure that everything plots correctly
+sudo apt-get install dvipng
+
+# install the requirements
+pip install pauvre
+pip install cuttlery
+pip install snakemake
+
+# Clone the repository and recreate the figures of the plot. Takes several hours.
+https://github.com/conchoecia/beroe_forskalii_mitogenome
+cd beroe_forskalii_mitogenome
+snakemake --cores 4
+```
+
 ## Abbreviations
 
 - _Pb_ - _Pleurobrachia bachei_
