@@ -291,7 +291,7 @@ rule plot_nucdiv_strongylocentrotus:
         basename2 = "figures/nuc_div_non_beroe_ML/strongylocentrotus/strongylocentrotus_nuc_div",
         tt_code = 9
     threads:
-        cores
+        96
     shell:
         """
         cuttlery piNpiSsim \
