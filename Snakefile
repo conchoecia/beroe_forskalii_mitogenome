@@ -8,15 +8,15 @@ rule all:
     The final files to be output at the end of this script.
     """
     input:
-        "figures/redwood/redwood.png",
-        "figures/dirichlet_plot/dirichlet_violins.png",
-        "figures/heterogeneity_plot/hetero.pdf",
-        "figures/heterogeneity_plot/hetero.csv",
-        "figures/synteny_plot/synteny_optimum.pdf",
-        "figures/nuc_div/nucdiv.csv",
-        "figures/nuc_div/nuc_div_boxplot.png",
-        "figures/nuc_div/nuc_div_picheck.png",
-        "figures/codonusage/codonplot.pdf",
+        #"figures/redwood/redwood.png",
+        #"figures/dirichlet_plot/dirichlet_violins.png",
+        #"figures/heterogeneity_plot/hetero.pdf",
+        #"figures/heterogeneity_plot/hetero.csv",
+        #"figures/synteny_plot/synteny_optimum.pdf",
+        #"figures/nuc_div/nucdiv.csv",
+        #"figures/nuc_div/nuc_div_boxplot.png",
+        #"figures/nuc_div/nuc_div_picheck.png",
+        #"figures/codonusage/codonplot.pdf",
         #non-beroe
         "figures/dirichlet_plot_non_beroe/daphnia/daphnia_violins.png",
         "figures/dirichlet_plot_non_beroe/drosophila/drosophila_violins.png",
@@ -29,9 +29,7 @@ rule all:
         "figures/nuc_div_non_beroe/human/human_nuc_div_boxplot.png",
         "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nuc_div_boxplot.png",
         "figures/nuc_div_non_beroe/chlamydomonas/chlamydomonas_nuc_div_boxplot.png",
-
-
-
+        "figures/nuc_div_non_beroe_ML/strongylocentrotus/strongylocentrotus_nuc_div_boxplot.png",
 
 rule plot_synteny:
     """Generates the synteny plot of all of the ctenophore mitochondrial genomes.
@@ -283,10 +281,14 @@ rule plot_nucdiv_strongylocentrotus:
     output:
         csv = "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nucdiv.csv",
         bp =  "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nuc_div_boxplot.png",
-        pc =  "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nuc_div_picheck.png"
+        pc =  "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nuc_div_picheck.png",
+        csv2 = "figures/nuc_div_non_beroe_ML/strongylocentrotus/strongylocentrotus_nucdiv.csv",
+        bp2 =  "figures/nuc_div_non_beroe_ML/strongylocentrotus/strongylocentrotus_nuc_div_boxplot.png",
+        pc2 =  "figures/nuc_div_non_beroe_ML/strongylocentrotus/strongylocentrotus_nuc_div_picheck.png"
     params:
         coding_seqs = "fasta_sequences/non-beroe/strongylocentrotus/coding/",
         basename = "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nuc_div",
+        basename2 = "figures/nuc_div_non_beroe_ML/strongylocentrotus/strongylocentrotus_nuc_div",
         tt_code = 9
     shell:
         """
@@ -298,6 +300,17 @@ rule plot_nucdiv_strongylocentrotus:
           --method NG86 \
           -@ 4 \
           -o {params.basename} \
+          --no_timestamp \
+          --fileform png pdf jpg
+
+        cuttlery piNpiSsim \
+          --tt_code {params.tt_code} \
+          --numsims 1000 \
+          --fasta_dir {params.coding_seqs} \
+          --results_file {output.csv} \
+          --method ML \
+          -@ 4 \
+          -o {params.basename2} \
           --no_timestamp \
           --fileform png pdf jpg
         """
