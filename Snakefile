@@ -290,6 +290,8 @@ rule plot_nucdiv_strongylocentrotus:
         basename = "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nuc_div",
         basename2 = "figures/nuc_div_non_beroe_ML/strongylocentrotus/strongylocentrotus_nuc_div",
         tt_code = 9
+    threads:
+        4
     shell:
         """
         cuttlery piNpiSsim \
@@ -298,7 +300,7 @@ rule plot_nucdiv_strongylocentrotus:
           --fasta_dir {params.coding_seqs} \
           --results_file {output.csv} \
           --method NG86 \
-          -@ 4 \
+          -@ {threads} \
           -o {params.basename} \
           --no_timestamp \
           --fileform png pdf jpg
@@ -309,7 +311,7 @@ rule plot_nucdiv_strongylocentrotus:
           --fasta_dir {params.coding_seqs} \
           --results_file {output.csv} \
           --method ML \
-          -@ 4 \
+          -@ {threads} \
           -o {params.basename2} \
           --no_timestamp \
           --fileform png pdf jpg
