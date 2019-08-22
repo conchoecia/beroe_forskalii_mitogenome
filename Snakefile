@@ -1,7 +1,10 @@
 """
 This Snakefile runs the scripts to recreate the plots in
- Schultz et al 2018 (in prep).
+ Schultz et al 2019 (in prep).
 """
+
+import multiprocessing
+corecount = multiprocessing.cpu_count()
 
 rule all:
     """
@@ -16,6 +19,9 @@ rule all:
         #"figures/nuc_div/nucdiv.csv",
         #"figures/nuc_div/nuc_div_boxplot.png",
         #"figures/nuc_div/nuc_div_picheck.png",
+        "figures/nuc_div_ML/nucdiv.csv",
+        "figures/nuc_div_ML/nuc_div_boxplot.png",
+        "figures/nuc_div_ML/nuc_div_picheck.png",
         #"figures/codonusage/codonplot.pdf",
         #non-beroe
         "figures/dirichlet_plot_non_beroe/daphnia/daphnia_violins.png",
@@ -29,7 +35,12 @@ rule all:
         "figures/nuc_div_non_beroe/human/human_nuc_div_boxplot.png",
         "figures/nuc_div_non_beroe/strongylocentrotus/strongylocentrotus_nuc_div_boxplot.png",
         "figures/nuc_div_non_beroe/chlamydomonas/chlamydomonas_nuc_div_boxplot.png",
+        "figures/nuc_div_non_beroe_ML/daphnia/daphnia_nuc_div_boxplot.png",
+        "figures/nuc_div_non_beroe_ML/drosophila/drosophila_nuc_div_boxplot.png",
+        "figures/nuc_div_non_beroe_ML/human/human_nuc_div_boxplot.png",
         "figures/nuc_div_non_beroe_ML/strongylocentrotus/strongylocentrotus_nuc_div_boxplot.png",
+        "figures/nuc_div_non_beroe_ML/chlamydomonas/chlamydomonas_nuc_div_boxplot.png",
+
 
 rule plot_synteny:
     """Generates the synteny plot of all of the ctenophore mitochondrial genomes.
@@ -143,9 +154,15 @@ rule plot_nucdiv:
     output:
         csv = "figures/nuc_div/nucdiv.csv",
         bp = "figures/nuc_div/nuc_div_boxplot.png",
-        pc = "figures/nuc_div/nuc_div_picheck.png"
+        pc = "figures/nuc_div/nuc_div_picheck.png",
+        csv2 = "figures/nuc_div_ML/nucdiv.csv",
+        bp2 =  "figures/nuc_div_ML/nuc_div_boxplot.png",
+        pc2 =  "figures/nuc_div_ML/nuc_div_picheck.png"
     params:
-        basename = "figures/nuc_div/nuc_div"
+        basename = "figures/nuc_div/nuc_div",
+        basename2 = "figures/nuc_div_ML/nuc_div",
+    threads:
+        corecount
     shell:
         """
         cuttlery piNpiSsim \
@@ -154,8 +171,19 @@ rule plot_nucdiv:
           --fasta_dir fasta_sequences/coding_seqs/ fasta_sequences/test_seqs/ \
           --results_file {output.csv} \
           --method NG86 \
-          -@ 4 \
+          -@ {threads} \
           -o {params.basename} \
+          --no_timestamp \
+          --fileform png pdf jpg
+
+        cuttlery piNpiSsim \
+          --tt_code {params.tt_code} \
+          --numsims 1000 \
+          --fasta_dir {params.coding_seqs} \
+          --results_file {output.csv} \
+          --method ML \
+          -@ {threads} \
+          -o {params.basename2} \
           --no_timestamp \
           --fileform png pdf jpg
         """
@@ -169,11 +197,17 @@ rule plot_nucdiv_human:
     output:
         csv = "figures/nuc_div_non_beroe/human/human_nucdiv.csv",
         bp =  "figures/nuc_div_non_beroe/human/human_nuc_div_boxplot.png",
-        pc =  "figures/nuc_div_non_beroe/human/human_nuc_div_picheck.png"
+        pc =  "figures/nuc_div_non_beroe/human/human_nuc_div_picheck.png",
+        csv2 = "figures/nuc_div_non_beroe_ML/human/human_nucdiv.csv",
+        bp2 =  "figures/nuc_div_non_beroe_ML/human/human_nuc_div_boxplot.png",
+        pc2 =  "figures/nuc_div_non_beroe_ML/human/human_nuc_div_picheck.png",
     params:
         coding_seqs = "fasta_sequences/non-beroe/human/coding/",
         basename = "figures/nuc_div_non_beroe/human/human_nuc_div",
+        basename2 = "figures/nuc_div_non_beroe_ML/human/human_nuc_div",
         tt_code = 2
+    threads:
+        corecount
     shell:
         """
         cuttlery piNpiSsim \
@@ -182,8 +216,19 @@ rule plot_nucdiv_human:
           --fasta_dir {params.coding_seqs} \
           --results_file {output.csv} \
           --method NG86 \
-          -@ 4 \
+          -@ {threads} \
           -o {params.basename} \
+          --no_timestamp \
+          --fileform png pdf jpg
+
+        cuttlery piNpiSsim \
+          --tt_code {params.tt_code} \
+          --numsims 1000 \
+          --fasta_dir {params.coding_seqs} \
+          --results_file {output.csv} \
+          --method ML \
+          -@ {threads} \
+          -o {params.basename2} \
           --no_timestamp \
           --fileform png pdf jpg
         """
@@ -197,11 +242,17 @@ rule plot_nucdiv_chlamydomonas:
     output:
         csv = "figures/nuc_div_non_beroe/chlamydomonas/chlamydomonas_nucdiv.csv",
         bp =  "figures/nuc_div_non_beroe/chlamydomonas/chlamydomonas_nuc_div_boxplot.png",
-        pc =  "figures/nuc_div_non_beroe/chlamydomonas/chlamydomonas_nuc_div_picheck.png"
+        pc =  "figures/nuc_div_non_beroe/chlamydomonas/chlamydomonas_nuc_div_picheck.png",
+        csv2 = "figures/nuc_div_non_beroe_ML/chlamydomonas/chlamydomonas_nucdiv.csv",
+        bp2 =  "figures/nuc_div_non_beroe_ML/chlamydomonas/chlamydomonas_nuc_div_boxplot.png",
+        pc2 =  "figures/nuc_div_non_beroe_ML/chlamydomonas/chlamydomonas_nuc_div_picheck.png",
     params:
         coding_seqs = "fasta_sequences/non-beroe/chlamydomonas/coding/",
         basename = "figures/nuc_div_non_beroe/chlamydomonas/chlamydomonas_nuc_div",
+        basename = "figures/nuc_div_non_beroe_ML/chlamydomonas/chlamydomonas_nuc_div",
         tt_code = 1
+    threads:
+        corecount
     shell:
         """
         cuttlery piNpiSsim \
@@ -210,8 +261,19 @@ rule plot_nucdiv_chlamydomonas:
           --fasta_dir {params.coding_seqs} \
           --results_file {output.csv} \
           --method NG86 \
-          -@ 4 \
+          -@ {threads} \
           -o {params.basename} \
+          --no_timestamp \
+          --fileform png pdf jpg
+
+        cuttlery piNpiSsim \
+          --tt_code {params.tt_code} \
+          --numsims 1000 \
+          --fasta_dir {params.coding_seqs} \
+          --results_file {output.csv} \
+          --method ML \
+          -@ {threads} \
+          -o {params.basename2} \
           --no_timestamp \
           --fileform png pdf jpg
         """
@@ -225,11 +287,17 @@ rule plot_nucdiv_drosophila:
     output:
         csv = "figures/nuc_div_non_beroe/drosophila/drosophila_nucdiv.csv",
         bp =  "figures/nuc_div_non_beroe/drosophila/drosophila_nuc_div_boxplot.png",
-        pc =  "figures/nuc_div_non_beroe/drosophila/drosophila_nuc_div_picheck.png"
+        pc =  "figures/nuc_div_non_beroe/drosophila/drosophila_nuc_div_picheck.png",
+        csv2 = "figures/nuc_div_non_beroe_ML/drosophila/drosophila_nucdiv.csv",
+        bp2 =  "figures/nuc_div_non_beroe_ML/drosophila/drosophila_nuc_div_boxplot.png",
+        pc2 =  "figures/nuc_div_non_beroe_ML/drosophila/drosophila_nuc_div_picheck.png",
     params:
         coding_seqs = "fasta_sequences/non-beroe/drosophila/coding/",
         basename = "figures/nuc_div_non_beroe/drosophila/drosophila_nuc_div",
+        basename = "figures/nuc_div_non_beroe_ML/drosophila/drosophila_nuc_div",
         tt_code = 5
+    threads:
+        corecount
     shell:
         """
         cuttlery piNpiSsim \
@@ -238,8 +306,19 @@ rule plot_nucdiv_drosophila:
           --fasta_dir {params.coding_seqs} \
           --results_file {output.csv} \
           --method NG86 \
-          -@ 4 \
+          -@ {threads} \
           -o {params.basename} \
+          --no_timestamp \
+          --fileform png pdf jpg
+
+        cuttlery piNpiSsim \
+          --tt_code {params.tt_code} \
+          --numsims 1000 \
+          --fasta_dir {params.coding_seqs} \
+          --results_file {output.csv} \
+          --method ML \
+          -@ {threads} \
+          -o {params.basename2} \
           --no_timestamp \
           --fileform png pdf jpg
         """
@@ -253,11 +332,17 @@ rule plot_nucdiv_daphnia:
     output:
         csv = "figures/nuc_div_non_beroe/daphnia/daphnia_nucdiv.csv",
         bp =  "figures/nuc_div_non_beroe/daphnia/daphnia_nuc_div_boxplot.png",
-        pc =  "figures/nuc_div_non_beroe/daphnia/daphnia_nuc_div_picheck.png"
+        pc =  "figures/nuc_div_non_beroe/daphnia/daphnia_nuc_div_picheck.png",
+        csv2 = "figures/nuc_div_non_beroe_ML/daphnia/daphnia_nucdiv.csv",
+        bp2 =  "figures/nuc_div_non_beroe_ML/daphnia/daphnia_nuc_div_boxplot.png",
+        pc2 =  "figures/nuc_div_non_beroe_ML/daphnia/daphnia_nuc_div_picheck.png",
     params:
         coding_seqs = "fasta_sequences/non-beroe/daphnia/coding/",
         basename = "figures/nuc_div_non_beroe/daphnia/daphnia_nuc_div",
+        basename = "figures/nuc_div_non_beroe_ML/daphnia/daphnia_nuc_div",
         tt_code = 5
+    threads:
+        corecount
     shell:
         """
         cuttlery piNpiSsim \
@@ -266,8 +351,19 @@ rule plot_nucdiv_daphnia:
           --fasta_dir {params.coding_seqs} \
           --results_file {output.csv} \
           --method NG86 \
-          -@ 4 \
+          -@ {threads} \
           -o {params.basename} \
+          --no_timestamp \
+          --fileform png pdf jpg
+
+        cuttlery piNpiSsim \
+          --tt_code {params.tt_code} \
+          --numsims 1000 \
+          --fasta_dir {params.coding_seqs} \
+          --results_file {output.csv} \
+          --method ML \
+          -@ {threads} \
+          -o {params.basename2} \
           --no_timestamp \
           --fileform png pdf jpg
         """
@@ -291,7 +387,7 @@ rule plot_nucdiv_strongylocentrotus:
         basename2 = "figures/nuc_div_non_beroe_ML/strongylocentrotus/strongylocentrotus_nuc_div",
         tt_code = 9
     threads:
-        96
+        corecount
     shell:
         """
         cuttlery piNpiSsim \
