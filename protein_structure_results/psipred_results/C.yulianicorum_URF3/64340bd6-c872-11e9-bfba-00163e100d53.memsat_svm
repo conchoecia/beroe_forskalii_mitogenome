@@ -1,0 +1,61 @@
+Processing 1 helix:
+Transmembrane helix 1 from  27 (in) to  57 (out) :	3339.27
+Pore-lining raw score, posterior probability:		0.159,0.097
+Score = 3.334540
+
+Processing 1 helix:
+Transmembrane helix 1 from  27 (out) to  57 (in) :	3313.33
+Pore-lining raw score, posterior probability:		0.159,0.097
+Score = 3.318060
+
+Processing 3 helices:
+Transmembrane helix 1 from   6 (in) to  21 (out) :	-196.851
+Pore-lining raw score, posterior probability:		0.269,0.527
+Transmembrane helix 2 from  25 (out) to  40 (in) :	1848.03
+Pore-lining raw score, posterior probability:		0.195,0.186
+Transmembrane helix 3 from  44 (in) to  61 (out) :	1973.04
+Pore-lining raw score, posterior probability:		0.112,0.038
+Score = -100000.000000
+
+Processing 2 helices:
+Transmembrane helix 1 from  22 (out) to  40 (in) :	1970.58
+Pore-lining raw score, posterior probability:		0.170,0.120
+Transmembrane helix 2 from  44 (in) to  61 (out) :	1973.04
+Pore-lining raw score, posterior probability:		0.112,0.038
+Score = 3.956042
+
+Processing 3 helices:
+Transmembrane helix 1 from   6 (out) to  21 (in) :	-196.549
+Pore-lining raw score, posterior probability:		0.269,0.527
+Transmembrane helix 2 from  25 (in) to  40 (out) :	1863.57
+Pore-lining raw score, posterior probability:		0.195,0.186
+Transmembrane helix 3 from  44 (out) to  61 (in) :	1976.95
+Pore-lining raw score, posterior probability:		0.112,0.038
+Score = -100000.000000
+
+Processing 2 helices:
+Transmembrane helix 1 from  22 (in) to  40 (out) :	1990.42
+Pore-lining raw score, posterior probability:		0.170,0.120
+Transmembrane helix 2 from  44 (out) to  61 (in) :	1976.95
+Pore-lining raw score, posterior probability:		0.112,0.038
+Score = 3.954958
+
+Summary of topology analysis:
+ 1 helix   (+) : Score = 3.33454
+ 1 helix   (-) : Score = 3.31806
+ 2 helices (+) : Score = 3.95496
+ 2 helices (-) : Score = 3.95604
+ 3 helices (+) : Score = -100000
+ 3 helices (-) : Score = -100000
+
+Results:
+Signal peptide:		Not detected.
+Signal score:		1.509
+Topology:		22-40,44-61
+Re-entrant helices:	Not detected.
+Pore-lining helices:	Not detected.
+Helix count:		2
+N-terminal:		out
+Score:			3.95604
+
+

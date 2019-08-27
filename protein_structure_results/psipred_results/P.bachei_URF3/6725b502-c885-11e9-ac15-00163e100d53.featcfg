@@ -1,0 +1,56 @@
+6725b502-c885-11e9-ac15-00163e100d53	MKTFFSLWWHKICHHNFISNVIHFIYQYLLFTYISFLYVYLQCYL
+TM	tm_helix	18	41	0
+SS	psipredH	3	44	0
+PS	endoplasmic reticulum	0
+PS	Golgi apparatus	0
+PS	peroxisome	0
+PS	vacuolar membrane	0
+PS	cytosol	0.15625
+PS	extracellular	0.59375
+PS	nuclear	0
+PS	plasma membrane	0
+PS	chloroplast	0
+PS	cytoskeleton	0
+PS	lysosome	0
+PS	mitochondria	0.21875
+SF	atomN	0.0753086
+SF	atomH	0.490123
+SF	fraction negative residues	0
+SF	aliphatic index	108.222
+SF	isoelectric point	8.69822
+SF	molecular weight	5785.77
+SF	surface area	12879
+SF	volume	7198.4
+SF	hydrophobicity	0.653333
+SF	atomO	0.0753086
+SF	atomS	0.0037037
+SF	number of atoms	810
+SF	length	45
+SF	charge	3.97197
+SF	fraction positive residues	0.0444444
+SF	molar extinction coefficient	19060
+SF	atomC	0.355556
+AA	S	0.0666667	6.66667
+AA	F	0.133333	13.3333
+AA	T	0.0444444	4.44444
+AA	N	0.0444444	4.44444
+AA	K	0.0444444	4.44444
+AA	Y	0.133333	13.3333
+AA	E	0	0
+AA	V	0.0444444	4.44444
+AA	Q	0.0444444	4.44444
+AA	M	0.0222222	2.22222
+AA	C	0.0444444	4.44444
+AA	L	0.133333	13.3333
+AA	A	0	0
+AA	W	0.0444444	4.44444
+AA	P	0	0
+AA	H	0.0888889	8.88889
+AA	D	0	0
+AA	R	0	0
+AA	I	0.111111	11.1111
+AA	G	0	0
+SP	S	1	0.244	0.162
+SP	signal	0
+SP	C	25	0.106
+SP	Y	11	0.137

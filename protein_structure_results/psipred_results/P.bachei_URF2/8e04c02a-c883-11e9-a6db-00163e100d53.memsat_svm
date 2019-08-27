@@ -1,0 +1,41 @@
+Processing 1 helix:
+Transmembrane helix 1 from  10 (in) to  38 (out) :	2041.21
+Pore-lining raw score, posterior probability:		0.494,0.993
+Score = 2.037016
+
+Processing 1 helix:
+Transmembrane helix 1 from  10 (out) to  39 (in) :	2034.69
+Pore-lining raw score, posterior probability:		0.523,0.996
+Score = 2.040153
+
+Processing 2 helices:
+Transmembrane helix 1 from   4 (in) to  19 (out) :	-929.751
+Pore-lining raw score, posterior probability:		0.043,0.009
+Transmembrane helix 2 from  23 (out) to  39 (in) :	1249.29
+Pore-lining raw score, posterior probability:		0.696,1.000
+Score = -100000.000000
+
+Processing 2 helices:
+Transmembrane helix 1 from   4 (out) to  19 (in) :	-942.949
+Pore-lining raw score, posterior probability:		0.043,0.009
+Transmembrane helix 2 from  23 (in) to  38 (out) :	1242
+Pore-lining raw score, posterior probability:		0.654,1.000
+Score = -100000.000000
+
+Summary of topology analysis:
+ 1 helix   (+) : Score = 2.03702
+ 1 helix   (-) : Score = 2.04015
+ 2 helices (+) : Score = -100000
+ 2 helices (-) : Score = -100000
+
+Results:
+Signal peptide:		Not detected.
+Signal score:		4.136
+Topology:		10-39
+Re-entrant helices:	Not detected.
+Pore-lining helices:	10-39
+Helix count:		1
+N-terminal:		out
+Score:			2.04015
+Pore stoichiometry:	3
+

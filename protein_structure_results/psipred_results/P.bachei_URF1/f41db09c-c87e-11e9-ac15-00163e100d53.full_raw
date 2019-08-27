@@ -1,0 +1,90 @@
+#   FFPred version 4
+#   Results for "f41db09c-c87e-11e9-ac15-00163e100d53" - full criteria
+#Score	GO term		RL	Domain	Description
+1.000	GO:0016021	H	CC	integral component of membrane
+1.000	GO:0031224	H	CC	intrinsic component of membrane
+0.986	GO:0008270	H	MF	zinc ion binding
+0.972	GO:0016301	H	MF	kinase activity
+0.961	GO:0005125	H	MF	cytokine activity
+0.958	GO:0019222	H	BP	regulation of metabolic process
+0.958	GO:0016020	H	CC	membrane
+0.952	GO:0001882	H	MF	nucleoside binding
+0.936	GO:0071944	H	CC	cell periphery
+0.889	GO:0006810	H	BP	transport
+0.888	GO:0006811	H	BP	ion transport
+0.883	GO:0005743	H	CC	mitochondrial inner membrane
+0.879	GO:0005198	H	MF	structural molecule activity
+0.865	GO:0032549	H	MF	ribonucleoside binding
+0.842	GO:0006812	H	BP	cation transport
+0.835	GO:0004857	H	MF	enzyme inhibitor activity
+0.817	GO:0030001	H	BP	metal ion transport
+0.816	GO:0003676	H	MF	nucleic acid binding
+0.797	GO:0031090	H	CC	organelle membrane
+0.790	GO:0005789	H	CC	endoplasmic reticulum membrane
+0.787	GO:0098588	H	CC	bounding membrane of organelle
+0.787	GO:0007166	H	BP	cell surface receptor signaling pathway
+0.781	GO:0034765	H	BP	regulation of ion transmembrane transport
+0.780	GO:0003824	H	MF	catalytic activity
+0.744	GO:0042175	H	CC	nuclear outer membrane-endoplasmic reticulum membrane network
+0.727	GO:0012505	H	CC	endomembrane system
+0.712	GO:0005576	H	CC	extracellular region
+0.707	GO:0001883	H	MF	purine nucleoside binding
+0.696	GO:0005887	H	CC	integral component of plasma membrane
+0.694	GO:0043269	H	BP	regulation of ion transport
+0.693	GO:0005524	H	MF	ATP binding
+0.669	GO:0051649	H	BP	establishment of localization in cell
+0.658	GO:0030234	H	MF	enzyme regulator activity
+0.646	GO:0031982	H	CC	vesicle
+0.643	GO:0035639	H	MF	purine ribonucleoside triphosphate binding
+0.617	GO:0005783	H	CC	endoplasmic reticulum
+0.609	GO:0051641	H	BP	cellular localization
+0.608	GO:0016887	H	MF	ATPase activity
+0.601	GO:0005126	H	MF	cytokine receptor binding
+0.599	GO:0008104	H	BP	protein localization
+0.596	GO:0005215	H	MF	transporter activity
+0.584	GO:0017076	H	MF	purine nucleotide binding
+0.583	GO:0022857	H	MF	transmembrane transporter activity
+0.582	GO:0016758	H	MF	transferase activity, transferring hexosyl groups
+0.579	GO:0046914	H	MF	transition metal ion binding
+0.572	GO:0016462	H	MF	pyrophosphatase activity
+0.571	GO:0005886	H	CC	plasma membrane
+0.570	GO:0051171	H	BP	regulation of nitrogen compound metabolic process
+0.567	GO:0000166	H	MF	nucleotide binding
+0.561	GO:0010468	H	BP	regulation of gene expression
+0.557	GO:0046907	H	BP	intracellular transport
+0.554	GO:0031966	H	CC	mitochondrial membrane
+0.551	GO:0016740	H	MF	transferase activity
+0.541	GO:0016491	H	MF	oxidoreductase activity
+0.534	GO:0034613	H	BP	cellular protein localization
+0.529	GO:0008092	H	MF	cytoskeletal protein binding
+0.516	GO:0016757	H	MF	transferase activity, transferring glycosyl groups
+0.509	GO:0030414	H	MF	peptidase inhibitor activity
+0.503	GO:0003677	H	MF	DNA binding
+0.949	GO:0005737	L	CC	cytoplasm
+0.943	GO:0043229	L	CC	intracellular organelle
+0.926	GO:0050896	L	BP	response to stimulus
+0.889	GO:0016772	L	MF	transferase activity, transferring phosphorus-containing groups
+0.877	GO:0043231	L	CC	intracellular membrane-bounded organelle
+0.847	GO:0051716	L	BP	cellular response to stimulus
+0.836	GO:0097159	L	MF	organic cyclic compound binding
+0.802	GO:0005102	L	MF	receptor binding
+0.789	GO:0044237	L	BP	cellular metabolic process
+0.755	GO:0048856	L	BP	anatomical structure development
+0.751	GO:0032991	L	CC	macromolecular complex
+0.748	GO:0043234	L	CC	protein complex
+0.738	GO:0032403	L	MF	protein complex binding
+0.707	GO:0036094	L	MF	small molecule binding
+0.685	GO:0050790	L	BP	regulation of catalytic activity
+0.658	GO:0046872	L	MF	metal ion binding
+0.658	GO:0043086	L	BP	negative regulation of catalytic activity
+0.650	GO:0009058	L	BP	biosynthetic process
+0.647	GO:0043169	L	MF	cation binding
+0.643	GO:0007154	L	BP	cell communication
+0.620	GO:0030054	L	CC	cell junction
+0.612	GO:0030154	L	BP	cell differentiation
+0.610	GO:0007275	L	BP	multicellular organismal development
+0.565	GO:0016787	L	MF	hydrolase activity
+0.561	GO:0009893	L	BP	positive regulation of metabolic process
+0.555	GO:0032502	L	BP	developmental process
+0.517	GO:0034641	L	BP	cellular nitrogen compound metabolic process
+0.502	GO:0048513	L	BP	organ development
